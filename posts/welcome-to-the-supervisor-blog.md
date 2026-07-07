@@ -1,6 +1,6 @@
 ---
 title: Welcome to the Supervisor Blog
-description: The Supervisor blog is live. Here is what to expect from this space.
+description: The Supervisor blog is live. Here is what to expect: product updates, deep dives on how AI moderation works, and guides for keeping communities healthy.
 date: 2026-07-05
 ---
 
