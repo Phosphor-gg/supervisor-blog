@@ -78,6 +78,6 @@ Alongside the big features, 2.0 brings a redesigned dashboard, a live [demo](htt
 
 ## Try it
 
-The best way to understand Supervisor 2.0 is to see it work. Paste a message into the [live demo](https://supervisor.gg/demo), or [get started for free](https://supervisor.gg) and add it to your own community in a couple of minutes.
+The best way to understand Supervisor 2.0 is to see it work. Paste a message into the [live demo](https://supervisor.gg/demo), or [get started](https://supervisor.gg) and add it to your own community in a couple of minutes.
 
 As always, you can [join our Discord](https://discord.supervisor.gg) to follow what we are building next. Video moderation is coming soon.
