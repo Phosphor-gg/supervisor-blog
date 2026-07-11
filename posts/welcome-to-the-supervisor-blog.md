@@ -21,6 +21,6 @@ Articles are coming soon. We plan to write about:
 
 ## Stay in the loop
 
-While you wait for the first articles, you can [join our Discord](https://discord.supervisor.gg) to follow development day to day, or [get started for free](https://supervisor.gg) and see Supervisor in action on your own community.
+While you wait for the first articles, you can [join our Discord](https://discord.supervisor.gg) to follow development day to day, or [get started](https://supervisor.gg) and see Supervisor in action on your own community.
 
 Thanks for reading, and welcome aboard.
