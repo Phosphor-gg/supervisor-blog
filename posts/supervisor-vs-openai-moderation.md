@@ -44,6 +44,18 @@ OpenAI gives you an endpoint. That is the whole product, and for developers buil
 
 OpenAI serves one moderation model. Supervisor lets you pick a tier: **Observer** for fast, high-volume filtering, **Sentinel** for sharper judgement, and **Arbiter** for the hardest calls, or Auto to route each request to the right one. You trade cost against accuracy deliberately instead of taking a single fixed point.
 
+### Rate limits, and the key-pooling problem
+
+This one is a quiet dealbreaker for Discord bots specifically, and it is worth spelling out because a lot of people learn it the hard way.
+
+OpenAI's free moderation tier allows **250 requests per minute but only 5,000 requests per day**. A Discord bot moderates every message, and a single moderately active server can produce more than 5,000 messages in a day on its own. Multiply that across a few servers and you hit the daily wall before lunch.
+
+You can raise those limits, but only by moving up OpenAI's **usage tiers**, which are based on how much you have spent on the API. Here is the catch: the moderation endpoint is free and **does not count toward that spend**. So a bot that only calls the moderation endpoint never advances a tier and stays pinned to the free daily cap forever. The only way to raise your moderation limits is to go spend money on OpenAI's other, paid endpoints, whether or not your product uses them.
+
+Faced with that, a lot of bot developers do something OpenAI's usage policies do not allow: they **pool API keys** across multiple accounts, each holding a little credit, and rotate through them to spread the load and dodge the per-key limits. It works until it doesn't. Circumventing rate limits and sharing accounts this way is against OpenAI's terms, and the accounts get banned. You have built your community's safety on an arrangement that can be switched off without warning.
+
+Supervisor's limits scale directly with your plan, and they are sized for the reality of moderating every message in a server. There is no tier you have to buy your way into with unrelated spend, no daily cliff that ignores your plan, and nothing that pushes you toward pooling keys or breaking anyone's terms of service. With Supervisor it is simple: you want a higher limit, you pay for it. And unlike OpenAI's endpoint, that same plan also gets you context-aware and implicit moderation, not just a bigger request quota.
+
 ## Price: the honest part
 
 OpenAI's moderation endpoint is free. Supervisor is not. That is a real advantage for OpenAI and we are not going to talk around it.
