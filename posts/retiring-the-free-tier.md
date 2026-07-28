@@ -10,7 +10,7 @@ We are changing how Supervisor works for new users, and we would rather be strai
 
 ## What is changing
 
-From **13 July 2026**, new accounts will no longer include the free tier. New users will choose a paid plan or Verified to start using Supervisor.
+From **13 July 2026**, new accounts will no longer include the free tier. New users will choose a paid plan to start using Supervisor.
 
 If you created your account **before 13 July 2026**, nothing changes. You keep your free tier exactly as it is. Consider it a thank you to the people who backed us early.
 
@@ -27,9 +27,7 @@ There are three honest reasons.
 ## What this means for you
 
 - **Accounts created before 13 July 2026:** nothing changes. Your free tier stays.
-- **Accounts created on or after 13 July 2026:** pick a plan that fits your community, or choose Verified, our one-time lifetime option. Everything is on the [pricing page](https://supervisor.gg/pricing).
-
-Verified is a single payment, with no subscription, that comes with a monthly credit allowance. It is the lowest-commitment way to get started.
+- **Accounts created on or after 13 July 2026:** pick a plan that fits your community. Everything is on the [pricing page](https://supervisor.gg/pricing).
 
 ## Thank you
 

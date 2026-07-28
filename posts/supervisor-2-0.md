@@ -64,14 +64,6 @@ The Discord side got a lot of love too:
 - **Image moderation** on attachments, with staff alerts when something is flagged.
 - **Mental health support**: when self-harm content is detected, warnings now include support resources rather than just a removal.
 
-## Verified: a lifetime tier built to keep bots out
-
-Free tiers are a magnet for abuse. When credits are free, people spin up throwaway accounts and bots to farm them, which is unfair to real communities and expensive to absorb.
-
-Verified is our answer. It is a one-time, lifetime purchase that proves there is a real person behind an account. Because it takes a genuine payment rather than a disposable signup, it raises the barrier for bots and automated abuse in a way a free tier never can.
-
-In return, Verified boosts your monthly credit allowance to £5 of credits every month, for life, from a single payment. No subscription and no renewals. If you ever move to a paid plan, that plan takes over while it is active, and your Verified allowance is always there to fall back on.
-
 ## And a lot more
 
 Alongside the big features, 2.0 brings a redesigned dashboard, a live [demo](https://supervisor.gg/demo), refreshed [documentation](https://supervisor.gg/docs), a [moderation glossary](https://supervisor.gg/glossary), and this blog.
