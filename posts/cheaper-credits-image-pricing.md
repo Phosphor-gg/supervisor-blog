@@ -12,7 +12,7 @@ We are cutting moderation prices today, significantly. Same models, same accurac
 
 | Model | Before | Now | Change |
 | --- | --- | --- | --- |
-| Observer | £0.0013/KB | £0.0013/KB | unchanged |
+| Observer | £0.0014/KB | £0.0014/KB | unchanged |
 | Sentinel | £0.0041/KB | **£0.0027/KB** | **33% cheaper** |
 | Arbiter | £0.0123/KB | **£0.0055/KB** | **56% cheaper** |
 
@@ -26,7 +26,7 @@ Until now, an image was billed like text: every byte at your model's rate. That 
 
 So that's exactly how billing works now:
 
-- **Every image bills at a flat £0.0013 per KB**, the Observer rate, regardless of which model you use.
+- **Every image bills at a flat £0.0014 per KB**, the Observer rate, regardless of which model you use.
 - **If OCR finds readable text in the image**, that extracted text is billed at your model's normal rate, because it genuinely ran through the text model.
 - No readable text, no text-model charge. A meme with no caption costs the same on Arbiter as on Observer.
 
