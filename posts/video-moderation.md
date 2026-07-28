@@ -87,9 +87,9 @@ These are deliberately conservative for a first release. If they turn out to be 
 
 Video frames are billed by byte like images, but at **a quarter of the image rate**, and a clip with more than one frame also gets the **50% batch discount**, because the whole batch goes through the models in one pass rather than one pass each.
 
-Together that is 0.125 credits per byte of extracted frames, against 1 credit per byte for a standalone image. At 750,000 credits to the pound, a megabyte of extracted frames costs about **£0.17**, where the same bytes sent as images would cost about £1.40.
+Together that makes a megabyte of extracted frames cost about **£0.17**, where the same bytes sent as images would cost about £1.40. Eight times cheaper per byte, before you count the frames dedup threw away.
 
-Frames are also extracted at 720px rather than the 1,280px used for a standalone image, so there are fewer bytes to bill in the first place. The vision model sees 224px either way, so past roughly 720px the extra pixels only buy legibility for text inside the frame, and they cost credits in a straight line.
+Frames are also extracted at 720px rather than the 1,280px used for a standalone image, so there are fewer bytes to bill in the first place. The vision model sees 224px either way, so past roughly 720px the extra pixels only buy legibility for text inside the frame, and they cost money in a straight line.
 
 ## Try it
 
