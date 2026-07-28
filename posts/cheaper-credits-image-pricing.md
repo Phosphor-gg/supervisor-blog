@@ -12,11 +12,11 @@ We are cutting moderation prices today, significantly. Same models, same accurac
 
 | Model | Before | Now | Change |
 | --- | --- | --- | --- |
-| Observer | 1 credit/byte | 1 credit/byte | unchanged |
-| Sentinel | 3 credits/byte | **2 credits/byte** | **33% cheaper** |
-| Arbiter | 9 credits/byte | **4 credits/byte** | **56% cheaper** |
+| Observer | £0.0013/KB | £0.0013/KB | unchanged |
+| Sentinel | £0.0041/KB | **£0.0027/KB** | **33% cheaper** |
+| Arbiter | £0.0123/KB | **£0.0055/KB** | **56% cheaper** |
 
-In money terms, moderating a kilobyte of text with Arbiter used to cost about £0.0123. It now costs about £0.0055. Sentinel drops from ~£0.0041 to ~£0.0027 per KB.
+In practice, a 2 KB message moderated with Arbiter costs about £0.011 today, against roughly £0.025 last week.
 
 We can do this because the 2.0 models run meaningfully more efficiently than the pricing they launched under, and we would rather pass that on than pad a margin. Arbiter in particular was priced for caution while we learned its real-world costs. We have now learned them.
 
@@ -26,8 +26,8 @@ Until now, an image was billed like text: every byte at your model's rate. That 
 
 So that's exactly how billing works now:
 
-- **Every image bills at a flat 1 credit per byte**, regardless of which model you use.
-- **If OCR finds readable text in the image**, that extracted text is billed at your model's normal per-byte rate, because it genuinely ran through the text model.
+- **Every image bills at a flat £0.0013 per KB**, the Observer rate, regardless of which model you use.
+- **If OCR finds readable text in the image**, that extracted text is billed at your model's normal rate, because it genuinely ran through the text model.
 - No readable text, no text-model charge. A meme with no caption costs the same on Arbiter as on Observer.
 
 The difference is dramatic for high-tier plans: a 500 KB image on Arbiter used to cost about £6.14. Today it costs about £0.68, and usually much less than that, because our Discord bot now downscales and compresses images before sending them, so a typical photo arrives well under 300 KB.
@@ -36,4 +36,4 @@ The difference is dramatic for high-tier plans: a 500 KB image on Arbiter used t
 
 The new rates are live for every request from today, on every path: the Discord bot, the API, the Platform API, and batch moderation. Cached results remain free, credit allowances are unchanged, and your existing balance simply buys more moderation than it did yesterday.
 
-Full pricing details are in the [API reference](https://supervisor.gg/docs/api), and plans are on the [pricing page](https://supervisor.gg/pricing). Questions? [Come ask in the Discord](https://discord.supervisor.gg).
+Full pricing details are in the [API reference](https://supervisor.gg/docs/integrations/api), and plans are on the [pricing page](https://supervisor.gg/pricing). Questions? [Come ask in the Discord](https://discord.supervisor.gg).
