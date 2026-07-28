@@ -27,7 +27,7 @@ There are three honest reasons.
 ## What this means for you
 
 - **Accounts created before 13 July 2026:** nothing changes. Your free tier stays.
-- **Accounts created on or after 13 July 2026:** pick a plan that fits your community. Everything is on the [pricing page](https://supervisor.gg/pricing).
+- **Accounts created on or after 13 July 2026:** subscribe to Premium, billed monthly, annually or triennially. Everything is on the [pricing page](https://supervisor.gg/pricing).
 
 ## Thank you
 
