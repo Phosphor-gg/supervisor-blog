@@ -1,6 +1,6 @@
 ---
 title: "One plan, everything included"
-description: "Supervisor now sells a single plan with every feature in it, from £4.99 a month. Three billing cycles, a three day free trial on monthly and annual, and nothing changes for anyone on an old plan."
+description: "Supervisor now sells a single plan with every feature in it, from £4.99 a month. Three billing cycles, a seven day free trial on monthly and annual, and nothing changes for anyone on an old plan."
 date: 2026-07-28
 ---
 
@@ -29,11 +29,11 @@ Every one of them includes:
 - **Platform API access**, the revenue share integration
 - **£120 of credits, refreshed every month**
 
-## Three days free
+## Seven days free
 
-Monthly and annual both come with a three day free trial. A card is required and you are not charged during the trial, so if Supervisor is not right for your server you cancel and pay nothing. One trial per account.
+Monthly and annual both come with a seven day free trial. A card is required and you are not charged during the trial, so if Supervisor is not right for your server you cancel and pay nothing. One trial per account.
 
-Triennial does not offer one. Three free days in front of a three year commitment is not a trial, it is a trap, and neither of us wants that conversation with a bank.
+Triennial does not offer one. A free week in front of a three year commitment is not a trial, it is a trap, and neither of us wants that conversation with a bank.
 
 ## Why we did this
 
@@ -55,4 +55,4 @@ Quarterly billing is no longer offered to new subscribers. If you are on it, it 
 
 ## Try it
 
-The three day trial is on the [pricing page](https://supervisor.gg/pricing), and you can throw text at the models without an account at all on the [demo](https://supervisor.gg/demo).
+The trial is on the [pricing page](https://supervisor.gg/pricing), and you can throw text at the models without an account at all on the [demo](https://supervisor.gg/demo).
