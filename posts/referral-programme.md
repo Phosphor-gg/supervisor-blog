@@ -1,12 +1,12 @@
 ---
 title: "Refer someone, you both get £50 of credits"
-description: "Share your referral link. When the person you sent starts a plan, £50 of credits lands on both accounts. Paid once, never expires, no cap on how many people you refer."
+description: "Share your referral link. When the person you sent makes their first payment, £50 of credits lands on both accounts. Paid once, never expires, no cap on how many people you refer."
 date: 2026-07-29
 ---
 
 # Refer someone, you both get £50 of credits
 
-Supervisor has a referral programme, and it is not a token gesture. Send someone your link. When they start a plan, **you both get £50 of credits**.
+Supervisor has a referral programme, and it is not a token gesture. Send someone your link. When they pay for a plan, **you both get £50 of credits**.
 
 Not £5. Fifty.
 
@@ -14,13 +14,15 @@ Not £5. Fifty.
 
 1. Grab your link from the [referrals page](https://supervisor.gg/dashboard/referrals) in the dashboard. It looks like `supervisor.gg/checkout?ref=YOURCODE`.
 2. Someone signs up through it.
-3. When they start a paid plan, £50 of credits lands on both accounts.
+3. When their first payment goes through, £50 of credits lands on both accounts.
 
-That is the whole thing. No tiers, no thresholds, no waiting period, no cap on how many people you can refer.
+That is the whole thing. No tiers, no thresholds, no cap on how many people you can refer.
 
 ## The details worth knowing
 
-**It pays when they subscribe, not when they sign up.** A code can be applied by anyone with an account, and an account costs nothing, so paying at that moment would mean handing out credits to whoever could make the most email addresses. The reward is tied to a real payment.
+**It pays on the first payment, not on signup.** A code can be applied by anyone with an account, and an account costs nothing, so paying at that moment would mean handing out credits to whoever could make the most email addresses.
+
+**If they start on a free trial, the reward waits for the trial to convert.** A trial charges nothing and can be cancelled before it ever does, so there is no reward to pay yet. When the trial ends and the first payment goes through, both accounts get their £50 then. Nothing is lost by referring someone who trials first; it just arrives a few days later.
 
 **It pays once, and it stays paid.** A referral rewards both sides a single time. If the person you referred later cancels, your credits are still yours. We are not clawing anything back.
 
