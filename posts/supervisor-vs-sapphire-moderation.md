@@ -6,6 +6,11 @@ description: "Sapphire is the only major free Discord bot with real AI moderatio
 
 # Supervisor vs Sapphire: two AI moderation systems compared
 
+**Bottom line:** Sapphire is the closest thing to a direct competitor here and it is free, so
+try it first. The differences are coverage, not intelligence: Sapphire's own docs cap its AI at
+10 messages per server per minute, four categories and two fully supported languages, against
+Supervisor's every message, 16 labels and over 100 languages, plus images and video.
+
 Sapphire, the free multi-purpose Discord bot at sapph.xyz, is not to be confused with
 sapphirejs.dev, which is an unrelated framework for building Discord bots. This post is about the
 bot.
@@ -16,6 +21,21 @@ away for free. So this comparison is not "rules versus AI". It is two AI moderat
 different scopes, and there are specific, checkable differences that decide which fits your
 server. This is an honest comparison, and unlike the rest of this series, these two really are the
 same kind of tool.
+
+## Quick comparison
+
+| | Sapphire | Supervisor |
+| --- | --- | --- |
+| AI moderation | **Yes** | **Yes** |
+| Categories classified | 4 | **16** |
+| Messages scanned | 10 per server per minute | **Every message** |
+| Fully supported languages | English and German | **Over 100** |
+| Conversation context | Not documented | **Yes** |
+| Images and video | Not documented | **Yes** |
+| Extends Discord AutoMod | **Yes** | No |
+| Join filtering | **Join Guard, 7 filters** | No |
+| Ban or kick | **Yes** | No |
+| Price | **Free** | £13.99 a month |
 
 ## What Sapphire's moderation actually is
 
@@ -126,6 +146,35 @@ genuinely good outcome and we are not going to pretend otherwise.
 For a large, busy, multilingual server, or one where harmful content arrives as images, or where
 you need scams and self-harm classified rather than filtered by word list, the coverage gap is
 where Supervisor earns its price.
+
+## Why trust this comparison
+
+Everything above about Sapphire comes from Sapphire's own material: the auto moderation page of
+docs.sapph.xyz for the five categories, the scan rate limit and the language support, both quoted
+directly, plus sapph.xyz and its custom branding page. All read on 29 August 2026. Its public
+rating on top.gg was 96 out of 100 from 215 ratings on the same date, on top.gg's 0 to 100 scale.
+
+We make Supervisor, so this is not a neutral comparison and we have not written it as one. What we
+have done instead is put the other side's advantages in their own section above, in plain terms,
+and say where we could not read something rather than guessing at it.
+
+On our own side, the figures come from our source and our evaluation set rather than from
+marketing copy. Supervisor's models are retrained on real moderation feedback, the thumbs up and
+thumbs down votes people leave on live flags in their own servers, which is the closest thing to
+customer research this category has. The last full retrain moved average F1 across the 16 labels
+from 0.794 to 0.941 on our internal evaluation set, with errors on harmless messages down 44
+percent, and version 2.2 improved macro-F1 again across all three model tiers. The method and the
+per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
+
+**Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
+most complete tool in this series: 16 labels where nothing else classifies more than four, over
+100 languages, conversation context, and the only one that reads images and video. It is also the
+narrowest, with no bans, no raid protection and no utility features, which is why every post here
+recommends running it alongside another bot rather than instead of one.
+
+We have no customer reviews, ratings or testimonials to show you, because we have not collected
+any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on
+our word for it.
 
 ## For developers and platforms
 

@@ -6,11 +6,32 @@ description: "Wick is a Discord security bot: anti-nuke, anti-raid, quarantine a
 
 # Supervisor vs Wick: server security versus content moderation
 
+**Bottom line:** these two barely overlap, so this is not really a choice. Wick guards the
+structure of your server with anti-nuke, raid defence, verification and restore, none of which
+Supervisor has. Supervisor reads what legitimate members are saying, which Wick's Heat system
+measures rate rather than meaning and does not. A server with both problems needs both tools.
+
 Of all the comparisons we could write, this is the one where the honest answer is least of a
 contest. Wick is a security bot. Supervisor is a content moderation bot. They protect against
 different things, and a server with a serious problem in one area is not helped by the other.
 This is an honest comparison, and the short version is that they are not really the same kind of
 tool, more than in any other pairing we have looked at.
+
+## Quick comparison
+
+| | Wick | Supervisor |
+| --- | --- | --- |
+| Protects against | Structural attacks | Harmful meaning |
+| Anti-nuke | **Yes, its core feature** | No |
+| Raid protection and panic mode | **Yes** | No |
+| Verification and quarantine | **Yes** | No |
+| Backups and restore | **Yes** | No |
+| Automod mechanism | Heat, a decaying rate score | 16 AI labels |
+| Reads what a message means | No | **Yes** |
+| Conversation context | No | **Yes** |
+| Images and video | Attachment heat only | **Yes** |
+| Ban or kick | **Yes** | No |
+| Entry price | Free, or $5 a month | £13.99 a month |
 
 ## What Wick actually is
 
@@ -115,6 +136,35 @@ people are actually saying to each other, which is a question about meaning rath
 permissions or rates.
 
 Almost nobody choosing between these two is really choosing. They are two halves.
+
+## Why trust this comparison
+
+Everything above about Wick comes from Wick's own material: the features page of
+docs.wickbot.com for anti-nuke, panic mode, the restore system and the Heat model, including the
+quotes, plus the command reference and the premium page. All read on 29 August 2026. Its public
+rating on top.gg was 84 out of 100 from 259 ratings on the same date, on top.gg's 0 to 100 scale.
+
+We make Supervisor, so this is not a neutral comparison and we have not written it as one. What we
+have done instead is put the other side's advantages in their own section above, in plain terms,
+and say where we could not read something rather than guessing at it.
+
+On our own side, the figures come from our source and our evaluation set rather than from
+marketing copy. Supervisor's models are retrained on real moderation feedback, the thumbs up and
+thumbs down votes people leave on live flags in their own servers, which is the closest thing to
+customer research this category has. The last full retrain moved average F1 across the 16 labels
+from 0.794 to 0.941 on our internal evaluation set, with errors on harmless messages down 44
+percent, and version 2.2 improved macro-F1 again across all three model tiers. The method and the
+per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
+
+**Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
+most complete tool in this series: 16 labels where nothing else classifies more than four, over
+100 languages, conversation context, and the only one that reads images and video. It is also the
+narrowest, with no bans, no raid protection and no utility features, which is why every post here
+recommends running it alongside another bot rather than instead of one.
+
+We have no customer reviews, ratings or testimonials to show you, because we have not collected
+any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on
+our word for it.
 
 ## For developers and platforms
 

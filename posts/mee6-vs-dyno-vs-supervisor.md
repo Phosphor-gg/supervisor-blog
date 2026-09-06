@@ -6,6 +6,11 @@ description: "Most people land here choosing between MEE6 and Dyno. Here is the 
 
 # MEE6 vs Dyno vs Supervisor: engagement, control, or AI moderation
 
+**Bottom line:** pick Dyno if moderation decides it, because it documents 19 automod filters
+against MEE6's 8 and gives all of them away free. Pick MEE6 if you want levels, social alerts
+and an audit trail alongside. Add Supervisor when messages get past both, because neither reads
+what a message means.
+
 Most people arrive at this comparison choosing between MEE6 and Dyno, the two best known general
 purpose Discord bots. That is a real decision with a real answer, so this post resolves it first,
 then covers a third option that does a different job to either.
@@ -166,6 +171,35 @@ Supervisor is one subscription for the account. That changes the arithmetic quic
 free block-before-posting, MEE6 or Dyno for the countable rules and the enforcement ladder, and an
 AI layer for the messages that read as harmless to a counter. Three tools, three jobs, and none of
 them replacing another.
+
+## Why trust this comparison
+
+Everything above about MEE6 and Dyno comes from their own material: MEE6's Moderator plugin
+documentation and premium pages, and Dyno's automod and moderation documentation plus its pricing
+page. All read on 29 August 2026. On top.gg's 0 to 100 scale Dyno was 87 from 373 ratings that
+day; MEE6 publishes no top.gg rating.
+
+We make Supervisor, so this is not a neutral comparison and we have not written it as one. What we
+have done instead is put the other side's advantages in their own section above, in plain terms,
+and say where we could not read something rather than guessing at it.
+
+On our own side, the figures come from our source and our evaluation set rather than from
+marketing copy. Supervisor's models are retrained on real moderation feedback, the thumbs up and
+thumbs down votes people leave on live flags in their own servers, which is the closest thing to
+customer research this category has. The last full retrain moved average F1 across the 16 labels
+from 0.794 to 0.941 on our internal evaluation set, with errors on harmless messages down 44
+percent, and version 2.2 improved macro-F1 again across all three model tiers. The method and the
+per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
+
+**Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
+most complete tool in this series: 16 labels where nothing else classifies more than four, over
+100 languages, conversation context, and the only one that reads images and video. It is also the
+narrowest, with no bans, no raid protection and no utility features, which is why every post here
+recommends running it alongside another bot rather than instead of one.
+
+We have no customer reviews, ratings or testimonials to show you, because we have not collected
+any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on
+our word for it.
 
 ## For developers and platforms
 

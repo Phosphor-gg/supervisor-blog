@@ -6,6 +6,11 @@ description: "Sapphire gives away most of what MEE6 charges for, including AI mo
 
 # Sapphire vs MEE6 vs Supervisor: free, paid, or specialist
 
+**Bottom line:** on moderation Sapphire beats MEE6 and costs nothing, including real AI
+detection MEE6 does not have. MEE6 wins on levels and engagement. Add Supervisor when Sapphire's
+documented cap of 10 messages per server per minute, or its two fully supported languages, stops
+covering your traffic.
+
 Sapphire is the bot people find when they go looking for a free MEE6. It covers a lot of the same
 ground, it does not charge for it, and it has one thing MEE6 does not: genuine AI moderation.
 
@@ -13,8 +18,7 @@ That makes this a real comparison rather than a price argument, so this post res
 against MEE6 first, then covers where a specialist moderation layer fits.
 
 One disambiguation: Sapphire here is the Discord bot at sapph.xyz, not sapphirejs.dev, which is an
-unrelated framework for building bots. Everything below comes from both products' own
-documentation, checked on 29 August 2026. We make Supervisor, so weigh that section accordingly.
+unrelated framework for building bots.
 
 ## The short answer
 
@@ -172,6 +176,36 @@ you.
 
 **Running several servers:** MEE6 multiplies per server, Sapphire is free everywhere, Supervisor
 is one subscription for the account.
+
+## Why trust this comparison
+
+Everything above comes from the vendors' own material: the auto moderation page of
+docs.sapph.xyz, including the scan limit and language quotes, and MEE6's Moderator plugin
+documentation and premium pages. All read on 29 August 2026. Sapphire's top.gg rating was 96 out
+of 100 from 215 ratings that day; MEE6 publishes no top.gg rating, and its Trustpilot score was
+4.8 out of 5 from 7,217 reviews.
+
+We make Supervisor, so this is not a neutral comparison and we have not written it as one. What we
+have done instead is put the other side's advantages in their own section above, in plain terms,
+and say where we could not read something rather than guessing at it.
+
+On our own side, the figures come from our source and our evaluation set rather than from
+marketing copy. Supervisor's models are retrained on real moderation feedback, the thumbs up and
+thumbs down votes people leave on live flags in their own servers, which is the closest thing to
+customer research this category has. The last full retrain moved average F1 across the 16 labels
+from 0.794 to 0.941 on our internal evaluation set, with errors on harmless messages down 44
+percent, and version 2.2 improved macro-F1 again across all three model tiers. The method and the
+per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
+
+**Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
+most complete tool in this series: 16 labels where nothing else classifies more than four, over
+100 languages, conversation context, and the only one that reads images and video. It is also the
+narrowest, with no bans, no raid protection and no utility features, which is why every post here
+recommends running it alongside another bot rather than instead of one.
+
+We have no customer reviews, ratings or testimonials to show you, because we have not collected
+any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on
+our word for it.
 
 ## For developers and platforms
 

@@ -6,15 +6,17 @@ description: "Dyno and Wick get compared constantly and solve different problems
 
 # Dyno vs Wick vs Supervisor: rules, security, or AI moderation
 
+**Bottom line:** Dyno and Wick solve different problems, so a server with both usually runs
+both. Dyno moderates members with 19 countable filters, Wick defends the server against nukes,
+raids and rogue admins. Add Supervisor for the harm neither reads, because a threshold and a heat
+score both measure rate rather than meaning.
+
 Dyno and Wick get compared a lot, usually by servers that have just been raided and are working
 out what to install. They are less alike than the comparison suggests: Dyno is a general purpose
 bot with an excellent rule engine, and Wick is a security bot built around anti-nuke.
 
 This post resolves that first, from both products' own documentation, then covers a third layer
 that neither is designed to provide.
-
-Everything about Dyno and Wick is from their own docs, checked on 29 August 2026. We make
-Supervisor, so treat that section accordingly.
 
 ## The short answer
 
@@ -164,6 +166,35 @@ advertising 12 premium servers. Supervisor is one subscription for the account.
 There is a related piece on [Wick alternatives](/blog/wick-bot-alternatives) that covers what does
 and does not replace the security layer, and one on
 [Dyno alternatives](/blog/dyno-bot-alternatives).
+
+## Why trust this comparison
+
+Everything above comes from the vendors' own material: Dyno's automod and moderation
+documentation with its pricing page, and Wick's features page and command reference on
+docs.wickbot.com. All read on 29 August 2026. On top.gg's 0 to 100 scale Dyno was 87 from 373
+ratings that day and Wick 84 from 259.
+
+We make Supervisor, so this is not a neutral comparison and we have not written it as one. What we
+have done instead is put the other side's advantages in their own section above, in plain terms,
+and say where we could not read something rather than guessing at it.
+
+On our own side, the figures come from our source and our evaluation set rather than from
+marketing copy. Supervisor's models are retrained on real moderation feedback, the thumbs up and
+thumbs down votes people leave on live flags in their own servers, which is the closest thing to
+customer research this category has. The last full retrain moved average F1 across the 16 labels
+from 0.794 to 0.941 on our internal evaluation set, with errors on harmless messages down 44
+percent, and version 2.2 improved macro-F1 again across all three model tiers. The method and the
+per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
+
+**Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
+most complete tool in this series: 16 labels where nothing else classifies more than four, over
+100 languages, conversation context, and the only one that reads images and video. It is also the
+narrowest, with no bans, no raid protection and no utility features, which is why every post here
+recommends running it alongside another bot rather than instead of one.
+
+We have no customer reviews, ratings or testimonials to show you, because we have not collected
+any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on
+our word for it.
 
 ## For developers and platforms
 

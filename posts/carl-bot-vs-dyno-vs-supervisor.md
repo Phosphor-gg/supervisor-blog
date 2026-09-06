@@ -6,12 +6,14 @@ description: "Carl-bot and Dyno are the two most moderation-first general purpos
 
 # Carl-bot vs Dyno vs Supervisor: two rule engines and one that reads meaning
 
+**Bottom line:** pick Carl-bot if you have active moderators, because its punishments combine
+in one rule and its defer action routes ambiguous cases to a human vote. Pick Dyno if you want
+the bot to handle it unattended, with 19 filters and an automatic ban ladder. Add Supervisor for
+the harm neither reads, because both are matching strings and counting events.
+
 Carl-bot and Dyno are the two most moderation-first general purpose bots on Discord, and they are
 similar enough that choosing between them is genuinely difficult. This post resolves that first,
 from both bots' own documentation, then covers a third option that does a different job.
-
-We make Supervisor, so treat that section accordingly. Everything about Carl-bot and Dyno comes
-from their documentation, checked on 29 August 2026.
 
 ## The short answer
 
@@ -168,6 +170,35 @@ Supervisor is one subscription for the account.
 The setup we would actually recommend for a busy server is all three layers: Discord AutoMod free
 and blocking before messages post, Carl-bot or Dyno for countable rules and enforcement, and an AI
 layer for the messages that read as harmless to a counter.
+
+## Why trust this comparison
+
+Everything above about Carl-bot and Dyno comes from their own material: docs.carl.gg for the
+automod modules, punishments and premium slot system, and Dyno's automod documentation and pricing
+page. All read on 29 August 2026. On top.gg's 0 to 100 scale Dyno was 87 from 373 ratings that
+day and Carl-bot 62 from 594.
+
+We make Supervisor, so this is not a neutral comparison and we have not written it as one. What we
+have done instead is put the other side's advantages in their own section above, in plain terms,
+and say where we could not read something rather than guessing at it.
+
+On our own side, the figures come from our source and our evaluation set rather than from
+marketing copy. Supervisor's models are retrained on real moderation feedback, the thumbs up and
+thumbs down votes people leave on live flags in their own servers, which is the closest thing to
+customer research this category has. The last full retrain moved average F1 across the 16 labels
+from 0.794 to 0.941 on our internal evaluation set, with errors on harmless messages down 44
+percent, and version 2.2 improved macro-F1 again across all three model tiers. The method and the
+per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
+
+**Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
+most complete tool in this series: 16 labels where nothing else classifies more than four, over
+100 languages, conversation context, and the only one that reads images and video. It is also the
+narrowest, with no bans, no raid protection and no utility features, which is why every post here
+recommends running it alongside another bot rather than instead of one.
+
+We have no customer reviews, ratings or testimonials to show you, because we have not collected
+any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on
+our word for it.
 
 ## For developers and platforms
 
