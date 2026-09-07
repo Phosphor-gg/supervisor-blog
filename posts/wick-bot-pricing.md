@@ -6,6 +6,11 @@ description: "Wick Premium is $5 a month and VIP is $20 a month for 12 servers. 
 
 # Wick bot pricing: what it costs and what is paywalled
 
+**Bottom line:** Wick Premium is $5 a month and VIP $20 a month for 12 servers, but the
+protection itself is free: every paid line is an Advanced or Increased version of something the
+base bot already does. Wick and Supervisor are not substitutes, so the question is not which to
+buy, it is whether your risk is people attacking the server or people posting in it.
+
 Wick has two paid plans: **Premium at $5 a month** and **VIP at $20 a month**. There is no free
 tier section on the pricing page, because the bot itself is free to use. What the paid plans buy
 is the advanced version of protections that already exist in a base form.

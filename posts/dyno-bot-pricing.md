@@ -6,6 +6,11 @@ description: "Dyno Premium runs from $5.99 a month or $49.99 a year for one serv
 
 # Dyno bot pricing: what it costs and what is paywalled
 
+**Bottom line:** Dyno Premium is $5.99 a month or $49.99 a year **per server**, and all nineteen
+automod filters plus the full ban ladder are free, so you rarely need to pay Dyno for moderation
+at all. Pay Supervisor instead when the messages hurting your server trip none of those filters,
+which is what happens when harm is contextual rather than countable.
+
 Dyno Premium starts at **$5.99 a month, or $49.99 a year, for one server**, rising to $7.99 and
 $12.99 a month on the higher plans. The automod engine itself is free. The detail that matters
 most if you run more than one community is that every plan is priced **per server**, in Dyno's

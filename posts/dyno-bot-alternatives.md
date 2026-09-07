@@ -6,6 +6,11 @@ description: "Dyno has one of the most configurable rule engines on Discord. If 
 
 # Dyno bot alternatives: the honest options for moderation
 
+**Bottom line:** the best like-for-like replacement for Dyno is **Carl-bot**, which matches its
+configurability and beats it on responses. Most people looking, though, do not need a different
+rule engine, they need a different mechanism: **Supervisor** reads what a message means, which is
+the gap every alternative on this list shares with Dyno.
+
 Dyno's automod is one of the most configurable rule engines you can put in a Discord server, and
 its free tier includes all nineteen filters plus the full ban and mute ladder. So people looking
 for alternatives are usually not unhappy with what Dyno does. They have hit its per server

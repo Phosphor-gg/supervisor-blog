@@ -6,6 +6,11 @@ description: "Carl-bot premium is sold through Patreon from £6.50 a month and w
 
 # Carl-bot pricing: what it costs and what is paywalled
 
+**Bottom line:** Carl-bot premium starts at £6.50 a month through Patreon and works on
+transferable **server slots**, with automod free and Drama Watcher the one real moderation feature
+behind the paywall. Supervisor is £13.99 a month for every server on one account, and it buys a
+different detection mechanism rather than higher limits on the same one.
+
 Carl-bot premium is sold through **Patreon**, starting at **£6.50 a month**, and it works on a
 **server slot** system rather than a flat account upgrade. Automod itself is free, so if
 moderation is what you are here for, you may not need to pay at all.

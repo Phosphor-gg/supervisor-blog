@@ -6,6 +6,11 @@ description: "Sapphire gives away an enormous feature set including AI moderatio
 
 # Sapphire bot alternatives: the honest options for moderation
 
+**Bottom line:** nothing matches Sapphire's combination of breadth and price, so most people
+looking should not switch. The usual reason for looking is its documented cap of 10 messages per
+server per minute on the AI, and swapping to a rule engine does not solve that. Either buy
+Sapphire's Limit Increase, or add **Supervisor**, which has no per-minute cap.
+
 Sapphire, the free Discord bot at sapph.xyz rather than the unrelated sapphirejs.dev framework,
 is unusual in this category: it gives away a very large feature set, including genuine AI
 moderation, and charges only for custom branding and higher limits.

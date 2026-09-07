@@ -6,10 +6,13 @@ description: "MEE6 Premium is £11.99 a month, £49.99 a year, or £89.99 once f
 
 # MEE6 pricing: what it costs and what is paywalled
 
-MEE6 Premium costs **£11.99 a month, £49.99 a year, or £89.99 as a one-off lifetime purchase**,
-and every one of those covers **a single server**. In MEE6's own words: "MEE6 Premium applies to
-a single server. To use Premium on multiple servers, you'll need a separate subscription for
-each."
+**Bottom line:** MEE6 Premium is £11.99 a month, £49.99 a year or £89.99 for lifetime, and every
+one of those covers **a single server**. Its moderation is free, so you only pay for engagement
+features and higher limits. At one server MEE6 is cheaper than Supervisor; at two or more,
+Supervisor's £83.85 a year covering every server you run costs less than stacking subscriptions.
+
+In MEE6's own words: "MEE6 Premium applies to a single server. To use Premium on multiple servers,
+you'll need a separate subscription for each."
 
 Those are the standard rates. When we checked, a "Limited Time Offer, 50% off all MEE6 Products"
 banner was running with a countdown, which is where the lower promotional figures below come

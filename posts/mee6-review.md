@@ -6,6 +6,11 @@ description: "An honest review of MEE6 from a company that makes a competing mod
 
 # MEE6 review: what it is good at and where it runs out
 
+**Bottom line:** MEE6 is a strong all-in-one with the best enforcement ladder in this category and
+an audit log to match, and its moderation is free. Its eight automod checks are string matches and
+counters, so they miss the calmly written message that trips nothing. Run MEE6 for breadth and
+enforcement, and add Supervisor for the meaning those checks cannot read.
+
 We make an AI moderation tool, so treat this as an interested party's assessment. Every claim
 about MEE6 below comes from MEE6's own documentation and pricing page, and the ratings come from
 a public page you can open yourself. Where we could not verify something, we say so instead of

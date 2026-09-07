@@ -6,19 +6,25 @@ date: 2026-07-18
 
 # Best Discord moderation bots in 2026
 
+**Bottom line:** turn on **Discord AutoMod** first, because it is free and the only tool that
+blocks a message before it posts. Add **Sapphire** if you want the most free features including
+AI, **Dyno** or **Carl-bot** for countable rules, and **Wick** if raids are a real risk. Add
+**Supervisor** when the harm is contextual, multilingual or arriving as images, which is the gap
+none of the others cover.
+
 If you run a Discord server, moderation is the difference between a community people want to stay in and one they leave. The best Discord moderation bots in 2026 fall into two camps: **rule-based bots** that match messages against keywords, regex, and spam thresholds you configure, and **AI moderation** that reads what a message actually means. Most of the popular names are rule-based; the newer, AI-native approach is what catches the harmful content those rules miss.
 
 Here is a straight comparison of the top options, what each is genuinely good at, and how to pick.
 
 ## The short list
 
-- **Supervisor** — best for AI, context-aware moderation that reads intent, not keywords.
-- **Discord AutoMod** — best free baseline; built in, no bot to add.
-- **Carl-bot** — best all-round utility bot with solid rule-based automod.
-- **MEE6** — best popular all-in-one, with leveling and moderation together.
-- **Dyno** — best classic dashboard-driven moderation.
-- **Wick** — best for anti-raid and anti-nuke security.
-- **Sapphire** — best free, feature-rich alternative to the big freemium bots.
+- **Supervisor**, best for AI, context-aware moderation that reads intent, not keywords.
+- **Discord AutoMod**, best free baseline; built in, no bot to add.
+- **Carl-bot**, best all-round utility bot with solid rule-based automod.
+- **MEE6**, best popular all-in-one, with leveling and moderation together.
+- **Dyno**, best classic dashboard-driven moderation.
+- **Wick**, best for anti-raid and anti-nuke security.
+- **Sapphire**, best free, feature-rich alternative to the big freemium bots.
 
 ## Comparison at a glance
 
@@ -32,7 +38,7 @@ Here is a straight comparison of the top options, what each is genuinely good at
 | Wick | Rule-based / security | No | No | N/A | Raid and nuke protection |
 | Sapphire | Rule-based | No | No | Keyword-dependent | Free multipurpose |
 
-## 1. Supervisor — AI moderation that reads intent
+## 1. Supervisor: AI moderation that reads intent
 
 Supervisor moderates with purpose-built AI models instead of rules. It reads what a message means rather than matching exact characters, so the usual filter-evasion tricks have nothing to trick:
 
@@ -46,7 +52,7 @@ There are no word lists to maintain and no arms race to lose. Supervisor is desi
 
 **Best for:** servers where keyword automod keeps missing the content that actually hurts people, image-heavy servers, and multilingual communities.
 
-## 2. Discord AutoMod — the free built-in baseline
+## 2. Discord AutoMod: the free built-in baseline
 
 Discord's own AutoMod is built into every server, needs no bot, and is free. It blocks custom keywords and regex patterns, filters commonly-flagged words from Discord's maintained lists, and catches mention spam. Every server should turn it on.
 
@@ -54,7 +60,7 @@ It is rule-based, so it only catches exact matches you or Discord thought to lis
 
 **Best for:** a zero-effort baseline layer under everything else.
 
-## 3. Carl-bot — utility plus rule-based automod
+## 3. Carl-bot: utility plus rule-based automod
 
 Carl-bot is one of the most widely used Discord bots, and deservedly so: reaction roles, logging, custom commands, tags, and a capable automod all in one place. Its automod covers banned words and regex, invite and link filtering, spam controls (mentions, links, caps, emoji), and a honeypot channel that catches spam bots by luring them into a decoy channel real members never post in.
 
@@ -62,7 +68,7 @@ It is excellent for the exact, predictable stuff and for spam bots. What it cann
 
 **Best for:** an all-round utility bot with rule-based automod and a honeypot.
 
-## 4. MEE6 — the popular all-in-one
+## 4. MEE6: the popular all-in-one
 
 MEE6 is one of the most-added bots on Discord, best known for leveling and XP, with moderation commands and automod (word filters, spam, excessive caps, links) alongside it. Much of the core is free, with a premium tier that unlocks more automation.
 
@@ -70,19 +76,19 @@ It is a solid, familiar choice if you want moderation and community features fro
 
 **Best for:** servers that want leveling and moderation in one popular package.
 
-## 5. Dyno — classic dashboard moderation
+## 5. Dyno: classic dashboard moderation
 
 Dyno has been a moderation staple for years. It offers a web dashboard, automod (spam, links, banned words, mass mentions), the usual mod commands, auto-roles, and custom commands. If you like configuring moderation from a dashboard and want a dependable, no-surprises rule-based bot, Dyno is a safe pick.
 
 **Best for:** dashboard-driven, rule-based moderation on established servers.
 
-## 6. Wick — anti-raid and anti-nuke security
+## 6. Wick: anti-raid and anti-nuke security
 
 Wick is less a general automod and more a security bot. Its strength is protecting servers from raids and nukes: anti-raid detection, anti-nuke limits on destructive admin actions, verification gates, and quarantine. If your server is a target for coordinated attacks or you have worried about a compromised moderator, Wick is built for exactly that.
 
 **Best for:** raid, nuke, and account-security protection.
 
-## 7. Sapphire — free and feature-rich
+## 7. Sapphire: free and feature-rich
 
 Sapphire is a free, multipurpose bot with moderation, automod, and utility features, positioned as a capable alternative to the big freemium bots without paywalling core moderation. If you want more than AutoMod but do not want a premium subscription, it is worth a look.
 

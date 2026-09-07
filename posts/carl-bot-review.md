@@ -6,6 +6,11 @@ description: "An honest review of Carl-bot from a company that makes a competing
 
 # Carl-bot review: what it is good at and where it runs out
 
+**Bottom line:** Carl-bot has the best moderation responses of any bot here, eleven punishments
+that combine in one rule plus a `defer` action that routes ambiguous cases to a human vote, and
+automod is free. Its detection is still lists and rate limits, so add Supervisor when what is
+hurting your community is contextual rather than countable.
+
 We make an AI moderation tool, so treat this as an interested party's assessment. Every claim
 about Carl-bot below comes from Carl-bot's own documentation, and the rating comes from a public
 page you can open yourself. Where we could not verify something, we say so instead of guessing.

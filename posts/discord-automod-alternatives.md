@@ -6,6 +6,11 @@ description: "Discord AutoMod is free, native and already on. The question is ra
 
 # Discord AutoMod alternatives: what to add when the built-in filter is not enough
 
+**Bottom line:** nothing replaces AutoMod, because it is free, native and the only thing that
+blocks a message before it posts. The question is what to add. **Sapphire** is the best free
+addition and uniquely extends AutoMod itself; **Supervisor** is the paid one, for the harassment,
+scams and image content that three preset word lists cannot express.
+
 AutoMod is a Discord feature rather than a bot, so nothing genuinely replaces it. It is free, it
 is in every server, and it can block a message before it is ever posted, which no third party can
 do. Turning it off to run something else would be a strange trade.

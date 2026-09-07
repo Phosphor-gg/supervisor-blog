@@ -6,6 +6,11 @@ description: "OpenAI's moderation API is free and excellent at safety classifica
 
 # Supervisor vs OpenAI's moderation endpoint
 
+**Bottom line:** OpenAI's moderation endpoint is free and strong at safety classification, so if
+you are filtering your own application and that is what you need, use it. **Supervisor** is built
+for community and platform moderation instead, with a Discord bot, more labels, conversation
+context and image and video moderation. Pick by which job you are actually doing.
+
 People often ask how Supervisor compares to OpenAI's free moderation endpoint. It is a fair question, and we are not going to pretend the honest answer is "always us." OpenAI's moderation API is genuinely good, and it is free. But it was built to solve a different problem than Supervisor, and for a lot of real communities and platforms the difference matters. Here is a straight comparison, with the facts checked.
 
 ## What OpenAI's moderation endpoint is

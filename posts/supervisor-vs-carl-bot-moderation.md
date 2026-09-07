@@ -6,6 +6,11 @@ description: "Carl-bot is a great all-round Discord bot, but its moderation is r
 
 # Supervisor vs Carl-bot: AI moderation versus keyword automod
 
+**Bottom line:** Carl-bot is an excellent all-round bot and its automod is free, so keep it. Its
+detection is keywords, regex, spam controls and a honeypot, which catch bots and countable
+problems. **Supervisor** classifies 16 labels across over 100 languages and reads images and
+video, for the harm those rules were never built to see. Most servers should run both.
+
 Carl-bot is one of the most widely used Discord bots, and deservedly so. Reaction roles, logging, custom commands, tags, and a capable automod, all in one place. If you are here specifically about moderation, though, it is worth being clear about what Carl-bot's automod does and does not do, because that is exactly where Supervisor takes a different approach. This is an honest comparison, and the short version is that they are not really the same kind of tool.
 
 ## What Carl-bot's moderation actually is

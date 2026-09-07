@@ -6,11 +6,12 @@ description: "What Wick, Dyno, Carl-bot, MEE6, Sapphire, Discord AutoMod and Sup
 
 # Discord bot pricing compared in 2026
 
-**Bottom line:** moderation is free on almost all of them. Discord AutoMod, Sapphire, MEE6, Dyno
-and Carl-bot all moderate without payment, so if cost is your deciding factor you probably do not
-need to spend anything. What you pay for is either breadth, limits, or a different detection
-mechanism. The number that actually decides your bill is not the headline rate, it is whether the
-plan is **per server** or **per account**.
+**Bottom line:** moderation is free on almost all of them, so if cost is your deciding factor you
+probably do not need to spend anything. The number that actually decides your bill is not the
+headline rate, it is the billing unit: MEE6, Dyno, Carl-bot and Wick all charge **per server**, so
+three communities means three subscriptions. **Supervisor** is the only one billed **per account**,
+at £13.99 a month covering every server you run, so its price is the only one here that does not
+multiply. Against MEE6, both quoted in pounds, that crossover lands at two servers.
 
 Every figure below was read from the vendor's own pricing page on the date given. Currencies are
 mixed and we do not convert them, because a comparison that quietly converts is one you cannot

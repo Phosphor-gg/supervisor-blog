@@ -6,6 +6,11 @@ description: "An honest review of Dyno, the Discord moderation bot, from a compa
 
 # Dyno bot review: what it is good at and where it runs out
 
+**Bottom line:** Dyno has the most configurable rule engine on Discord, nineteen filters and a
+full ban ladder, all free, and its public ratings are good, 87 out of 100 on top.gg and 4.2 out of
+5 on Trustpilot. What it cannot do is read meaning, so evasive spelling and single harmful
+messages get through. Run Dyno for countable problems and add Supervisor for the rest.
+
 We make an AI moderation tool, so treat this as an interested party's assessment. Every claim
 about Dyno below comes from Dyno's own documentation, and every rating comes from a public
 page you can open yourself. Where we could not verify something, we say so instead of guessing.
@@ -102,9 +107,11 @@ Both aggregates are positive. We are not going to pretend otherwise.
 
 ## What Dyno costs
 
-We are not quoting Dyno's prices, because we could not read Dyno's pricing page from our
-tooling and we do not publish figures we have not verified. What the documentation does tell us
-is the shape of the paywall.
+Dyno Premium is **$5.99 a month or $49.99 a year** for Standard, rising to $7.99 and $12.99 a
+month for the Premium and Custom tiers, each covering "one server of your choice". Prices read
+from Dyno's own pricing page on 29 August 2026, and broken down further in
+[what Dyno costs](/blog/dyno-bot-pricing). The documentation also sets out the shape of the
+paywall.
 
 Dyno documents two separate subscription products, which are easy to confuse: a **Dyno Premium**
 subscription, with named plans including **Standard Premium** and **Custom Premium**, and a

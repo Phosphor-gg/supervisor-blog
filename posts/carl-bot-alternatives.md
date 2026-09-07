@@ -6,6 +6,11 @@ description: "Carl-bot is the reaction roles standard with unusually flexible mo
 
 # Carl-bot alternatives: the honest options for moderation
 
+**Bottom line:** the best like-for-like replacement for Carl-bot is **Sapphire**, free and covering
+its core jobs, though nothing here matches Carl-bot's `defer` moderator queue. If you are looking
+because messages get through rather than because of features, **Supervisor** is the layer that
+reads meaning, and it runs alongside Carl-bot rather than replacing it.
+
 Carl-bot occupies a specific place on Discord: it is the reaction roles standard, and it has one
 of the most flexible moderation systems available, with a punishment set nothing else matches.
 People looking for alternatives are usually after one of three things, and only one of them is

@@ -6,6 +6,11 @@ description: "Sapphire gives away its whole feature set including AI moderation,
 
 # Sapphire bot pricing: free, with two paid add-ons
 
+**Bottom line:** Sapphire's whole feature set is free, including AI moderation, and it sells only
+Custom Branding from €5 a month and a Limit Increase plan. The number that decides it is a
+throughput cap, not a feature: Sapphire's own docs say the AI "only scans 10 messages per server
+per minute" without that plan. Supervisor has no per-minute cap, and charges £13.99 a month.
+
 Sapphire, the multi-purpose Discord bot at sapph.xyz (not to be confused with sapphirejs.dev, an
 unrelated bot-building framework), describes itself in three words on its own home page:
 "Completely free."

@@ -6,6 +6,11 @@ description: "An honest review of Wick, the Discord security bot, from a company
 
 # Wick bot review: what it is good at and where it runs out
 
+**Bottom line:** Wick is a security bot, not a moderation bot, and it is the best in that category:
+anti-nuke, panic mode, restore, quarantine and verification, with an adaptive Heat system for spam.
+Its Heat model measures rate rather than meaning, so a single calm harmful message generates almost
+none. Run Wick for the perimeter and Supervisor for what members actually say.
+
 We make an AI moderation tool, so treat this as an interested party's assessment. Every claim
 about Wick below comes from Wick's own documentation, and the rating comes from a public page you
 can open yourself. Where we could not verify something, we say so instead of guessing.

@@ -6,6 +6,11 @@ description: "Discord AutoMod costs nothing and there is no premium tier. The us
 
 # Discord AutoMod pricing: it is free, and here is what that covers
 
+**Bottom line:** Discord AutoMod is free and there is no paid tier, so the real question is what
+free does not reach. It classifies three preset categories, in English only, with no image or
+video rule. Supervisor covers that gap at £13.99 a month with 16 labels across over 100 languages,
+and the two are complementary rather than competing: most servers should run both.
+
 AutoMod is free. There is no premium tier, no paid unlock, no per server fee and nothing to
 buy. It is a feature of Discord itself, available in every server, and if you have not turned
 it on you are leaving free moderation on the table.

@@ -6,13 +6,17 @@ description: "AutoMod is free, native and genuinely good at what it does. Whethe
 
 # Is Discord AutoMod enough for your server?
 
+**Bottom line:** for a lot of servers, yes, and those servers should not pay anyone. AutoMod is
+enough if your problem is a list of words, your community is mostly English speaking, and nobody is
+actively evading your filters. It is not enough once harm is contextual, multilingual, or arriving
+as images, and that is the gap Supervisor was built for at £13.99 a month.
+
 We make an AI moderation tool, so treat this as an interested party's assessment. Everything
 below about AutoMod comes from Discord's own documentation, and we have said where it comes
 from so you can check it yourself.
 
-The honest answer is that for a lot of servers AutoMod is enough, and those servers should not
-be paying anybody for moderation. For others it is not close, and the gap is predictable
-rather than mysterious. This post is about how to tell which one you are.
+For others it is not close, and the gap is predictable rather than mysterious. This post is about
+how to tell which one you are.
 
 ## What AutoMod is
 

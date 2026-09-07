@@ -6,6 +6,11 @@ description: "If MEE6's per server pricing or paywall has you looking around, he
 
 # MEE6 alternatives: the honest options for moderation
 
+**Bottom line:** the best like-for-like replacement for MEE6 is **Sapphire**, which is free and
+covers most of what people actually use MEE6 for. But if you are leaving because harmful messages
+get through, no all-in-one will fix that, since they all use the same rule mechanism. Add
+**Supervisor** alongside whichever you pick, for the meaning a rule cannot read.
+
 Most people looking for MEE6 alternatives are not unhappy with MEE6 as a bot. They have run into
 its pricing model, usually after adding a second server and discovering they need a second
 subscription.

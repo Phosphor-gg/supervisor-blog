@@ -6,6 +6,11 @@ description: "Dyno's automod is one of the most configurable rule engines on Dis
 
 # Supervisor vs Dyno: AI moderation versus threshold-based automod
 
+**Bottom line:** Dyno's threshold engine is the right tool for countable problems and it is free,
+so keep it. Counters ask how many and never what, so the single calmly written threat or scam
+trips nothing. **Supervisor** reads what a message means, across 16 labels and over 100 languages,
+including images and video. They solve different halves and most servers run both.
+
 Dyno has been a fixture of Discord moderation for years, and its automod module is one of the most configurable rule engines you can put in a server. If you are here specifically about moderation, it is worth being precise about what Dyno's automod does and does not do, because that is exactly where Supervisor takes a different approach. This is an honest comparison, and the short version is that they are not really the same kind of tool.
 
 ## What Dyno's automod actually is

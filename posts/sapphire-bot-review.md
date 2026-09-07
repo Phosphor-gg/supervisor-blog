@@ -6,6 +6,11 @@ description: "An honest review of Sapphire from a company that makes a competing
 
 # Sapphire bot review: what it is good at and where it runs out
 
+**Bottom line:** Sapphire is the most capable free bot in this category and the only free one with
+genuine AI moderation, which is why it scores 96 out of 100 on top.gg. The limits are coverage:
+its own docs cap the AI at 10 messages per server per minute, four categories and two fully
+supported languages. Supervisor covers every message, 16 labels and over 100 languages, for money.
+
 We make an AI moderation tool, so treat this as an interested party's assessment, and be aware
 this is the review in our series where the other product competes with us most directly. Every
 claim about Sapphire below comes from Sapphire's own documentation, and the rating comes from a

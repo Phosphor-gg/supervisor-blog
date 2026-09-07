@@ -6,6 +6,11 @@ description: "Wick is a security bot rather than a moderation bot, which makes i
 
 # Wick bot alternatives: the honest options for server security
 
+**Bottom line:** nothing on this list replaces Wick's anti-nuke, and we would rather say that than
+pad the list. **Sapphire's Join Guard** is the closest free equivalent for the entry gate. If your
+members are legitimate and the problem is what they post, that is a different tool entirely, and
+**Supervisor** is the layer for it.
+
 Wick is not a general purpose bot with a security module. It is a security bot: anti-nuke, panic
 mode, backups and restore, quarantine, verification, and a spam system built on decaying heat
 rather than fixed thresholds.
