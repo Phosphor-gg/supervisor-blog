@@ -50,19 +50,19 @@ This is a derived example. It uses Moderation API's published rates and assumes 
 
 ## How Supervisor compares
 
-Supervisor has one plan, Premium, at £13.99 a month with 90,000,000 credits. Text is billed by size, so the same 450,000 messages is a worked example for Supervisor too: a 100 byte message on Sentinel is 200 credits, so Premium covers about 450,000 such messages. Observer covers about 900,000, Arbiter about 225,000, and batches of two or more halve the cost.
+Supervisor has one plan, Premium, at £13.99 a month with £120 of credits. Text is billed by size, so the same 450,000 messages is a worked example for Supervisor too: a 100 byte message on Sentinel costs about £0.00027, so Premium covers about 450,000 such messages. Observer covers about 900,000, Arbiter about 225,000, and batches of two or more halve the cost.
 
 The currencies differ (pounds against dollars) and we have not converted them, but at this volume the gap between £13.99 and Basic's $1,179 is wide enough that no plausible exchange rate closes it. The shape of the two plans:
 
 | | Moderation API | Supervisor |
 | --- | --- | --- |
-| Unit | One message | Credits per byte, by model |
-| Text | 1 unit | 100 bytes on Sentinel is 200 credits |
-| Images | 3 units | 1 credit per byte of the file |
+| Unit | One message | Price per KB, by model |
+| Text | 1 unit | 100 bytes on Sentinel is about £0.00027 |
+| Images | 3 units | About £0.0014 per KB of the file |
 | Plans | Hobby, Basic, Growth, Enterprise | One paid plan, Premium |
-| Free | 100 messages a month, no card | 187,500 credits for 7 days from your first moderated message (Observer, text only), plus a 7 day Premium trial (card needed, £1 check hold released) |
+| Free | 100 messages a month, no card | £0.25 of credits for 7 days from your first moderated message (Observer, text only), plus a 7 day Premium trial (card needed, £1 check hold released) |
 
-**Where Moderation API's model is simpler or cheaper:** long messages and images. Its quota unit is one message (we did not find a per-length charge, though message length limits are not covered here), whereas Supervisor charges by size, so a 2 KB message on Sentinel costs 4,000 credits and Premium covers about 22,500 of them. Images are billed at three units flat at Moderation API, whereas Supervisor bills the file size: a 200 KB image (an assumed size) is 200,000 credits, so Premium covers about 450 of them. For image-heavy workloads Supervisor is the more expensive of the two.
+**Where Moderation API's model is simpler or cheaper:** long messages and images. Its quota unit is one message (we did not find a per-length charge, though message length limits are not covered here), whereas Supervisor charges by size, so a 2 KB message on Sentinel costs about £0.0053 and Premium covers about 22,500 of them. Images are billed at three units flat at Moderation API, whereas Supervisor bills the file size: a 200 KB image (an assumed size) costs about £0.27, so Premium covers about 450 of them. For image-heavy workloads Supervisor is the more expensive of the two.
 
 **Where Supervisor's is cheaper:** large volumes of short text. The plan also includes all three models, context-aware moderation, and image and video moderation, with no separate tiers to climb.
 

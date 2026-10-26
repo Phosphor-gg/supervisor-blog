@@ -58,7 +58,7 @@ We make Supervisor, so weigh this accordingly. Moderation API facts come from it
 
 - **Implicit harm.** `implicit_labels` flags content that is harmful without saying so.
 - **Three model tiers.** Observer for volume, Sentinel by default, Arbiter for the most accurate results. Pick per request.
-- **Volume pricing.** One pool of 90,000,000 credits for £13.99 a month, with batches halved.
+- **Volume pricing.** One pool of £120 of credits for £13.99 a month, with batches halved.
 - **A username endpoint and a Discord bot** that you can invite without writing code.
 - **Five SDKs**, including Go, Rust and Java.
 

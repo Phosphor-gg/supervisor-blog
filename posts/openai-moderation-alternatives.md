@@ -57,7 +57,7 @@ Supervisor is a paid moderation API and Discord bot. It is more expensive than a
 - **Non-English messages** are translated before classification, including slang and mixed-language messages.
 - **Three model tiers** (Observer, Sentinel, Arbiter), a **50% discount** on batches of two or more, a **username check** endpoint, **SDKs** for Python, JavaScript, Go, Rust and Java, and a **ready-made Discord bot**.
 
-Premium is £13.99 a month with 90,000,000 credits. Images are the expensive part: a 100 KB image costs about £0.14. See [OpenAI moderation pricing](/blog/openai-moderation-pricing) for the arithmetic.
+Premium is £13.99 a month with £120 of credits. Images are the expensive part: a 100 KB image costs about £0.14. See [OpenAI moderation pricing](/blog/openai-moderation-pricing) for the arithmetic.
 
 **Best for:** communities and platforms where scams, spam and context matter more than cost.
 

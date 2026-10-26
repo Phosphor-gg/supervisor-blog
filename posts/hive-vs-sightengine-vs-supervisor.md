@@ -44,7 +44,7 @@ Where it runs out for community work: its machine-learning text classes are six 
 
 Where it is narrower: no audio, no live streams, video limited to 60 seconds and 10 MB. Where it is different: 16 labels in one API for text, images and video, including spam, promotional, scam and illegal; `include_context` returning `needs_context`; `implicit_labels`; three model tiers; batches at half price; a username endpoint; five SDKs; and a ready-made Discord bot.
 
-Price is a flat £13.99 a month for 90,000,000 credits, with images billed at 1 credit per byte. A large image costs a lot of credits, so image-heavy workloads should be priced before committing. See [the pricing comparison](/blog/content-moderation-api-pricing-compared).
+Price is a flat £13.99 a month for £120 of credits, with images billed at about £0.0014 per KB. A large image costs a lot more than a message, so image-heavy workloads should be priced before committing. See [the pricing comparison](/blog/content-moderation-api-pricing-compared).
 
 ## Which to choose
 

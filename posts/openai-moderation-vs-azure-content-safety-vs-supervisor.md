@@ -45,7 +45,7 @@ Where it runs out: the four-category set leaves out spam, scams and profanity as
 
 16 labels, three model tiers (Observer, Sentinel, Arbiter), `include_context` for messages that need the conversation, `implicit_labels` for harm that is not stated outright, video with per-frame timestamps (60 seconds, 10 MB), a batch endpoint at half price, a username check endpoint, SDKs for five languages and a Discord bot.
 
-The honest part on price: it is paid, with no permanent free tier. Premium is £13.99 a month for 90,000,000 credits; Sentinel costs 2 credits a byte, so about 450,000 messages of 100 bytes. At low volume that is more than Azure's $0.375 per 1,000 records, and always more than OpenAI's nothing. See [our pricing comparison](/blog/content-moderation-api-pricing-compared).
+The honest part on price: it is paid, with no permanent free tier. Premium is £13.99 a month for £120 of credits; on Sentinel that covers about 450,000 messages of 100 bytes. At low volume that is more than Azure's $0.375 per 1,000 records, and always more than OpenAI's nothing. See [our pricing comparison](/blog/content-moderation-api-pricing-compared).
 
 ## Which to choose
 

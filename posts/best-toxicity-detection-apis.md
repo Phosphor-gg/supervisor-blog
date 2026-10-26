@@ -28,7 +28,7 @@ Supervisor's 16 labels include the toxicity family (toxicity, insult, harassment
 
 The response is a decision (`flagged` plus the labels), not a score to threshold, which changes how migration code looks. Three model tiers (Observer, Sentinel, Arbiter) let you trade cost against depth, and batches of two or more cost half as much.
 
-Trade-offs: it is paid (Premium is £13.99 a month with 90,000,000 credits, plus 187,500 free signup credits usable for 7 days), and it returns labels rather than a 0 to 1 score per attribute. We do not publish accuracy numbers in this post.
+Trade-offs: it is paid (Premium is £13.99 a month with £120 of credits, plus £0.25 of free signup credits usable for 7 days), and it returns labels rather than a 0 to 1 score per attribute. We do not publish accuracy numbers in this post.
 
 ## OpenAI moderation endpoint
 

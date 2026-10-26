@@ -26,7 +26,7 @@ Everything here was read from vendor docs on 26 October 2026. We have not tested
 
 **Best for:** communities and platforms that moderate text, images and video together and want one set of labels and one bill.
 
-Send a base64 image to the same endpoint you use for text. Images are billed at 1 credit per byte, the Observer rate, whichever model you pick; if the image contains readable text, that text is billed at your model's normal rate. Within Premium (£13.99 a month, 90,000,000 credits) a 200 KB image is roughly 200,000 credits by that arithmetic, so image-heavy traffic uses the allowance much faster than text does. That is derived from the per-byte rate, not a published quote. The same API takes [video](/blog/video-moderation) too. Context handling and the 16 labels are described in our [roundup](/blog/best-content-moderation-apis-2026).
+Send a base64 image to the same endpoint you use for text. Images are billed at the Observer rate, about £0.0014 per KB, whichever model you pick; if the image contains readable text, that text is billed at your model's normal rate. Within Premium (£13.99 a month, £120 of credits) a 200 KB image is roughly £0.27 by that arithmetic, so image-heavy traffic uses the allowance much faster than text does. That is derived from the per-byte rate, not a published quote. The same API takes [video](/blog/video-moderation) too. Context handling and the 16 labels are described in our [roundup](/blog/best-content-moderation-apis-2026).
 
 We have not verified which of the 16 labels are produced from image content versus text read from the image, so test your own image set in the [live demo](https://supervisor.gg/demo) before assuming coverage.
 

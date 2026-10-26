@@ -6,7 +6,7 @@ description: "OpenAI's moderation endpoint is free to use. Here is what that doe
 
 # OpenAI moderation endpoint pricing: free, and what Supervisor costs by comparison
 
-**Bottom line:** OpenAI's moderation endpoint is free to use, so it will always beat Supervisor on price. Supervisor is £13.99 a month for 90,000,000 credits, which covers roughly 450,000 short text messages on the default model, and images cost far more than text. You pay Supervisor for what the free endpoint does not list, not for the same thing.
+**Bottom line:** OpenAI's moderation endpoint is free to use, so it will always beat Supervisor on price. Supervisor is £13.99 a month for £120 of credits, which covers roughly 450,000 short text messages on the default model, and images cost far more than text. You pay Supervisor for what the free endpoint does not list, not for the same thing.
 
 ## What OpenAI charges
 
@@ -33,31 +33,31 @@ For a lot of projects those costs are small and free is the right answer.
 
 Supervisor is paid. Premium is the only plan on sale.
 
-| Plan | Price | Monthly credits |
+| Plan | Price | Monthly usage included |
 |---|---|---|
-| Premium, monthly | £13.99 | 90,000,000 |
-| Premium, yearly | £83.85 | 90,000,000 a month |
-| Premium, 3 years | £179.65 | 90,000,000 a month |
+| Premium, monthly | £13.99 | £120 of credits |
+| Premium, yearly | £83.85 | £120 of credits a month |
+| Premium, 3 years | £179.65 | £120 of credits a month |
 
-New accounts get 187,500 free credits to try it, usable for 7 days from your first moderated message. There is also a 7 day Premium trial, which needs a card (a £1 card check hold is released).
+New accounts get £0.25 of free credits to try it, usable for 7 days from your first moderated message. There is also a 7 day Premium trial, which needs a card (a £1 card check hold is released).
 
 ### Text
 
 Text is billed by the byte, at a rate per model:
 
-| Model | Credits per byte | Approx. price per KB |
+| Model | Relative cost | Approx. price per KB |
 |---|---|---|
-| Observer | 1 | £0.0014 |
-| Sentinel (default) | 2 | £0.0027 |
-| Arbiter | 4 | £0.0055 |
+| Observer | 1x | £0.0014 |
+| Sentinel (default) | 2x | £0.0027 |
+| Arbiter | 4x | £0.0055 |
 
-Worked example (our arithmetic): a 100 byte message on Sentinel is 200 credits. 90,000,000 credits covers about 450,000 of those a month. On Observer it is about 900,000, and on Arbiter about 225,000. Batches of two or more are billed at half price.
+Worked example (our arithmetic): a 100 byte message on Sentinel costs about £0.00027. £120 of credits covers about 450,000 of those a month. On Observer it is about 900,000, and on Arbiter about 225,000. Batches of two or more are billed at half price.
 
-A 1,000 byte message on Sentinel is 2,000 credits, so the same allowance covers about 45,000. Cost scales with length, so long messages are where Supervisor gets expensive relative to anything priced per request.
+A 1,000 byte message on Sentinel costs about £0.0027, so the same allowance covers about 45,000. Cost scales with length, so long messages are where Supervisor gets expensive relative to anything priced per request.
 
 ### Images and video
 
-Images are the costly part. They are billed at 1 credit per byte regardless of model, so a 100 KB image is about 102,400 credits, roughly £0.14. The monthly allowance covers a little under 900 images of that size. If the image has readable text, that text is billed on top at the text rate. Video frames are billed at a quarter of the image rate, and a clip analyses at most 20 frames.
+Images are the costly part. They are billed at about £0.0014 per KB regardless of model, so a 100 KB image is roughly £0.14. The monthly allowance covers a little under 900 images of that size. If the image has readable text, that text is billed on top at the text rate. Video frames are billed at a quarter of the image rate, and a clip analyses at most 20 frames.
 
 Repeating an identical request inside the cache window consumes no credits. When credits run out, requests fail with `402 Payment Required` until they reset.
 

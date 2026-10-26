@@ -56,23 +56,23 @@ Check these with Sightengine before you size a bill.
 
 ## Comparing with Supervisor's pricing honestly
 
-Supervisor has one plan: Premium at £13.99 a month, with 90,000,000 credits, all three models, context-aware moderation, and image and video moderation. Credits are billed by size, not per request.
+Supervisor has one plan: Premium at £13.99 a month, with £120 of credits, all three models, context-aware moderation, and image and video moderation. Credits are billed by size, not per request.
 
 The two plans measure different things, so here are worked examples. They are derived from published rates, not benchmarks, and the currencies are different.
 
 | Workload | Supervisor Premium | Sightengine Starter |
 | --- | --- | --- |
-| 100 byte text messages on Sentinel (2 credits a byte) | About 450,000 a month | Text rule not published |
-| 200 KB images (1 credit a byte), assumed size | About 450 a month | 10,000 if one operation per image |
-| Longer text, 2 KB on Sentinel (4,000 credits) | About 22,500 a month | Text rule not published |
+| 100 byte text messages on Sentinel (about £0.00027 each) | About 450,000 a month | Text rule not published |
+| 200 KB images (about £0.27 each), assumed size | About 450 a month | 10,000 if one operation per image |
+| Longer text, 2 KB on Sentinel (about £0.0053 each) | About 22,500 a month | Text rule not published |
 
 **Be clear about the image row.** Supervisor bills images by file size, so images are where we are expensive. If your workload is mostly images, Sightengine is far cheaper per image than Supervisor, and it also offers a far larger set of visual classes. We would not pretend otherwise.
 
-Text is where the arithmetic flips. At 2 credits a byte, a short message is cheap, and batching two or more messages in a request halves the cost again. Observer halves the per-byte price, to about £0.0014 per KB against £0.0027 on Sentinel and £0.0055 on Arbiter.
+Text is where the arithmetic flips. At about £0.0027 per KB, a short message is cheap, and batching two or more messages in a request halves the cost again. Observer halves the per-byte price, to about £0.0014 per KB against £0.0027 on Sentinel and £0.0055 on Arbiter.
 
 A fair summary: pick Sightengine on price if you moderate lots of images, and Supervisor if you moderate lots of text and want scams, spam, self-harm and context handling in the same call.
 
-Free credits differ too. Sightengine's free tier renews monthly forever. Supervisor gives 187,500 credits on signup, usable for 7 days from your first moderated message (roughly 1,875 Observer messages of 100 bytes; free credits are Observer and text only), plus a 7 day Premium trial that needs a card, with a £1 check hold that is released.
+Free credits differ too. Sightengine's free tier renews monthly forever. Supervisor gives £0.25 of credits on signup, usable for 7 days from your first moderated message (roughly 1,875 Observer messages of 100 bytes; free credits are Observer and text only), plus a 7 day Premium trial that needs a card, with a £1 check hold that is released.
 
 ## Sources
 

@@ -59,14 +59,14 @@ These figures come from the API reference and the pricing page:
 | | |
 | --- | --- |
 | Premium | £13.99 a month |
-| Included credits | 90,000,000 a month |
+| Included usage | £120 of credits a month |
 | Text, per KB | roughly £0.0014 (Observer), £0.0027 (Sentinel), £0.0055 (Arbiter) |
 | Images | roughly £0.0014 per KB of image data, plus OCR text at the model rate |
 | Video frames | a quarter of the image rate |
 | Batches of two or more | 50% off |
 | Repeated identical requests | free within the cache window |
 
-Premium includes all three models, context-aware moderation, image and video moderation and implicit moderation. As an example worked from those rates: text is billed at 1, 2 or 4 credits per byte on Observer, Sentinel and Arbiter, so a 100 byte message on Sentinel is 200 credits, and the monthly allowance covers about 450,000 messages of that size (about 900,000 on Observer). Batching halves the cost again.
+Premium includes all three models, context-aware moderation, image and video moderation and implicit moderation. As an example worked from those rates: text is billed at about £0.0014, £0.0027 or £0.0055 per KB on Observer, Sentinel and Arbiter, so a 100 byte message on Sentinel costs about £0.00027, and the monthly allowance covers about 450,000 messages of that size (about 900,000 on Observer). Batching halves the cost again.
 
 New accounts get free credits to test with (Observer model, text only), and there is a 7 day Premium trial.
 

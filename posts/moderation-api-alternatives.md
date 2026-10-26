@@ -52,7 +52,7 @@ Supervisor is a moderation API built for communities, games and platforms, with 
 - **Implicit harm**: `implicit_labels`.
 - **Text, image and video** in one API, with translation for non-English text, slang and mixed-language messages.
 - **Three tiers** (Observer, Sentinel, Arbiter), half-price batches, a username check endpoint, and SDKs for Python, JavaScript, Go, Rust and Java.
-- **One plan**: Premium at £13.99 a month for 90,000,000 credits.
+- **One plan**: Premium at £13.99 a month for £120 of credits.
 
 Moderation API also lists scams, spam, self-harm and phishing among its models, and claims support for 120+ languages, so Supervisor does not have a monopoly on those topics. The difference is mostly in the shape of the product: Supervisor returns a decision and labels, adds context and implicit signals, and ships a Discord bot. We are not claiming Supervisor has an equivalent hosted review queue, so if you rely on Moderation API's queue, that is a real reason to stay.
 

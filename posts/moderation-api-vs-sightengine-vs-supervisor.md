@@ -39,7 +39,7 @@ Detection only, but wide: nudity (31 classes), violence, weapons, gore, hate, se
 
 ## Supervisor
 
-Returns `flagged` and labels from 16: profanity, toxicity, harassment, hate, insult, sexual (three variants), sensitive, violence, self-harm, medical, spam, promotional, scam and illegal. `include_context` flags messages needing conversation history, `implicit_labels` covers implied harm, and a username endpoint checks names. Three model tiers, half-price batches, video with timestamps (60 seconds, 10 MB), SDKs in five languages and a Discord bot. £13.99 a month, 90,000,000 credits, billed by the byte, which makes long messages and large images use the allowance faster. If you need a review queue or rules engine, you would build that around the API or choose Moderation API.
+Returns `flagged` and labels from 16: profanity, toxicity, harassment, hate, insult, sexual (three variants), sensitive, violence, self-harm, medical, spam, promotional, scam and illegal. `include_context` flags messages needing conversation history, `implicit_labels` covers implied harm, and a username endpoint checks names. Three model tiers, half-price batches, video with timestamps (60 seconds, 10 MB), SDKs in five languages and a Discord bot. £13.99 a month, £120 of credits, billed by the byte, which makes long messages and large images use the allowance faster. If you need a review queue or rules engine, you would build that around the API or choose Moderation API.
 
 Scams and spam are not unique to us: Moderation API lists scams, phishing and spam models, and Sightengine has rule-based spam. The difference is how they are packaged and what else sits beside them.
 

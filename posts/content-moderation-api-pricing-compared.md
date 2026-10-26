@@ -25,7 +25,7 @@ Every figure was read from the vendor's own page on 26 October 2026. We do not c
 | Moderation API Basic | $79 a month | 10,000 messages, then $2.50 per 1,000 | USD | [Moderation API pricing](https://moderationapi.com/pricing) |
 | Moderation API Growth | Price not verified | 100,000 messages, then $1.00 per 1,000 | USD | [Moderation API pricing](https://moderationapi.com/pricing) |
 | Llama Guard | No API price | Your own hardware | n/a | [Model card](https://huggingface.co/meta-llama/Llama-Guard-4-12B) |
-| Supervisor Premium | £13.99 a month, £83.85 a year | 90,000,000 credits; text costs 1, 2 or 4 credits per byte by model | GBP | Supervisor billing system |
+| Supervisor Premium | £13.99 a month, £83.85 a year | £120 of credits a month; text costs about £0.0014, £0.0027 or £0.0055 per KB by model | GBP | Supervisor billing system |
 
 ### Notes on each row
 
@@ -35,14 +35,14 @@ Every figure was read from the vendor's own page on 26 October 2026. We do not c
 - **Sightengine.** One operation is, for example, running nudity detection on an image. How many operations a text request uses depends on how many models you enable (an example response with two text models shows 2 operations), and the FAQ answer on text pricing was not readable in the page we fetched. We do not give a per-message text price for that reason. A free tier of 2,000 operations a month exists.
 - **Moderation API.** Quota units: text 1, audio 2, images 3, and video from 3 upward depending on length and models. We could not verify the Growth plan's monthly price from the live page, so we omit it. Free Hobby plan: 100 messages a month.
 - **Llama Guard.** The model is free to download behind a licence gate. Hosting cost is yours, and we found no official figure.
-- **Supervisor.** Credits are 1, 2 and 4 per byte of text for Observer, Sentinel and Arbiter. Images bill at 1 credit per byte whatever the model, and video frames at 25 percent of that. Batches of two or more cost half. New accounts get 187,500 free credits for 7 days from the first moderated message. Free credits work on the Observer model for text only; context, images, video and the larger models need Premium or the trial.
+- **Supervisor.** Text costs about £0.0014, £0.0027 and £0.0055 per KB on Observer, Sentinel and Arbiter. Images bill at about £0.0014 per KB whatever the model, and video frames at 25 percent of that. Batches of two or more cost half. New accounts get £0.25 of free credits for 7 days from the first moderated message. Free credits work on the Observer model for text only; context, images, video and the larger models need Premium or the trial.
 
 ## Worked example: short messages
 
-Take a stream of short text messages of about 100 bytes each, on Supervisor's default Sentinel model (2 credits per byte, so 200 credits a message). This is derived arithmetic, not a vendor quote. Each message is under 1,000 characters, so it is one record on Azure.
+Take a stream of short text messages of about 100 bytes each, on Supervisor's default Sentinel model (about £0.0027 per KB, so about £0.00027 a message). This is derived arithmetic, not a vendor quote. Each message is under 1,000 characters, so it is one record on Azure.
 
 | Monthly messages | OpenAI | Azure | --- | --- | --- | --- | --- | --- |
-| 10,000 | Free | $3.75 | $5.00 | $79 | £13.99 flat (uses 2,000,000 of 90,000,000 credits) |
+| 10,000 | Free | $3.75 | $5.00 | $79 | £13.99 flat (uses about £2.67 of the £120 of credits) |
 | 450,000 | Free | $168.75 | $225.00 | $1,179 ($79 plus 440,000 over at $2.50 per 1,000) | £13.99 flat (uses the whole allowance) |
 
 What the example shows:
@@ -54,7 +54,7 @@ What the example shows:
 
 ## The same example with longer messages
 
-Supervisor bills by byte, so size matters more than it does on a per-record API. A 1,000 byte message on Sentinel is 2,000 credits, so the 90,000,000 credit allowance covers 45,000 of them, a tenth of the 450,000 short-message figure. On Azure, a 1,000 character text is still one record. Long messages are where per-byte billing is least favourable, and Observer (1 credit per byte) doubles the count. Batching halves the cost again. If most of your content is long, price it before you commit.
+Supervisor bills by byte, so size matters more than it does on a per-record API. A 1,000 byte message on Sentinel costs about £0.0027, so the £120 allowance covers 45,000 of them, a tenth of the 450,000 short-message figure. On Azure, a 1,000 character text is still one record. Long messages are where per-byte billing is least favourable, and Observer (about £0.0014 per KB) doubles the count. Batching halves the cost again. If most of your content is long, price it before you commit.
 
 ## Which pricing model suits you
 

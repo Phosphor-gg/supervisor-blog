@@ -100,7 +100,7 @@ Supervisor translates non-English messages before classifying them, including sl
 
 ## Price
 
-AWS has no minimum. Comprehend charges $0.0001 per 100 characters in its first tier, with a 300 character minimum per request. Supervisor is £13.99 a month for 90 million credits, which covers roughly 450,000 messages of 100 bytes on Sentinel. We worked through the numbers in the [pricing post](/blog/aws-content-moderation-pricing), including where AWS is cheaper.
+AWS has no minimum. Comprehend charges $0.0001 per 100 characters in its first tier, with a 300 character minimum per request. Supervisor is £13.99 a month for £120 of credits, which covers roughly 450,000 messages of 100 bytes on Sentinel. We worked through the numbers in the [pricing post](/blog/aws-content-moderation-pricing), including where AWS is cheaper.
 
 ## So which should you use?
 

@@ -108,7 +108,7 @@ A few choices in that code are worth explaining.
 
 **The follow-up only runs when it needs to.** A flagged message is already a decision, so the code returns straight away. Most messages are neither flagged nor ambiguous, so most messages cost one request.
 
-**Choose the model for your volume.** The example uses Observer, the cheapest model, at roughly £0.0014 per KB of text. Sentinel (the default, roughly £0.0027 per KB) and Arbiter (roughly £0.0055 per KB) cost more. Text is billed by the byte (1 credit per byte on Observer), so a 100 byte chat line costs 100 credits. Premium includes 90,000,000 credits a month, which works out at about 900,000 lines of that size. Batching halves the cost again. Work out your own numbers from your average message length and traffic.
+**Choose the model for your volume.** The example uses Observer, the cheapest model, at roughly £0.0014 per KB of text. Sentinel (the default, roughly £0.0027 per KB) and Arbiter (roughly £0.0055 per KB) cost more. Text is billed by the byte, so a 100 byte chat line on Observer costs about £0.00013. Premium includes £120 of credits a month, which works out at about 900,000 lines of that size. Batching halves the cost again. Work out your own numbers from your average message length and traffic.
 
 ## 3. Wire it into the send path
 

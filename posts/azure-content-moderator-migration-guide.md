@@ -48,7 +48,7 @@ What you get for the cost:
 | Volume | Batch endpoint, batches of two or more billed at half price |
 | Extras | Username check endpoint, SDKs for Python, JavaScript, Go, Rust and Java, a ready-made Discord bot |
 
-Premium is £13.99 a month with 90,000,000 credits. A 100 byte message on Sentinel is 200 credits, so the allowance covers about 450,000 messages that size (900,000 on Observer). Images are billed per byte, roughly £0.14 for 100 KB. New accounts get free credits to test with (Observer model, text only), and there is a 7 day Premium trial.
+Premium is £13.99 a month with £120 of credits. A 100 byte message on Sentinel costs about £0.00027, so the allowance covers about 450,000 messages that size (900,000 on Observer). Images are billed per byte, roughly £0.14 for 100 KB. New accounts get free credits to test with (Observer model, text only), and there is a 7 day Premium trial.
 
 ## How to migrate to Supervisor, step by step
 
@@ -137,7 +137,7 @@ Until 15 March 2027, call both services, log where they disagree and read those 
 
 - Azure Content Moderator is retired on 15 March 2027, per Microsoft.
 - Microsoft's stated replacement is Azure AI Content Safety. Check it covers the features you use, especially video and custom lists.
-- Supervisor covers 16 labels, context, images and video in one API, at £13.99 a month for 90 million credits. It costs more than Azure for longer text and images and has no documented custom lists.
+- Supervisor covers 16 labels, context, images and video in one API, at £13.99 a month for £120 of credits. It costs more than Azure for longer text and images and has no documented custom lists.
 - Plan time for retuning thresholds and rebuilding lists.
 
 Read the [API reference](/docs/integrations/api), try messages in the [live demo](https://supervisor.gg/demo), or [create a free account](https://supervisor.gg) and get an API key. Comparison: [Supervisor vs Azure AI Content Safety](/blog/supervisor-vs-azure-content-safety).

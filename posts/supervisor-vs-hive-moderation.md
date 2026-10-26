@@ -103,7 +103,7 @@ Hive's text API caps submissions at 1024 characters and has no batch endpoint. S
 
 Hive publishes pay-as-you-go rates for some products and "Contact Sales" for others, while its docs say text and visual moderation require an annual contract. We could not reconcile those statements, so confirm pricing details and what is self-serve with Hive.
 
-Supervisor's pricing is one plan. It can be more expensive per message than other options depending on volume, model and media, because credits are billed by size and Arbiter costs four times Observer. Premium is £13.99 a month with 90 million credits.
+Supervisor's pricing is one plan. It can be more expensive per message than other options depending on volume, model and media, because credits are billed by size and Arbiter costs four times Observer. Premium is £13.99 a month with £120 of credits.
 
 ### Where Supervisor is weaker
 

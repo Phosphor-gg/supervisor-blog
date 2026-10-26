@@ -56,9 +56,9 @@ Supervisor is a moderation API built for communities, games and platforms. It is
 
 ### What it costs
 
-Premium is £13.99 a month and includes 90,000,000 credits, all three models, context, image and video moderation. Text is billed by size: roughly £0.0014 per KB on Observer, £0.0027 per KB on Sentinel and £0.0055 per KB on Arbiter.
+Premium is £13.99 a month and includes £120 of credits, all three models, context, image and video moderation. Text is billed by size: roughly £0.0014 per KB on Observer, £0.0027 per KB on Sentinel and £0.0055 per KB on Arbiter.
 
-As a worked example, a 100 byte message on Sentinel costs 200 credits, so the monthly allowance covers about 450,000 messages that size. On Observer it is about 900,000, and batching halves the cost again. New accounts get free credits to test with (Observer model, text only), and there is a 7 day Premium trial.
+As a worked example, a 100 byte message on Sentinel costs about £0.00027, so the monthly allowance covers about 450,000 messages that size. On Observer it is about 900,000, and batching halves the cost again. New accounts get free credits to test with (Observer model, text only), and there is a 7 day Premium trial.
 
 ## How to migrate, step by step
 
@@ -143,7 +143,7 @@ Until 31 December, call both APIs, log where they disagree, and look at those me
 
 - Perspective API ends after 31 December 2026, with no extension and no migration support.
 - Move now so you have time to tune, not during the holiday rush.
-- Supervisor covers 16 labels, conversation context, images and video in one API, at £13.99 a month for 90 million credits.
+- Supervisor covers 16 labels, conversation context, images and video in one API, at £13.99 a month for £120 of credits.
 - Migrating is mostly swapping a score threshold for a `flagged` check.
 
 Read the [API reference](/docs/integrations/api), try messages in the [live demo](https://supervisor.gg/demo), or [create a free account](https://supervisor.gg) and get an API key.

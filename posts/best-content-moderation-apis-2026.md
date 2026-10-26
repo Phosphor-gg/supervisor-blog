@@ -48,11 +48,11 @@ Supervisor returns 16 labels: profanity, toxicity, harassment, hate, insult, sex
 - **Implicit harm.** `implicit_labels` covers content that is harmful without saying so outright.
 - **Media.** Text, images and video go through the same API. Video accepts clips up to 60 seconds and 10 MB, analyses up to 20 frames and returns a timestamp for each flagged frame.
 - **Languages.** Non-English messages are translated to English before classification, including slang and mixed-language text. We do not publish a language count.
-- **Three model tiers.** Observer, Sentinel (the default) and Arbiter, billed at 1, 2 and 4 credits per byte of text.
+- **Three model tiers.** Observer, Sentinel (the default) and Arbiter, billed at about £0.0014, £0.0027 and £0.0055 per KB of text.
 - **Batching.** The batch endpoint bills batches of two or more at half price.
 - **Extras.** A username check endpoint and SDKs for Python, JavaScript, Go, Rust and Java.
 
-**The honest part on price.** Supervisor has no permanent free tier and is not the cheapest option. Premium is £13.99 a month (£83.85 a year) with 90,000,000 credits. New accounts get 187,500 free credits, usable for 7 days from the first moderated message, and there is a 7 day Premium trial with a card. Against OpenAI's free endpoint, Supervisor always costs more. Against per-request APIs the answer depends on your message size and volume, which is why we wrote a [pricing comparison](/blog/content-moderation-api-pricing-compared) that shows the arithmetic.
+**The honest part on price.** Supervisor has no permanent free tier and is not the cheapest option. Premium is £13.99 a month (£83.85 a year) with £120 of credits. New accounts get £0.25 of free credits, usable for 7 days from the first moderated message, and there is a 7 day Premium trial with a card. Against OpenAI's free endpoint, Supervisor always costs more. Against per-request APIs the answer depends on your message size and volume, which is why we wrote a [pricing comparison](/blog/content-moderation-api-pricing-compared) that shows the arithmetic.
 
 We have not published accuracy or latency numbers in this post and you should not take our word for either. Paste your own worst messages into the [live demo](https://supervisor.gg/demo).
 

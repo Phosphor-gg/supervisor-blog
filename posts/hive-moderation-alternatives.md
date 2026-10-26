@@ -41,7 +41,7 @@ Supervisor is what we make, so weigh this accordingly. It is a paid moderation A
 - **Implicit harm** through `implicit_labels`.
 - **Text, image and short video in one API**, with non-English text translated before classification, including slang and mixed-language messages.
 - **Three model tiers,** a 50% discount on batches of two or more, a username check endpoint, SDKs for Python, JavaScript, Go, Rust and Java, and a ready-made Discord bot.
-- **One plan:** £13.99 a month, with 90 million credits and a 7 day trial.
+- **One plan:** £13.99 a month, with £120 of credits and a 7 day trial.
 
 Where it is weaker than Hive: Supervisor video is limited to 60 seconds and 10 MB, its API has no live stream input, and Hive offers audio moderation that we do not cover here.
 

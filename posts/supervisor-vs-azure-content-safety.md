@@ -61,7 +61,7 @@ curl -X POST https://supervisor.gg/api/moderate \
 
 ## Price: the honest part
 
-Azure: $0.375 per 1,000 text records and $0.75 per 1,000 images (list, USD, East US), where a record is up to 1,000 characters. Supervisor: £13.99 a month for 90,000,000 credits, with text at 1, 2 or 4 credits per byte (Observer, Sentinel, Arbiter) and images at 1 credit per byte.
+Azure: $0.375 per 1,000 text records and $0.75 per 1,000 images (list, USD, East US), where a record is up to 1,000 characters. Supervisor: £13.99 a month for £120 of credits, with text at about £0.0014, £0.0027 or £0.0055 per KB (Observer, Sentinel, Arbiter) and images at about £0.0014 per KB.
 
 - **Short messages (about 100 characters):** Supervisor's default model costs about £0.00027 per message, against $0.000375 for Azure's one record. Nominally Supervisor is lower here, but the currencies differ, so convert before relying on it.
 - **About 1,000 characters:** Supervisor Sentinel is about £0.0027, roughly seven times Azure's nominal price.

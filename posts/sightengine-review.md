@@ -58,9 +58,9 @@ Requests authenticate with an `api_user` and an `api_secret`. The docs show curl
 | AI-generated media detection, liveness, age estimation, audio | Yes, on paid plans | Not in Supervisor's docs |
 | SDKs | HTTP examples in four languages | Python, JavaScript, Go, Rust, Java |
 | Discord bot | Not found in docs | Ready-made bot |
-| Pricing | Operations, from $29 a month | One plan, £13.99 a month, 90,000,000 credits |
+| Pricing | Operations, from $29 a month | One plan, £13.99 a month, £120 of credits |
 
-Two honest cost notes. Supervisor bills images by file size at 1 credit a byte, so a 200 KB image is 200,000 credits and the plan covers about 450 of them, a derived worked example. Sightengine will usually be much cheaper for image-heavy workloads. For short text, a 100 byte message on Sentinel is 200 credits, so Premium covers about 450,000 a month. See the [Sightengine pricing breakdown](/blog/sightengine-pricing) for the full comparison.
+Two honest cost notes. Supervisor bills images by file size at about £0.0014 per KB, so a 200 KB image costs about £0.27 and the plan covers about 450 of them, a derived worked example. Sightengine will usually be much cheaper for image-heavy workloads. For short text, a 100 byte message on Sentinel costs about £0.00027, so Premium covers about 450,000 a month. See the [Sightengine pricing breakdown](/blog/sightengine-pricing) for the full comparison.
 
 ## Who Sightengine is right for
 

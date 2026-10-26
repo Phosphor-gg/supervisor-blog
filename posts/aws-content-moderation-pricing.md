@@ -6,7 +6,7 @@ description: "How Amazon Comprehend toxicity detection and Amazon Rekognition co
 
 # AWS content moderation pricing: what Comprehend and Rekognition cost
 
-**Bottom line:** AWS moderation is pay per use with no subscription. Comprehend toxicity detection starts at $0.0001 per 100 characters with a 300 character minimum per request, so a short message costs $0.0003. Rekognition bills per image and per minute of video. Supervisor is a flat £13.99 a month with 90 million credits, which works out cheaper per short text message if you use the allowance and more expensive if you barely use it. Supervisor bills images by file size while AWS bills per image, so check your average image size.
+**Bottom line:** AWS moderation is pay per use with no subscription. Comprehend toxicity detection starts at $0.0001 per 100 characters with a 300 character minimum per request, so a short message costs $0.0003. Rekognition bills per image and per minute of video. Supervisor is a flat £13.99 a month with £120 of credits, which works out cheaper per short text message if you use the allowance and more expensive if you barely use it. Supervisor bills images by file size while AWS bills per image, so check your average image size.
 
 AWS moderation is two services, so there are two price lists. This post covers only figures we checked against AWS's own pricing sources, and it names the places where AWS's pages disagree with each other so you can confirm them before budgeting.
 
@@ -55,20 +55,20 @@ Because Rekognition bills per image rather than per byte, a large image and a sm
 
 Supervisor has one plan, and it includes everything.
 
-- **Premium: £13.99 a month**, £83.85 a year or £179.65 for three years, with 90,000,000 credits each month and all three models, context, image and video moderation.
-- **£1 is 750,000 credits.** Text costs 1, 2 or 4 credits per byte on Observer, Sentinel and Arbiter, which the docs express as roughly £0.0014, £0.0027 and £0.0055 per KB.
-- **Batches of two or more cost half.** Images are billed at 1 credit per byte, and video frames at a quarter of that.
-- **New accounts** get 187,500 free credits, usable for 7 days from the first moderated message, and there is a 7 day Premium trial that needs a card.
+- **Premium: £13.99 a month**, £83.85 a year or £179.65 for three years, with £120 of credits each month and all three models, context, image and video moderation.
+- **Text is billed by size:** roughly £0.0014, £0.0027 and £0.0055 per KB on Observer, Sentinel and Arbiter.
+- **Batches of two or more cost half.** Images are billed at the Observer text rate, about £0.0014 per KB, and video frames at a quarter of that.
+- **New accounts** get £0.25 of free credits, usable for 7 days from the first moderated message, and there is a 7 day Premium trial that needs a card.
 - **When credits run out**, API requests return 402 Payment Required until they reset or you upgrade.
 
 ## Comparing the two honestly
 
-The derived figures below use a 100 byte text message on Sentinel, which is 200 credits, or about £0.00027 at list rate.
+The derived figures below use a 100 byte text message on Sentinel, which costs about £0.00027.
 
 | | AWS | Supervisor |
 | --- | --- | --- |
-| Billing model | Pay per use, no minimum | £13.99 a month flat, 90M credits |
-| Short text message | $0.0003 (3 unit minimum) | 200 credits on Sentinel, 100 credits on Observer |
+| Billing model | Pay per use, no minimum | £13.99 a month flat, £120 of credits |
+| Short text message | $0.0003 (3 unit minimum) | About £0.00027 on Sentinel, £0.00013 on Observer |
 | Messages covered by one month | Unlimited, billed as you go | About 450,000 of that size on Sentinel, 900,000 on Observer, 225,000 on Arbiter |
 | Effective cost if you use the whole allowance | Not applicable | About £0.00003 per message (£13.99 divided by 450,000, derived) |
 | Images | Per image | By file size, about £0.14 for a 100 KB image per our docs |

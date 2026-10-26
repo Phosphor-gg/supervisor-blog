@@ -43,7 +43,7 @@ A paid moderation API and Discord bot. What it has that Azure's built-in categor
 - **Translation** of non-English messages before classification, including slang and mixed-language messages.
 - **Three tiers**, a **50% batch discount**, a **username endpoint**, **SDKs** for Python, JavaScript, Go, Rust and Java, and a **Discord bot**.
 
-What Azure does better: severity levels per category, blocklists, Prompt Shields and groundedness for LLM apps, a free tier, and usually lower cost for longer text and images. Supervisor is £13.99 a month for 90,000,000 credits, and a 100 KB image costs about £0.14. See [Supervisor vs Azure AI Content Safety](/blog/supervisor-vs-azure-content-safety).
+What Azure does better: severity levels per category, blocklists, Prompt Shields and groundedness for LLM apps, a free tier, and usually lower cost for longer text and images. Supervisor is £13.99 a month for £120 of credits, and a 100 KB image costs about £0.14. See [Supervisor vs Azure AI Content Safety](/blog/supervisor-vs-azure-content-safety).
 
 **Best for:** communities and platforms where scams, spam and context are the real problem.
 

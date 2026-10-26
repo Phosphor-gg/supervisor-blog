@@ -40,7 +40,7 @@ What you take on: hosting, scaling, updates, and the work of turning a safety cl
 
 ## Supervisor
 
-Hosted, so nothing to run. 16 labels, three tiers, `include_context`, `implicit_labels`, video with timestamps, batches at half price, a username endpoint, five SDKs, a Discord bot. Premium is £13.99 a month for 90,000,000 credits, with no permanent free tier. You do not get weights or an on-premises option from us in this comparison, so if data must never leave your hardware, Llama Guard is the right answer.
+Hosted, so nothing to run. 16 labels, three tiers, `include_context`, `implicit_labels`, video with timestamps, batches at half price, a username endpoint, five SDKs, a Discord bot. Premium is £13.99 a month for £120 of credits, with no permanent free tier. You do not get weights or an on-premises option from us in this comparison, so if data must never leave your hardware, Llama Guard is the right answer.
 
 ## Which to choose
 

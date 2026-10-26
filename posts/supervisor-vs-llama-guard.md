@@ -30,7 +30,7 @@ We make Supervisor, so weigh this accordingly. Llama Guard facts come from its H
 | Languages | English plus French, German, Hindi, Italian, Portuguese, Spanish and Thai tested | Non-English translated before classification, including slang and mixed-language messages |
 | Model choice | One 12B model | Observer, Sentinel, Arbiter |
 | Integration | Your own serving stack | REST API, SDKs for Python, JavaScript, Go, Rust and Java |
-| Price | No licence fee, your own GPU and hosting | £13.99 a month, 90,000,000 credits |
+| Price | No licence fee, your own GPU and hosting | £13.99 a month, £120 of credits |
 | Where content goes | Stays on your infrastructure | Sent to Supervisor |
 
 ## Where Llama Guard is better
@@ -64,9 +64,9 @@ curl -X POST https://supervisor.gg/api/moderate \
 
 ## Pricing, honestly
 
-Llama Guard has no per-message price, which is a real advantage at very high volume if you already have GPU capacity. Supervisor has one: £13.99 a month for 90,000,000 credits, billed by size.
+Llama Guard has no per-message price, which is a real advantage at very high volume if you already have GPU capacity. Supervisor has one: £13.99 a month for £120 of credits, billed by size.
 
-A derived worked example for Supervisor: a 100 byte message on Sentinel is 200 credits, so Premium covers about 450,000 such messages a month (900,000 on Observer, 225,000 on Arbiter), and batches of two or more cost half. A 2 KB message is 4,000 credits, about 22,500 a month. A 200 KB image (assumed size) is 200,000 credits, about 450 a month.
+A derived worked example for Supervisor: a 100 byte message on Sentinel costs about £0.00027, so Premium covers about 450,000 such messages a month (900,000 on Observer, 225,000 on Arbiter), and batches of two or more cost half. A 2 KB message costs about £0.0053, about 22,500 a month. A 200 KB image (assumed size) costs about £0.27, about 450 a month.
 
 Supervisor may be more expensive per message than a GPU you already own. Self-hosting is not free, though: you pay for hardware, power, operations and the time to keep it running, and we have no figure for that cost.
 

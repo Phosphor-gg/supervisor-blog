@@ -41,7 +41,7 @@ It takes text and multiple images. Its card says non-English languages tested we
 | --- | --- | --- | --- | --- |
 | Llama Guard 4 | Open-weight classifier you host | Text, multiple images | Your own GPU | LLM safety, control |
 | Llama Guard 3 8B | Smaller earlier version | Not covered here | Your own GPU | Pairing with Llama 3.1 |
-| Supervisor | Hosted moderation API plus Discord bot | Text, image, video | £13.99 a month, 90,000,000 credits | Community content, context, scams |
+| Supervisor | Hosted moderation API plus Discord bot | Text, image, video | £13.99 a month, £120 of credits | Community content, context, scams |
 | Moderation API | Hosted detection plus review platform | Text, image, video, audio | From $79 a month | Review queue, rules |
 | Sightengine | Hosted visual-first API | Image, video, text, audio | From $29 a month | Image and video breadth |
 

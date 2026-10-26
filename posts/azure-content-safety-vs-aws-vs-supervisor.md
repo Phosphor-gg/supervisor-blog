@@ -42,7 +42,7 @@ Text and image APIs, four categories, severity-graded. It adds Prompt Shields, g
 
 ## Supervisor
 
-One endpoint family for text, images and video; 16 labels including spam, promotional, scam and illegal; `include_context`; `implicit_labels`; three model tiers; half-price batches; a username endpoint; a Discord bot. Premium costs £13.99 a month for 90,000,000 credits. You give up cloud-native billing and IAM, and you get a provider-neutral API with a flat monthly fee. No audio, no stored-video scale (60 seconds, 10 MB).
+One endpoint family for text, images and video; 16 labels including spam, promotional, scam and illegal; `include_context`; `implicit_labels`; three model tiers; half-price batches; a username endpoint; a Discord bot. Premium costs £13.99 a month for £120 of credits. You give up cloud-native billing and IAM, and you get a provider-neutral API with a flat monthly fee. No audio, no stored-video scale (60 seconds, 10 MB).
 
 ## Which to choose
 

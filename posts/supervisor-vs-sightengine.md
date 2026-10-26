@@ -34,7 +34,7 @@ We make Supervisor, so weigh this accordingly. Sightengine facts come from its o
 | Username check | Misleading usernames guide | Dedicated `/username` endpoint |
 | SDKs | HTTP examples: curl, Python, PHP, Node | Python, JavaScript, Go, Rust, Java |
 | Discord bot | Not found in docs | Ready-made bot |
-| Free option | 2,000 operations a month, no time limit | 187,500 credits for 7 days, plus 7 day Premium trial |
+| Free option | 2,000 operations a month, no time limit | £0.25 of credits for 7 days, plus 7 day Premium trial |
 
 ## Where Sightengine is better
 
@@ -65,7 +65,7 @@ We make Supervisor, so weigh this accordingly. Sightengine facts come from its o
 
 ## Pricing, honestly
 
-Supervisor may be more expensive per message than a per-operation plan. It bills by size: roughly £0.0014 per KB on Observer, £0.0027 on Sentinel and £0.0055 on Arbiter, from one pool of 90,000,000 credits for £13.99 a month.
+Supervisor may be more expensive per message than a per-operation plan. It bills by size: roughly £0.0014 per KB on Observer, £0.0027 on Sentinel and £0.0055 on Arbiter, from one pool of £120 of credits for £13.99 a month.
 
 Worked examples (derived from published rates, with assumed sizes, in different currencies):
 

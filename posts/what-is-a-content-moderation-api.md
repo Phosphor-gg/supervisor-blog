@@ -66,7 +66,7 @@ The useful ideas, using Supervisor's names:
 
 ## How you pay
 
-Moderation APIs usually bill by usage. Supervisor bills by size: text by the byte at the chosen model's rate, images by file size. The rates are roughly £0.0014 per KB on Observer, £0.0027 on Sentinel (the default) and £0.0055 on Arbiter. Premium is £13.99 a month with 90,000,000 credits included, and batches of two or more texts are half price. When credits run out, requests fail with `402 Payment Required` until the monthly reset or an upgrade.
+Moderation APIs usually bill by usage. Supervisor bills by size: text by the byte at the chosen model's rate, images by file size. The rates are roughly £0.0014 per KB on Observer, £0.0027 on Sentinel (the default) and £0.0055 on Arbiter. Premium is £13.99 a month with £120 of credits included, and batches of two or more texts are half price. When credits run out, requests fail with `402 Payment Required` until the monthly reset or an upgrade.
 
 ## What an API does not do
 

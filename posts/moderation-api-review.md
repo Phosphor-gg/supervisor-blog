@@ -58,9 +58,9 @@ The API base is `https://api.moderationapi.com/v1`, with endpoints for moderatin
 | Inputs | Text, image, video, audio | Text, image, video |
 | SDKs | TypeScript, Python, PHP, Ruby, CLI confirmed | Python, JavaScript, Go, Rust, Java |
 | Discord bot | Not covered | Ready-made bot |
-| Pricing | From $79 a month for 10,000 messages | £13.99 a month for 90,000,000 credits |
+| Pricing | From $79 a month for 10,000 messages | £13.99 a month for £120 of credits |
 
-Two honest cost notes. Supervisor bills by size, so a 2 KB message on Sentinel is 4,000 credits (about 22,500 a month) and a 200 KB image is 200,000 credits (about 450 a month, an assumed size). Moderation API charges three units per image. For short text Supervisor goes much further: about 450,000 messages of 100 bytes a month on Sentinel, a derived worked example.
+Two honest cost notes. Supervisor bills by size, so a 2 KB message on Sentinel costs about £0.0053 (about 22,500 a month) and a 200 KB image about £0.27 (about 450 a month, an assumed size). Moderation API charges three units per image. For short text Supervisor goes much further: about 450,000 messages of 100 bytes a month on Sentinel, a derived worked example.
 
 ## Who Moderation API is right for
 
