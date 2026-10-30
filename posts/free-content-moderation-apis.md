@@ -22,7 +22,7 @@ Read from vendor pages on 26 October 2026. Free tiers change often, so check bef
 | Sightengine | Free tier, no time limit | 2,000 operations a month, 500 a day, 1 request per second |
 | Moderation API | Hobby plan | 100 messages a month, no card |
 | Llama Guard | Open weights | Licence gate; you pay for hardware |
-| Supervisor | Signup credits and trial | £0.25 of credits usable for 7 days; 7 day Premium trial with a card |
+| Supervisor | Signup credits and trial | £0.10 of credits usable for 7 days; 7 day Premium trial with a card |
 
 ## OpenAI moderation endpoint
 
@@ -54,7 +54,7 @@ Free as in no licence fee: Meta publishes weights on Hugging Face under its comm
 
 ## Supervisor
 
-Supervisor no longer includes a permanent free tier for new accounts (see [why](/blog/retiring-the-free-tier)). What you can try free: new accounts get £0.25 of credits, usable for 7 days from your first moderated message, and there is a 7 day Premium trial that needs a card (a £1 card check is held and released). By our arithmetic, £0.25 of credits covers roughly 1,875 messages of 100 bytes on the Observer model, which is the only model free credits can use (context, images, video, Sentinel and Arbiter need Premium or the trial). That is enough to test your own content but not to run a service. After that, Premium is £13.99 a month. If a free endpoint covers your needs, use it. We are for the cases where scams, spam, context and media matter enough to pay.
+Supervisor no longer includes a permanent free tier for new accounts (see [why](/blog/retiring-the-free-tier)). What you can try free: new accounts get £0.10 of credits, usable for 7 days from your first moderated message, and there is a 7 day Premium trial that needs a card (a £1 card check is held and released). By our arithmetic, £0.10 of credits covers roughly 750 messages of 100 bytes on the Observer model, which is the only model free credits can use (context, images, video, Sentinel and Arbiter need Premium or the trial). That is enough to test your own content but not to run a service. After that, Premium is £13.99 a month. If a free endpoint covers your needs, use it. We are for the cases where scams, spam, context and media matter enough to pay.
 
 ## How to choose a free option
 

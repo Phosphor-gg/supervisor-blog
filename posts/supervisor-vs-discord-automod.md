@@ -149,7 +149,7 @@ either way.
 - **AutoMod can block a member from text, voice and other interactions.** Supervisor's
   actions are Delete, Timeout and Warn. It cannot ban or kick.
 - **AutoMod is free.** Supervisor is £13.99 a month, or about £4.99 a month on the three year
-  cycle, with a seven day free trial and £0.25 of moderation free on signup so you can watch
+  cycle, with a seven day free trial and £0.10 of moderation free on signup so you can watch
   it work before deciding anything.
 
 ## Presets are for words. Supervisor is for meaning.

@@ -102,7 +102,7 @@ security features.
 
 Every cycle includes **£120 of moderation a month**, and one subscription covers any number of
 servers drawing on that allowance. There is a seven day free trial on monthly and annual, and
-every new account gets £0.25 of moderation free on signup with no card. There is no free tier for
+every new account gets £0.10 of moderation free on signup with no card. There is no free tier for
 new accounts.
 
 Moderation is billed by the size of what it reads and the model you pick. Stating the assumption

@@ -108,7 +108,7 @@ Every cycle includes **£120 of moderation a month**, and one subscription cover
 servers, all drawing on that same allowance. There is no slot to move around, and no per-server
 multiplication.
 
-There is a seven day free trial on the monthly and annual cycles, and every new account gets £0.25
+There is a seven day free trial on the monthly and annual cycles, and every new account gets £0.10
 of moderation free on signup with no card. There is no free tier for new accounts.
 
 Moderation is billed by the size of what it reads and the model you pick. Stating the assumption

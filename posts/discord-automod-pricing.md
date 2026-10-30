@@ -84,7 +84,7 @@ allowance, so running five communities means one subscription rather than five, 
 them rather than multiplied.
 
 There is a **seven day free trial** on the monthly and annual cycles, and every new account
-gets **£0.25 of moderation free on signup** with no card, which is enough to point the bot at
+gets **£0.10 of moderation free on signup** with no card, which is enough to point the bot at
 a channel and watch it work before deciding anything.
 
 ## What that works out to per message

@@ -115,7 +115,7 @@ Where it does not fill the gap, plainly:
 - **Supervisor has no reaction roles, embeds, feeds, starboard, tags or triggers.** Three slash
   commands, and everything else on the dashboard.
 - **Supervisor is paid**, at £13.99 a month or about £4.99 a month on the three year cycle, with
-  a seven day trial and £0.25 of moderation free on signup.
+  a seven day trial and £0.10 of moderation free on signup.
 
 There is a [full comparison of the two approaches](/blog/supervisor-vs-carl-bot-moderation) if you
 want the mechanism side in depth.

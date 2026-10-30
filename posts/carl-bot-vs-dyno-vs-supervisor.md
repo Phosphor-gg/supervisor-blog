@@ -149,7 +149,7 @@ What it does not do:
 - **Nothing like `defer`.** No moderator voting queue.
 - **No counters, no honeypot, no rate limits.**
 - **No reaction roles, embeds, tags, triggers or starboard.** Three slash commands.
-- **No free tier for new accounts**, just a seven day trial and £0.25 of moderation on signup.
+- **No free tier for new accounts**, just a seven day trial and £0.10 of moderation on signup.
 
 The pairings in depth: [Supervisor vs Carl-bot](/blog/supervisor-vs-carl-bot-moderation) and
 [Supervisor vs Dyno](/blog/supervisor-vs-dyno-moderation).

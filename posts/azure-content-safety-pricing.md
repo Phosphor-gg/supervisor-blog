@@ -37,7 +37,7 @@ Notes from Microsoft's own pages:
 
 ## What Supervisor charges
 
-Premium is £13.99 a month (£83.85 a year, £179.65 for three years) with £120 of credits. Text costs about £0.0014, £0.0027 or £0.0055 per KB on Observer, Sentinel (default) or Arbiter. Images cost about £0.0014 per KB on any model. Batches of two or more are half price. New accounts get £0.25 of free credits, usable for 7 days from the first moderated message. Free credits work on the Observer model for text only; context, images, video and the larger models need Premium or the trial.
+Premium is £13.99 a month (£83.85 a year, £179.65 for three years) with £120 of credits. Text costs about £0.0014, £0.0027 or £0.0055 per KB on Observer, Sentinel (default) or Arbiter. Images cost about £0.0014 per KB on any model. Batches of two or more are half price. New accounts get £0.10 of free credits, usable for 7 days from the first moderated message. Free credits work on the Observer model for text only; context, images, video and the larger models need Premium or the trial.
 
 ## The comparison, honestly
 

@@ -133,7 +133,7 @@ Where it does not fill the gap, plainly:
 - **Supervisor has no utility features.** Three slash commands, no levels, no social alerts, no
   economy, no giveaways.
 - **Supervisor has no lifetime plan and no free tier for new accounts**, just a seven day trial
-  and £0.25 of moderation free on signup.
+  and £0.10 of moderation free on signup.
 
 There is a [full comparison of the two approaches](/blog/supervisor-vs-mee6-moderation) if you
 want the mechanism in depth, and a breakdown of [what MEE6 costs](/blog/mee6-pricing) including

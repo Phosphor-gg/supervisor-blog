@@ -58,7 +58,7 @@ Supervisor has one plan, and it includes everything.
 - **Premium: £13.99 a month**, £83.85 a year or £179.65 for three years, with £120 of credits each month and all three models, context, image and video moderation.
 - **Text is billed by size:** roughly £0.0014, £0.0027 and £0.0055 per KB on Observer, Sentinel and Arbiter.
 - **Batches of two or more cost half.** Images are billed at the Observer text rate, about £0.0014 per KB, and video frames at a quarter of that.
-- **New accounts** get £0.25 of free credits, usable for 7 days from the first moderated message, and there is a 7 day Premium trial that needs a card.
+- **New accounts** get £0.10 of free credits, usable for 7 days from the first moderated message, and there is a 7 day Premium trial that needs a card.
 - **When credits run out**, API requests return 402 Payment Required until they reset or you upgrade.
 
 ## Comparing the two honestly

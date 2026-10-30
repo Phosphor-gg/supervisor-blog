@@ -103,7 +103,7 @@ of servers**, which all draw on that same monthly allowance. So five communities
 subscription shared between them rather than five subscriptions multiplied.
 
 There is a seven day free trial on the monthly and annual cycles, and every new account gets
-£0.25 of moderation free on signup with no card.
+£0.10 of moderation free on signup with no card.
 
 Moderation is billed by the size of what it reads and the model you choose. Stating the
 assumption out loud: at an average message of 100 bytes, the included £120 a month covers about
@@ -121,7 +121,7 @@ pay in.
 What is comparable is the shape:
 
 - **Dyno's free tier covers moderation.** Supervisor has no free tier for new accounts, just a
-  seven day trial and £0.25 of moderation to try it. If cost is the deciding factor and Dyno's
+  seven day trial and £0.10 of moderation to try it. If cost is the deciding factor and Dyno's
   filters catch what your server struggles with, Dyno wins outright and you should not pay us.
 - **Dyno charges per server, Supervisor per account.** One community favours Dyno's model, a
   network of communities favours Supervisor's.

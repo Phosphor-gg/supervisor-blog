@@ -150,7 +150,7 @@ What it does not do, and this list matters:
   are not measured at all.
 - **No utility features.** Three slash commands, no levels, no social alerts, no giveaways, no
   audit log suite, no autoroles.
-- **No free tier for new accounts**, just a seven day trial and £0.25 of moderation on signup.
+- **No free tier for new accounts**, just a seven day trial and £0.10 of moderation on signup.
 - **It deletes after a message posts**, where Discord's own AutoMod blocks before.
 
 The detail on each pairing is in [Supervisor vs MEE6](/blog/supervisor-vs-mee6-moderation) and

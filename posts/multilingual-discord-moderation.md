@@ -41,7 +41,7 @@ arrives in more forms.
 
 The honest limits, because they apply here too: three slash commands, no bans or kicks, no raid
 protection, no utility features, and £13.99 a month with no free tier for new accounts, just a
-seven day trial and £0.25 of moderation on signup.
+seven day trial and £0.10 of moderation on signup.
 
 **Best for:** any server where your members do not all speak the same language.
 

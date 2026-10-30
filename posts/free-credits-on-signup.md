@@ -6,6 +6,8 @@ date: 2026-07-29
 
 # New accounts now start with free credits
 
+> **Update, 30 October 2026:** the signup grant is now £0.10, usable for 7 days from your first moderated message, on the Observer model for text only. Accounts created before then were given £0.25. The figures below are from when this was written.
+
 Make a Supervisor account today and there is £0.25 of credits already on it. No card, no trial to start, nothing to cancel. Sign in and it is there.
 
 It is not much money. It is enough to add the bot to a server, point it at a channel, and watch it actually moderate before you decide anything.

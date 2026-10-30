@@ -34,7 +34,7 @@ We make Supervisor, so weigh this accordingly. Sightengine facts come from its o
 | Username check | Misleading usernames guide | Dedicated `/username` endpoint |
 | SDKs | HTTP examples: curl, Python, PHP, Node | Python, JavaScript, Go, Rust, Java |
 | Discord bot | Not found in docs | Ready-made bot |
-| Free option | 2,000 operations a month, no time limit | £0.25 of credits for 7 days, plus 7 day Premium trial |
+| Free option | 2,000 operations a month, no time limit | £0.10 of credits for 7 days, plus 7 day Premium trial |
 
 ## Where Sightengine is better
 

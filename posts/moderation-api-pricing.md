@@ -60,7 +60,7 @@ The currencies differ (pounds against dollars) and we have not converted them, b
 | Text | 1 unit | 100 bytes on Sentinel is about £0.00027 |
 | Images | 3 units | About £0.0014 per KB of the file |
 | Plans | Hobby, Basic, Growth, Enterprise | One paid plan, Premium |
-| Free | 100 messages a month, no card | £0.25 of credits for 7 days from your first moderated message (Observer, text only), plus a 7 day Premium trial (card needed, £1 check hold released) |
+| Free | 100 messages a month, no card | £0.10 of credits for 7 days from your first moderated message (Observer, text only), plus a 7 day Premium trial (card needed, £1 check hold released) |
 
 **Where Moderation API's model is simpler or cheaper:** long messages and images. Its quota unit is one message (we did not find a per-length charge, though message length limits are not covered here), whereas Supervisor charges by size, so a 2 KB message on Sentinel costs about £0.0053 and Premium covers about 22,500 of them. Images are billed at three units flat at Moderation API, whereas Supervisor bills the file size: a 200 KB image (an assumed size) costs about £0.27, so Premium covers about 450 of them. For image-heavy workloads Supervisor is the more expensive of the two.
 

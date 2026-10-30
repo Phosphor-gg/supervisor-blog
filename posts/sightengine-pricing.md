@@ -72,7 +72,7 @@ Text is where the arithmetic flips. At about £0.0027 per KB, a short message is
 
 A fair summary: pick Sightengine on price if you moderate lots of images, and Supervisor if you moderate lots of text and want scams, spam, self-harm and context handling in the same call.
 
-Free credits differ too. Sightengine's free tier renews monthly forever. Supervisor gives £0.25 of credits on signup, usable for 7 days from your first moderated message (roughly 1,875 Observer messages of 100 bytes; free credits are Observer and text only), plus a 7 day Premium trial that needs a card, with a £1 check hold that is released.
+Free credits differ too. Sightengine's free tier renews monthly forever. Supervisor gives £0.10 of credits on signup, usable for 7 days from your first moderated message (roughly 750 Observer messages of 100 bytes; free credits are Observer and text only), plus a 7 day Premium trial that needs a card, with a £1 check hold that is released.
 
 ## Sources
 

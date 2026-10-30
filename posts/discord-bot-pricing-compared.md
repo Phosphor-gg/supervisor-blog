@@ -85,14 +85,14 @@ Worth separating, because "paid tier" rarely means "paid moderation".
   exception worth paying for if restore matters to you.
 - **Discord AutoMod**: free, with no paid tier of any kind.
 - **Supervisor**: one plan with everything in it. There is no free tier for new accounts, just a
-  seven day trial and £0.25 of moderation on signup with no card.
+  seven day trial and £0.10 of moderation on signup with no card.
 
 ## Trial and refund terms
 
 | Bot | What you get before committing |
 | --- | --- |
 | MEE6 | Fully refundable for 7 days, and transferable to another server |
-| Supervisor | 7 day free trial on monthly and annual, plus £0.25 of moderation on signup |
+| Supervisor | 7 day free trial on monthly and annual, plus £0.10 of moderation on signup |
 | Sapphire | Not applicable, the features are free |
 | Discord AutoMod | Not applicable, it is free |
 | Dyno, Carl-bot, Wick | Free tiers cover moderation, so you can evaluate without paying |

@@ -52,7 +52,7 @@ Supervisor returns 16 labels: profanity, toxicity, harassment, hate, insult, sex
 - **Batching.** The batch endpoint bills batches of two or more at half price.
 - **Extras.** A username check endpoint and SDKs for Python, JavaScript, Go, Rust and Java.
 
-**The honest part on price.** Supervisor has no permanent free tier and is not the cheapest option. Premium is £13.99 a month (£83.85 a year) with £120 of credits. New accounts get £0.25 of free credits, usable for 7 days from the first moderated message, and there is a 7 day Premium trial with a card. Against OpenAI's free endpoint, Supervisor always costs more. Against per-request APIs the answer depends on your message size and volume, which is why we wrote a [pricing comparison](/blog/content-moderation-api-pricing-compared) that shows the arithmetic.
+**The honest part on price.** Supervisor has no permanent free tier and is not the cheapest option. Premium is £13.99 a month (£83.85 a year) with £120 of credits. New accounts get £0.10 of free credits, usable for 7 days from the first moderated message, and there is a 7 day Premium trial with a card. Against OpenAI's free endpoint, Supervisor always costs more. Against per-request APIs the answer depends on your message size and volume, which is why we wrote a [pricing comparison](/blog/content-moderation-api-pricing-compared) that shows the arithmetic.
 
 We have not published accuracy or latency numbers in this post and you should not take our word for either. Paste your own worst messages into the [live demo](https://supervisor.gg/demo).
 

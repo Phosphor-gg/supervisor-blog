@@ -39,7 +39,7 @@ Supervisor is paid. Premium is the only plan on sale.
 | Premium, yearly | £83.85 | £120 of credits a month |
 | Premium, 3 years | £179.65 | £120 of credits a month |
 
-New accounts get £0.25 of free credits to try it, usable for 7 days from your first moderated message. There is also a 7 day Premium trial, which needs a card (a £1 card check hold is released).
+New accounts get £0.10 of free credits to try it, usable for 7 days from your first moderated message. There is also a 7 day Premium trial, which needs a card (a £1 card check hold is released).
 
 ### Text
 

@@ -141,7 +141,7 @@ installing anything:
 - **It has no utility features at all.** Three slash commands, and everything else is
   configured on the web dashboard.
 - **It costs money**: £13.99 a month, or about £4.99 a month on the three year cycle, with a
-  seven day trial and £0.25 of moderation free on signup.
+  seven day trial and £0.10 of moderation free on signup.
 
 Which is why the sensible setup for most servers is both. Leave AutoMod on for the strings you
 never want posted, and add an AI layer for the meaning it cannot read. There is a

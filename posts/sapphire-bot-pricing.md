@@ -93,7 +93,7 @@ Supervisor sells one plan with everything in it, billed per account rather than 
 
 Every cycle includes **£120 of moderation a month**, and one subscription covers any number of
 servers drawing on that allowance. There is a seven day free trial on monthly and annual, and
-every new account gets £0.25 of moderation free on signup with no card. There is no free tier for
+every new account gets £0.10 of moderation free on signup with no card. There is no free tier for
 new accounts.
 
 The pricing model is the mirror image of Sapphire's. Supervisor has **no per-minute scan cap**:

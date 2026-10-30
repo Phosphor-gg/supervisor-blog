@@ -150,7 +150,7 @@ Since Sapphire also does AI moderation, the differences here are specific rather
 What it does not do:
 
 - **It is not free**, where Sapphire's equivalent is. £13.99 a month, or about £4.99 on the three
-  year cycle, with a seven day trial and £0.25 of moderation on signup.
+  year cycle, with a seven day trial and £0.10 of moderation on signup.
 - **No bans, kicks or mutes.** Delete, Timeout and Warn only, where both other bots can ban.
 - **No levels, economy, social alerts, reaction roles, join roles or logging suite.** Three slash
   commands.

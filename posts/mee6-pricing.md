@@ -107,7 +107,7 @@ Every cycle includes **£120 of moderation a month**, and **one subscription cov
 servers**, all drawing on that same monthly allowance.
 
 There is a seven day free trial on the monthly and annual cycles, and every new account gets
-£0.25 of moderation free on signup with no card. There is no lifetime option and no free tier
+£0.10 of moderation free on signup with no card. There is no lifetime option and no free tier
 for new accounts.
 
 Moderation is billed by the size of what it reads and the model you pick. Stating the assumption
