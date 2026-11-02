@@ -120,7 +120,7 @@ of everything at once.
 
 `/quarantine` takes away a member's roles and hides every channel from them, without kicking
 them. The roles they held are stored with the case, so `/unquarantine` gives them back even
-after a restart. Run `/security setup:true` once to create the role and hide every channel
+after a restart. Run `/security setup` once to create the role and hide every channel
 from it.
 
 ## Verification
@@ -142,7 +142,7 @@ Supervisor's actions used to be Delete, Timeout and Warn. It now has the full se
 - `/slowmode`, `/sanitize` for fancy or hoisted nicknames
 - `/quarantine`, `/unquarantine`, `/lock`, `/unlock`, `/verify`
 - `/note` for private moderator notes, `/cases` and `/case`
-- `/backup` (Advanced Security), and `/security` to see what is on and what permissions are missing
+- `/backup` (Advanced Security), and `/security status` to see what is on and what permissions are missing
 
 Every action, by a moderator or by an automatic system, is a numbered case you can search by
 member, moderator or type. **Warn thresholds** act automatically when a member collects a set
@@ -165,9 +165,9 @@ If you depend on those, a dedicated security bot still has something to offer.
 
 1. Open your server on the [dashboard](https://supervisor.gg/dashboard/integrations/discord)
    and find the Security section.
-2. Run `/security` in your server. It lists the permissions Supervisor is missing and warns
+2. Run `/security status` in your server. It lists the permissions Supervisor is missing and warns
    you if its role is too low to act on your staff. Drag Supervisor's role near the top.
-3. Run `/security setup:true` to create the quarantine role.
+3. Run `/security setup` to create the quarantine role.
 4. Add your trusted users, switch on anti-nuke, the join gate and heat, and save.
 
 If you have not added Supervisor yet, [invite it to your server](https://invite.supervisor.gg).
