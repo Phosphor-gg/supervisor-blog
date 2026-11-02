@@ -124,15 +124,16 @@ a message means:
 
 Where it does not fill the gap, plainly:
 
-- **Supervisor cannot ban or kick.** Delete, Timeout and Warn are the whole list. MEE6's
-  escalation ladder has no equivalent here, and if graduated enforcement is what you need, MEE6
-  does it and we do not.
-- **Supervisor has no audit log**, only an alerts channel.
-- **Supervisor has no counters.** Caps percentage, emoji counts, repeated text and message
-  frequency are not things it measures.
-- **Supervisor has no utility features.** Three slash commands, no levels, no social alerts, no
-  economy, no giveaways.
-- **Supervisor has no lifetime plan and no free tier for new accounts**, just a seven day trial
+- **Supervisor's automatic AI actions are Delete, Timeout and Warn.** Its free
+  [security suite](/blog/supervisor-security-suite) adds `/ban`, `/kick` and `/timeout`, and warn
+  thresholds that act automatically when a member reaches a set number of active warns, but not a
+  multi-step ladder like MEE6's.
+- **Supervisor has no general audit log.** It logs its own security and moderation actions, with
+  numbered cases, but has no message edit or delete logs.
+- **Supervisor has no per-rule counters.** Its Heat spam filter weighs repeats, emojis, length,
+  new lines and mentions together, but there is no caps percentage check.
+- **Supervisor has no utility features.** No levels, no social alerts, no economy, no giveaways.
+- **Supervisor has no lifetime plan and no free tier of AI moderation for new accounts**, just a seven day trial
   and £0.10 of moderation free on signup.
 
 There is a [full comparison of the two approaches](/blog/supervisor-vs-mee6-moderation) if you

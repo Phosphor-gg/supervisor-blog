@@ -41,9 +41,9 @@ unrelated framework for building bots.
 | AI languages | English and German fully | Not applicable | 100+ |
 | Rule modules | 12, condition-based | 8 checks | Link and word filters |
 | Extends Discord AutoMod | **Yes** | No | No |
-| Join filtering | Join Guard, 7 filters | No | No |
-| Can ban or kick | Yes | Yes | No |
-| Logging | 80+ log types | ~2 dozen event types | Alerts channel only |
+| Join filtering | Join Guard, 7 filters | No | Join gate, 6 filters, free |
+| Can ban or kick | Yes | Yes | Yes, by command or warn threshold |
+| Logging | 80+ log types | ~2 dozen event types | Security and moderation logs, numbered cases |
 | Images and video | Not documented | Not documented | Yes, reads content |
 
 ## Sapphire vs MEE6: the differences that actually matter
@@ -149,13 +149,14 @@ Since Sapphire also does AI moderation, the differences here are specific rather
 
 What it does not do:
 
-- **It is not free**, where Sapphire's equivalent is. £13.99 a month, or about £4.99 on the three
+- **Its AI moderation is not free**, where Sapphire's equivalent is. £13.99 a month, or about £4.99 on the three
   year cycle, with a seven day trial and £0.10 of moderation on signup.
-- **No bans, kicks or mutes.** Delete, Timeout and Warn only, where both other bots can ban.
-- **No levels, economy, social alerts, reaction roles, join roles or logging suite.** Three slash
-  commands.
+- **A narrower automatic response set.** The AI's actions are Delete, Timeout and Warn. Bans and
+  kicks are moderator commands and warn thresholds in its free [security suite](/blog/supervisor-security-suite).
+- **No levels, economy, social alerts, reaction roles, join roles or logging suite.**
 - **It cannot extend Discord AutoMod** the way Sapphire does, and cannot block before posting.
-- **No Join Guard** and no raid protection.
+- **A different join gate.** Its free join gate and Premium join raid detection do not include
+  Join Guard's AND logic or guild tag filter.
 
 The pairings in depth: [Supervisor vs Sapphire](/blog/supervisor-vs-sapphire-moderation) and
 [Supervisor vs MEE6](/blog/supervisor-vs-mee6-moderation).
@@ -199,9 +200,10 @@ per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
 
 **Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
 most complete tool in this series: 16 labels where nothing else classifies more than four, over
-100 languages, conversation context, and the only one that reads images and video. It is also the
-narrowest, with no bans, no raid protection and no utility features, which is why every post here
-recommends running it alongside another bot rather than instead of one.
+100 languages, conversation context, and the only one that reads images and video. It now also
+has a free security suite with anti-nuke, raid protection, bans and case tracking, but it has no
+utility features such as levels, tickets or reaction roles, which is why most posts here recommend
+running it alongside a general purpose bot rather than instead of one.
 
 We have no customer reviews, ratings or testimonials to show you, because we have not collected
 any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on

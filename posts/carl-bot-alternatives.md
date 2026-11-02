@@ -44,7 +44,7 @@ social notifications as broadly as some alternatives.
 | MEE6 | All-in-one | 8 rule checks, full ban ladder | Yes, includes automod | Engagement features |
 | Wick | Security | Heat system, anti-nuke | Yes | Raids, nukes, rogue admins |
 | Discord AutoMod | Built into Discord | 3 preset categories, 6 keyword rules | Free, native | Blocking words before they post |
-| Supervisor | AI moderation layer | 16 labels, reads meaning | No, 7 day trial | Contextual harm a rule cannot catch |
+| Supervisor | AI moderation plus security suite | 16 labels, reads meaning | Security suite free; AI 7 day trial | Contextual harm a rule cannot catch |
 
 There is a wider roundup of the [best Discord moderation bots](/blog/best-discord-moderation-bots-2026)
 if you want the category rather than Carl-bot-shaped replacements.
@@ -120,9 +120,11 @@ month, or about £4.99 on the three year cycle, billed per account so one subscr
 server you run.
 
 It is **not a Carl-bot replacement**. No reaction roles, no embeds, no tags or triggers, no
-starboard, no honeypot, no rate limits. Its actions are Delete, Timeout and Warn, so it cannot
-ban, kick or mute, and it has nothing like defer. If you switch from Carl-bot to Supervisor you
-will lose almost everything you use Carl-bot for.
+starboard, no honeypot, and nothing like defer. Its automatic AI actions are Delete, Timeout and
+Warn. It does now have a free [security suite](/blog/supervisor-security-suite) with `/ban`,
+`/kick`, `/timeout` and other moderation commands, numbered cases, warn thresholds and a Heat spam
+filter, but if you switch from Carl-bot to Supervisor you will still lose most of the
+non-moderation features you use Carl-bot for.
 
 **Best for:** running alongside Carl-bot, which is the setup we would actually recommend here.
 

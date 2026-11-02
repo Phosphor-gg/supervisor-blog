@@ -28,7 +28,7 @@ really the same kind of tool.
 | Conversation context | No | **Yes** |
 | Images and video | Not documented | **Yes** |
 | Languages | Preset lists English only | **Over 100** |
-| Ban or kick | Can block all interactions | No |
+| Ban or kick | Can block all interactions | Yes, by command or warn threshold |
 | Member profiles | **Yes** | No |
 | Price | **Free** | £13.99 a month, per account |
 
@@ -138,17 +138,19 @@ either way.
 
 - **AutoMod blocks before posting. Supervisor deletes after.** Covered above, and it is the
   real one.
-- **AutoMod scans member profiles.** Supervisor moderates messages, images and video. It does
-  not scan profiles.
-- **AutoMod has mention raid detection.** Supervisor has no raid protection, no anti-nuke, no
-  verification gate and no captcha. If raids are your problem, you need something else, and
-  there are bots that specialise in exactly that.
+- **AutoMod scans member profiles.** Supervisor moderates messages, images and video. Beyond
+  its join gate checking usernames and display names, it does not scan profiles.
+- **Raids and nukes.** AutoMod has mention raid detection. Supervisor now has its own free
+  [security suite](/blog/supervisor-security-suite) with anti-nuke, auto lockdown on mention raids, a join gate,
+  verification and captcha, with join raid detection in Premium. AutoMod's mention spam rule
+  still blocks before posting, which no bot can do.
 - **AutoMod supports full regular expressions.** Supervisor's word filter does
   case-insensitive whole-word matching with a `*` wildcard for partial matches, which is
   simpler on purpose but genuinely less powerful.
-- **AutoMod can block a member from text, voice and other interactions.** Supervisor's
-  actions are Delete, Timeout and Warn. It cannot ban or kick.
-- **AutoMod is free.** Supervisor is £13.99 a month, or about £4.99 a month on the three year
+- **AutoMod can block a member from text, voice and other interactions as a rule action.**
+  Supervisor's automatic AI actions are Delete, Timeout and Warn; bans and kicks are moderator
+  commands and warn thresholds in its security suite.
+- **AutoMod is free.** Supervisor's AI moderation is £13.99 a month, or about £4.99 a month on the three year
   cycle, with a seven day free trial and £0.10 of moderation free on signup so you can watch
   it work before deciding anything.
 
@@ -184,9 +186,10 @@ per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
 
 **Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
 most complete tool in this series: 16 labels where nothing else classifies more than four, over
-100 languages, conversation context, and the only one that reads images and video. It is also the
-narrowest, with no bans, no raid protection and no utility features, which is why every post here
-recommends running it alongside another bot rather than instead of one.
+100 languages, conversation context, and the only one that reads images and video. It now also
+has a free security suite with anti-nuke, raid protection, bans and case tracking, but it has no
+utility features such as levels, tickets or reaction roles, which is why most posts here recommend
+running it alongside a general purpose bot rather than instead of one.
 
 We have no customer reviews, ratings or testimonials to show you, because we have not collected
 any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on

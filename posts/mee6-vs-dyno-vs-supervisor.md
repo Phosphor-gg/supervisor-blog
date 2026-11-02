@@ -32,13 +32,13 @@ on 29 August 2026. We make Supervisor, so treat the third section accordingly.
 
 | | MEE6 | Dyno | Supervisor |
 | --- | --- | --- | --- |
-| What it is | All-in-one | General purpose | AI moderation layer |
+| What it is | All-in-one | General purpose | AI moderation plus security suite |
 | Automod mechanism | 8 rule checks | 19 rule filters | 16 AI labels |
 | Reads meaning | No | No | Yes |
 | Conversation context | No | No | Yes |
 | Images and video | Not documented | Image spam counts only | Yes, reads content |
-| Can ban or kick | Yes | Yes | No |
-| Free tier includes automod | Yes | Yes | No, 7 day trial |
+| Can ban or kick | Yes | Yes | Yes, by command or warn threshold |
+| Free tier includes automod | Yes | Yes | Security suite free; AI 7 day trial |
 | Billing unit | Per server | Per server | Per account |
 | Entry price | £11.99 / month | $5.99 / month | £13.99 / month |
 | Languages | Word lists you write | Word lists you write | 100+ |
@@ -144,13 +144,15 @@ covers every server you run.
 
 What it does not do, and this list matters:
 
-- **No bans or kicks.** Delete, Timeout and Warn are the whole set, so neither MEE6's warning
-  ladder nor Dyno's Auto Ban has an equivalent.
-- **No counters.** Caps percentages, emoji counts, newlines, character limits and message rates
-  are not measured at all.
-- **No utility features.** Three slash commands, no levels, no social alerts, no giveaways, no
-  audit log suite, no autoroles.
-- **No free tier for new accounts**, just a seven day trial and £0.10 of moderation on signup.
+- **A narrower automatic response set.** The AI's actions are Delete, Timeout and Warn. Its free
+  [security suite](/blog/supervisor-security-suite) adds `/ban`, `/kick` and a warn threshold that
+  can timeout, kick, ban or quarantine, but not MEE6's multi-step ladder or Dyno's per-filter Auto
+  Ban.
+- **No per-rule counters.** Its Heat spam filter weighs repeats, emojis, length, new lines and
+  mentions together, but there are no separate caps percentage or character limit rules.
+- **No utility features.** No levels, no social alerts, no giveaways, no audit log suite, no
+  autoroles.
+- **No free tier of AI moderation for new accounts**, just a seven day trial and £0.10 of moderation on signup.
 - **It deletes after a message posts**, where Discord's own AutoMod blocks before.
 
 The detail on each pairing is in [Supervisor vs MEE6](/blog/supervisor-vs-mee6-moderation) and
@@ -193,9 +195,10 @@ per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
 
 **Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
 most complete tool in this series: 16 labels where nothing else classifies more than four, over
-100 languages, conversation context, and the only one that reads images and video. It is also the
-narrowest, with no bans, no raid protection and no utility features, which is why every post here
-recommends running it alongside another bot rather than instead of one.
+100 languages, conversation context, and the only one that reads images and video. It now also
+has a free security suite with anti-nuke, raid protection, bans and case tracking, but it has no
+utility features such as levels, tickets or reaction roles, which is why most posts here recommend
+running it alongside a general purpose bot rather than instead of one.
 
 We have no customer reviews, ratings or testimonials to show you, because we have not collected
 any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on

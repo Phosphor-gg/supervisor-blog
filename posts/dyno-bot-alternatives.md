@@ -47,7 +47,7 @@ purpose bot with twenty modules.
 | MEE6 | All-in-one | 8 rule checks, full ban ladder | Yes, includes automod | One bot for everything |
 | Wick | Security | Heat system, anti-nuke | Yes | Raids, nukes, rogue admins |
 | Discord AutoMod | Built into Discord | 3 preset categories, 6 keyword rules | Free, native | Blocking words before they post |
-| Supervisor | AI moderation layer | 16 labels, reads meaning | No, 7 day trial | Contextual harm a rule cannot catch |
+| Supervisor | AI moderation plus security suite | 16 labels, reads meaning | Security suite free; AI 7 day trial | Contextual harm a rule cannot catch |
 
 There is a broader roundup of the [best Discord moderation bots](/blog/best-discord-moderation-bots-2026)
 if you want the whole category rather than Dyno-shaped replacements.
@@ -116,9 +116,12 @@ context for ambiguous messages, image and video moderation, and over 100 languag
 month, or about £4.99 on the three year cycle, billed per account so one subscription covers every
 server you run.
 
-It is also **not a Dyno replacement**. Supervisor has three slash commands, no modules, no
-counters at all, and its actions are Delete, Timeout and Warn, so it cannot ban, kick or mute.
-Everything Dyno does with thresholds, Supervisor simply does not do. It runs alongside.
+It is also **not a Dyno replacement**. Supervisor has no modules and no per-rule counters, and
+its automatic AI actions are Delete, Timeout and Warn. It does now have a free
+[security suite](/blog/supervisor-security-suite) with `/ban`, `/kick`, `/timeout`, warn
+thresholds, numbered cases and a Heat spam filter that weighs repeats, emojis, length, new lines
+and mentions, but Dyno's separate threshold filters have no one-to-one equivalent. It runs
+alongside.
 
 **Best for:** running next to a rule engine, when contextual harm is what you are missing.
 

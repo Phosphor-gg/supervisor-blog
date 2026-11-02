@@ -45,9 +45,14 @@ for a busy one and has to be re-tuned as you grow. Classification does not have 
 and 16 labels cover the harassment, threats and scams that arrive more often, not less, as a server
 gets bigger.
 
-Honest limits at scale: it cannot ban or kick, has no raid protection, and the allowance is a real
-ceiling if a network's combined traffic is large enough. Three slash commands, no utility features,
-£13.99 a month with no free tier for new accounts.
+It now also has a free [security suite](/blog/supervisor-security-suite), using no credits:
+anti-nuke, a join gate, Heat spam filtering, lockdown, quarantine, verification, and `/ban`,
+`/kick` and other moderation commands with numbered cases. Panic mode, join raid detection and
+backups are included in Premium.
+
+Honest limits at scale: the AI allowance is a real ceiling if a network's combined traffic is
+large enough, there are no utility features, and the AI moderation is £13.99 a month with no free
+tier for new accounts. The security suite is new, where Wick's has years behind it.
 
 **Best for:** the moderation layer on any server or network big enough that filters are being
 outrun.
@@ -69,7 +74,8 @@ ordinary chatter never accumulates enough while sustained abuse does.
 VIP at $20 a month advertises 12 premium servers, about **$1.67 per server per month** if you use
 them all, which is the cheaper shape for a network than its own $5 tier.
 
-**Best for:** protecting the structure of a large server, which nothing else in this list does.
+**Best for:** protecting the structure of a large server, with the longest track record in this
+list. Supervisor's newer security suite covers much of the same ground.
 
 ## 3. Dyno and Carl-bot, for the countable work
 
@@ -144,9 +150,11 @@ We have no customer reviews, ratings or user counts to show you, because we have
 ## The stack for a large server
 
 1. **Discord AutoMod**, free, for the words you never want posted and block-before-posting.
-2. **Wick**, for anti-nuke and raid defence once your staff list is worth attacking.
-3. **Dyno or Carl-bot**, for countable rules and the enforcement ladder, since Supervisor has
-   neither.
+2. **Wick or Supervisor's security suite**, for anti-nuke and raid defence once your staff list is
+   worth attacking. Wick adds appeals, member reports and a 35-event logger that Supervisor does
+   not have.
+3. **Dyno or Carl-bot**, for per-rule counters and their richer punishment options, which
+   Supervisor does not replicate.
 4. **Supervisor**, for the meaning no counter reads, across every server on one subscription.
 
 There is a wider [roundup of moderation bots](/blog/best-discord-moderation-bots-2026), a

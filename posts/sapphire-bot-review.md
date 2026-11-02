@@ -107,11 +107,15 @@ Since both products do AI moderation, the differences are specific rather than c
 
 Where Supervisor does not fill the gap, and this list is long:
 
-- **Supervisor is not free.** £13.99 a month, or about £4.99 on the three year cycle, with a seven
-  day trial and £0.10 of moderation on signup. Sapphire's equivalent costs nothing.
-- **Supervisor cannot ban, kick or mute.** Delete, Timeout and Warn are the whole list.
+- **Supervisor's AI moderation is not free.** £13.99 a month, or about £4.99 on the three year
+  cycle, with a seven day trial and £0.10 of moderation on signup. Sapphire's equivalent costs
+  nothing.
+- **Supervisor's automatic AI actions are Delete, Timeout and Warn.** Bans and kicks are moderator
+  commands and warn thresholds in its free [security suite](/blog/supervisor-security-suite).
 - **Supervisor cannot attach actions to Discord's AutoMod**, which is Sapphire's best trick.
-- **Supervisor has no Join Guard**, no account age filtering and no raid protection.
+- **Supervisor's join gate is newer and different.** It now has free account age, avatar, bot,
+  invite and username filters, and join raid detection in Premium, but not Sapphire's AND logic
+  or guild tag filter.
 - **Supervisor has no role actions**, no reaction roles, no logging suite and no social
   notifications.
 - **Supervisor's word filter is not regex.** Whole-word matching with a `*` wildcard, and no word

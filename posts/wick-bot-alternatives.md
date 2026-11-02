@@ -1,15 +1,20 @@
 ---
 title: "Wick bot alternatives: the honest options for server security"
 date: 2026-08-29
-description: "Wick is a security bot rather than a moderation bot, which makes its alternatives a shorter and stranger list than most. Here is what actually replaces it, and what only sits beside it."
+description: "Wick is a security bot rather than a moderation bot, which makes its alternatives a shorter list than most. Here is what actually replaces it, including Supervisor's new security suite, and what only sits beside it."
 ---
 
 # Wick bot alternatives: the honest options for server security
 
-**Bottom line:** nothing on this list replaces Wick's anti-nuke, and we would rather say that than
-pad the list. **Sapphire's Join Guard** is the closest free equivalent for the entry gate. If your
-members are legitimate and the problem is what they post, that is a different tool entirely, and
-**Supervisor** is the layer for it.
+*Updated 2 November 2026: Supervisor now has anti-nuke and a full
+[security suite](/blog/supervisor-security-suite), so it has moved from "sits beside Wick" to
+"covers most of Wick". The rest of this list is unchanged.*
+
+**Bottom line:** **Supervisor** is now the closest alternative to Wick: anti-nuke, join gate,
+Heat, lockdown, quarantine, verification and case-tracked moderation free, with panic mode, raid
+detection and backups in Premium, plus AI moderation of what members post. It does not have
+Wick's appeals site, member reports, event logger, AutoMod panel or rescue key. **Sapphire's Join
+Guard** is a good free option for the entry gate alone.
 
 Wick is not a general purpose bot with a security module. It is a security bot: anti-nuke, panic
 mode, backups and restore, quarantine, verification, and a spam system built on decaying heat
@@ -46,12 +51,11 @@ floods. Silent on a single calmly written harmful message.
 | Carl-bot | Reaction roles and moderation | No | Yes, includes automod | Flexible punishments |
 | MEE6 | All-in-one | No | Yes, includes automod | Engagement plus enforcement |
 | Discord AutoMod | Built into Discord | No, but has raid detection | Free, native | Blocking words before they post |
-| Supervisor | AI moderation layer | No | No, 7 day trial | What members are actually saying |
+| Supervisor | Security suite plus AI moderation | Yes, free; panic mode in Premium | Security suite free; AI moderation paid | Security and what members are actually saying |
 
-The important column is the third one. **Nothing else in this table does anti-nuke**, which is the
-feature Wick's own documentation calls "the critical feature that differentiates Wick from all
-other Discord Bots". If that is why you run Wick, this list does not contain a replacement, and we
-would rather tell you that than pretend otherwise.
+The important column is the third one. Anti-nuke is the feature Wick's own documentation calls
+"the critical feature that differentiates Wick from all other Discord Bots". Apart from
+Supervisor, nothing else in this table does it.
 
 ## Partial alternatives to Wick
 
@@ -91,10 +95,10 @@ on warning counts inside a time window.
 
 **Best for:** the general purpose bot you were probably going to run next to Wick anyway.
 
-## What has no alternative here
+## What only Wick and Supervisor offer
 
-Being direct, because a list of alternatives that omits this would be misleading. Wick's
-documentation describes several things nothing else in this comparison offers:
+Wick's documentation describes several things that, other than Supervisor's new security suite,
+nothing else in this comparison offers:
 
 - **Anti-nuke monitoring** of channel and role creation and deletion, bans and kicks, and webhook
   creation and deletion, aimed at rogue admins rather than ordinary members.
@@ -106,29 +110,47 @@ documentation describes several things nothing else in this comparison offers:
 - **Quarantine as an escalating trap**, where bypass attempts, adding dangerous permissions to any
   role, and vanity URL changes all trigger quarantine themselves.
 
-If any of those is why Wick is in your server, keep it.
+Supervisor now has anti-nuke with per-minute and per-hour limits on the same actions, panic mode
+(Premium), backups with load and restore (Premium), and quarantine with a quarantine hold, vanity
+URL protection and dangerous permission monitoring. Two differences to know: Supervisor's vanity
+URL protection punishes the change but cannot set the old URL back, and it has no Imaging. Wick
+also has a long track record that Supervisor's suite, released in November 2026, does not yet
+have.
 
-## If the problem is what members are saying
+## Supervisor
 
-Wick's Heat system is a rate and behaviour model. It measures how much and how fast, and it does
-not ask what a message says, so a single well-written threat or scam generates almost no heat.
+**Supervisor** is what we make, so weigh this accordingly.
 
-**Supervisor** is what we make, so weigh this accordingly. It reads what a message means: 16
-labels including harassment, threats, scams and self-harm, conversation context for ambiguous
-messages, image and video moderation, and over 100 languages. £13.99 a month, or about £4.99 on
-the three year cycle, billed per account so one subscription covers every server you run.
+**Security, free for every server and using no credits:** anti-nuke with configurable per-minute
+and per-hour limits and punishments, quarantine hold, vanity URL protection, public role and
+channel permission monitoring, a bot addition filter, a join gate, Heat spam filtering with a
+public phishing and malware domain list, auto lockdown, `/lock`, quarantine, verification by web,
+captcha or button, and moderation commands (`/ban`, `/kick`, `/timeout`, `/warn`, `/purge`,
+`/note` and more) with numbered cases and warn thresholds.
 
-It is emphatically **not a Wick replacement**. No anti-nuke, no anti-raid, no panic mode, no
-backups, no restore, no quarantine, no verification, no captcha. Its actions are Delete, Timeout
-and Warn, so it cannot ban or kick. Of every bot in this series, Wick is the one Supervisor
-overlaps with least.
+**Advanced Security, included in Supervisor Premium:** panic mode, strict mode, prune detection,
+join raid detection, heat tuning and heat panic mode, role and full lockdown, automatic backups
+and captcha customisation. There is no separate security plan.
 
-**Best for:** running alongside Wick, which is the setup we would actually recommend. Wick guards
-the door, an AI layer reads the room.
+**AI moderation, the paid part:** Wick's Heat system, and Supervisor's own, measure how much and
+how fast, so a single well-written threat or scam generates almost no heat. Supervisor's AI reads
+what a message means: 16 labels including harassment, threats, scams and self-harm, conversation
+context for ambiguous messages, image and video moderation, and over 100 languages. £13.99 a
+month, or about £4.99 on the three year cycle, billed per account so one subscription covers
+every server you run.
+
+What it does not have: an appeals site, member reports, a 35-event logger with message edit and
+delete logs, a Discord AutoMod panel, a rescue key, custom permit levels, or Wick's ID-pattern and
+string-flag join raid algorithms.
+
+**Best for:** servers that want security and content moderation from one bot. If you rely on
+Wick's appeals, reports or logging, running Wick alongside Supervisor's AI moderation also works.
 
 ## Do you actually need to replace Wick?
 
-If you use it for anti-nuke, no, and nothing here replaces it.
+If you use it for anti-nuke, Supervisor now covers that free, with panic mode and restore in
+Premium. If you use its appeals, reports, event logging or rescue key, nothing here replaces
+those.
 
 If you adopted it for spam and raids and have since found the setup burden heavy, Sapphire's Join
 Guard plus Discord AutoMod plus a general purpose bot covers a reasonable amount of that ground for

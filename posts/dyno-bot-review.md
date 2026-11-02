@@ -137,16 +137,18 @@ what a message means, which addresses the specific ceilings above:
 
 Where it does not fill the gap, plainly:
 
-- **Supervisor cannot ban or mute.** Its actions are Delete, Timeout and Warn. Dyno's
-  enforcement ladder, with Auto Ban and Instant Ban on a violation count, has no equivalent.
-- **Supervisor has no counters.** Newlines, character count, sticker spam, zalgo, all caps
-  percentage and duplicate text are not things it measures. For those, a rule engine is the
-  right tool.
-- **Supervisor has no dedicated phishing link detection.** Its link filter covers Discord
-  invites, media, Nitro gift links and your own domain allow and block lists.
+- **Supervisor's automatic AI actions are Delete, Timeout and Warn.** Its free
+  [security suite](/blog/supervisor-security-suite) adds `/ban`, `/kick`, `/timeout` and warn
+  thresholds that can ban automatically, but there is no per-filter equivalent of Dyno's Auto Ban
+  and Instant Ban.
+- **Supervisor has no per-rule counters.** Its Heat spam filter weighs repeats, emojis, length,
+  new lines, mentions and stickers together, but zalgo and all caps percentage are not things it
+  measures. For those, a rule engine is the right tool.
+- **Supervisor's phishing link detection is a public list, not a dedicated filter.** Heat adds
+  heat for links on the Discord-AntiScam phishing and malware domain list.
 - **Supervisor has no modules.** No levels, tickets, custom commands, autoroles, giveaways or
-  social feeds. Three slash commands, and everything else on the web dashboard.
-- **Supervisor is paid**, at £13.99 a month or about £4.99 a month on the three year cycle, with
+  social feeds.
+- **Supervisor's AI moderation is paid**, at £13.99 a month or about £4.99 a month on the three year cycle, with
   a seven day trial and £0.10 of moderation free on signup.
 
 There is a [full comparison of the two approaches](/blog/supervisor-vs-dyno-moderation) if you

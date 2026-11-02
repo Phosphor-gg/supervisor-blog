@@ -107,15 +107,18 @@ Supervisor reads what a message means rather than matching strings and counting 
 
 Where it does not fill the gap, plainly:
 
-- **Supervisor cannot ban, kick, mute or tempban.** Its actions are Delete, Timeout and Warn.
-  Carl-bot's punishment set is far richer, and there is no Supervisor equivalent of combining
-  several punishments in one rule.
+- **Supervisor's automatic AI actions are Delete, Timeout and Warn.** Moderators now have `/ban`
+  (including timed bans), `/kick` and `/timeout`, and warn thresholds can escalate automatically,
+  but Carl-bot's punishment set is still richer, and there is no Supervisor equivalent of
+  combining several punishments in one rule.
 - **Supervisor has nothing like defer.** There is no moderator voting queue.
-- **Supervisor has no honeypot**, no persistent warn threshold system, and no rate limits.
-- **Supervisor has no reaction roles, embeds, feeds, starboard, tags or triggers.** Three slash
-  commands, and everything else on the dashboard.
-- **Supervisor is paid**, at £13.99 a month or about £4.99 a month on the three year cycle, with
-  a seven day trial and £0.10 of moderation free on signup.
+- **Supervisor has no honeypot.** It now has warn thresholds and a Heat spam filter that covers
+  message rate, repeats, mentions and attachments, as part of a free
+  [security suite](/blog/supervisor-security-suite).
+- **Supervisor has no reaction roles, embeds, feeds, starboard, tags or triggers.**
+- **Supervisor's AI moderation is paid**, at £13.99 a month or about £4.99 a month on the three
+  year cycle, with a seven day trial and £0.10 of moderation free on signup. The security suite is
+  free.
 
 There is a [full comparison of the two approaches](/blog/supervisor-vs-carl-bot-moderation) if you
 want the mechanism side in depth.

@@ -30,11 +30,11 @@ that choice first, then covers a third option that does a different job to eithe
 | --- | --- | --- | --- |
 | Best known for | Levels and engagement | Reaction roles | AI moderation |
 | Automod modules | 8 checks | 8 modules | 16 AI labels |
-| Punishments | Ban, tempban, kick, mute, warn | 11, combinable, plus `defer` | 3 |
+| Punishments | Ban, tempban, kick, mute, warn | 11, combinable, plus `defer` | 3 automatic AI actions, plus ban, kick and quarantine commands and warn thresholds |
 | Moderator voting queue | No | Yes, `defer` | No |
 | Reads meaning | No | No | Yes |
 | Images and video | Not documented | Rate limits only | Yes, reads content |
-| Free tier includes automod | Yes | Yes | No, 7 day trial |
+| Free tier includes automod | Yes | Yes | Security suite free; AI 7 day trial |
 | Billing unit | Per server | Per server slot | Per account |
 | Entry price | £11.99 / month | £6.50 / month via Patreon | £13.99 / month |
 | Lifetime option | Yes, £89.99 | No | No |
@@ -143,12 +143,14 @@ month, or about £4.99 on the three year cycle, so one subscription covers every
 
 What it does not do:
 
-- **No bans, kicks or mutes.** Delete, Timeout and Warn only, which is weaker than either bot here.
-- **Nothing like `defer` and nothing like MEE6's warning ladder.**
-- **No audit log**, only an alerts channel, so MEE6's record keeping has no equivalent.
+- **A narrower automatic response set.** The AI's actions are Delete, Timeout and Warn. Its free
+  [security suite](/blog/supervisor-security-suite) adds `/ban`, `/kick`, quarantine and a single
+  warn threshold, but nothing as flexible as Carl-bot's combinable punishments.
+- **Nothing like `defer` and no multi-step ladder like MEE6's.**
+- **No general audit log.** It logs its own security and moderation actions as numbered cases,
+  but has no message edit or delete logs, so MEE6's record keeping has no full equivalent.
 - **No levels, economy, giveaways, social alerts, reaction roles, embeds, tags or starboard.**
-  Three slash commands.
-- **No free tier for new accounts**, and no lifetime option.
+- **No free tier of AI moderation for new accounts**, and no lifetime option.
 
 The pairings in depth: [Supervisor vs MEE6](/blog/supervisor-vs-mee6-moderation) and
 [Supervisor vs Carl-bot](/blog/supervisor-vs-carl-bot-moderation).
@@ -190,9 +192,10 @@ per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
 
 **Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
 most complete tool in this series: 16 labels where nothing else classifies more than four, over
-100 languages, conversation context, and the only one that reads images and video. It is also the
-narrowest, with no bans, no raid protection and no utility features, which is why every post here
-recommends running it alongside another bot rather than instead of one.
+100 languages, conversation context, and the only one that reads images and video. It now also
+has a free security suite with anti-nuke, raid protection, bans and case tracking, but it has no
+utility features such as levels, tickets or reaction roles, which is why most posts here recommend
+running it alongside a general purpose bot rather than instead of one.
 
 We have no customer reviews, ratings or testimonials to show you, because we have not collected
 any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on

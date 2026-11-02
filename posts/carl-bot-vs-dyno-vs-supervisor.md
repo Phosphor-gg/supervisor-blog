@@ -29,13 +29,13 @@ from both bots' own documentation, then covers a third option that does a differ
 | | Carl-bot | Dyno | Supervisor |
 | --- | --- | --- | --- |
 | Automod modules | 8 | 19 | 16 AI labels |
-| Punishments | 11, combinable | 6 | 3 |
+| Punishments | 11, combinable | 6 | 3 automatic AI actions, plus ban, kick and quarantine commands and warn thresholds |
 | Moderator voting queue | Yes, `defer` | No | No |
 | Reads meaning | No | No | Yes |
 | Conversation context | No | No | Yes |
 | Images and video | Rate limits only | Image spam counts | Yes, reads content |
-| Can ban or kick | Yes | Yes | No |
-| Free tier includes automod | Yes | Yes | No, 7 day trial |
+| Can ban or kick | Yes | Yes | Yes |
+| Free tier includes automod | Yes | Yes | Security suite and Heat free; AI moderation 7 day trial |
 | Billing unit | Per server slot | Per server | Per account |
 | Entry price | £6.50 / month via Patreon | $5.99 / month | £13.99 / month |
 
@@ -144,12 +144,15 @@ so one subscription covers every server.
 
 What it does not do:
 
-- **No bans, kicks or mutes.** Delete, Timeout and Warn only, which is a much weaker response set
-  than either bot here. Carl-bot's eleven combinable punishments are in a different league.
+- **A narrower automatic response set.** The AI's actions are Delete, Timeout and Warn. Its free
+  [security suite](/blog/supervisor-security-suite) adds `/ban`, `/kick`, quarantine and warn
+  thresholds, but Carl-bot's eleven combinable punishments are still more flexible.
 - **Nothing like `defer`.** No moderator voting queue.
-- **No counters, no honeypot, no rate limits.**
-- **No reaction roles, embeds, tags, triggers or starboard.** Three slash commands.
-- **No free tier for new accounts**, just a seven day trial and £0.10 of moderation on signup.
+- **No per-rule counters and no honeypot.** Its Heat spam filter weighs repeats, emojis, length,
+  new lines, mentions and attachments together, rather than as separate rules.
+- **No reaction roles, embeds, tags, triggers or starboard.**
+- **No free tier for AI moderation for new accounts**, just a seven day trial and £0.10 of
+  moderation on signup. The security suite is free.
 
 The pairings in depth: [Supervisor vs Carl-bot](/blog/supervisor-vs-carl-bot-moderation) and
 [Supervisor vs Dyno](/blog/supervisor-vs-dyno-moderation).
@@ -192,9 +195,10 @@ per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
 
 **Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
 most complete tool in this series: 16 labels where nothing else classifies more than four, over
-100 languages, conversation context, and the only one that reads images and video. It is also the
-narrowest, with no bans, no raid protection and no utility features, which is why every post here
-recommends running it alongside another bot rather than instead of one.
+100 languages, conversation context, and the only one that reads images and video. It now also
+has a free security suite with anti-nuke, raid protection, bans and case tracking, but it has no
+utility features such as levels, tickets or reaction roles, which is why most posts here recommend
+running it alongside a general purpose bot rather than instead of one.
 
 We have no customer reviews, ratings or testimonials to show you, because we have not collected
 any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on

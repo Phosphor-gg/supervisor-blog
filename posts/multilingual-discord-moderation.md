@@ -39,9 +39,10 @@ It also weighs conversation context when a message is ambiguous alone, and reads
 rather than only text, both of which matter more in a multilingual server where the same content
 arrives in more forms.
 
-The honest limits, because they apply here too: three slash commands, no bans or kicks, no raid
-protection, no utility features, and £13.99 a month with no free tier for new accounts, just a
-seven day trial and £0.10 of moderation on signup.
+The honest limits, because they apply here too: no utility features, and the AI moderation is
+£13.99 a month with no free tier for new accounts, just a seven day trial and £0.10 of moderation
+on signup. Bans, kicks and raid protection are in its free
+[security suite](/blog/supervisor-security-suite), which does not use the AI.
 
 **Best for:** any server where your members do not all speak the same language.
 
@@ -121,8 +122,8 @@ Carl-bot's, MEE6's and Wick's automod documentation for their list-based mechani
 We make Supervisor and we have ranked it first, so the reasoning should be checkable rather than
 asserted. The axis of this list is language coverage, Supervisor is the only entry that applies
 classification beyond two languages without you writing lists, and every other entry's coverage is
-quoted from its own docs above. On a different axis it would not lead: it cannot ban or kick, has
-no raid protection and no utility features, and it costs money where two entries here are free.
+quoted from its own docs above. On a different axis it would not lead: it has no utility features, and its AI
+moderation costs money where two entries here are free.
 
 On our own side, the figures come from our evaluation set rather than marketing. Supervisor's
 models are retrained on real moderation feedback, the thumbs up and thumbs down votes people leave
@@ -138,8 +139,8 @@ We have no customer reviews or ratings to show you, because we have not collecte
 1. **Discord AutoMod**, always, for the English presets and any keywords you are willing to
    maintain, plus the block-before-posting nothing else has.
 2. **Supervisor**, for classification that does not care which language a message is in.
-3. **A rule engine or utility bot** alongside, since Supervisor does not ban, kick or do anything
-   beyond moderation.
+3. **A rule engine or utility bot** alongside, since Supervisor does nothing beyond moderation and
+   security.
 
 There is a wider [roundup of moderation bots](/blog/best-discord-moderation-bots-2026), an audit of
 [which bots actually use AI moderation](/blog/discord-bots-with-ai-moderation), and a

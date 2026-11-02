@@ -54,10 +54,13 @@ conversation history when a message is ambiguous alone, has implicit moderation 
 implied rather than stated, reads images and video rather than counting them, and works in over
 100 languages. There is no per-minute scan cap; the constraint is a monthly allowance.
 
-It is also the narrowest product in this list. Three slash commands, no bans or kicks, no raid
-protection, no utility features, and £13.99 a month with no free tier for new accounts.
+It now also has a free [security suite](/blog/supervisor-security-suite) that uses no credits:
+anti-nuke, a join gate, Heat spam filtering, lockdown, quarantine, verification, and `/ban`,
+`/kick` and other moderation commands with numbered cases. It has no utility features such as
+levels or reaction roles, and the AI moderation is £13.99 a month with no free tier for new
+accounts.
 
-**Verdict:** real AI, widest coverage, paid, narrow product.
+**Verdict:** real AI, widest coverage, paid AI with a free security suite, no utility features.
 
 ## Partial machine learning
 

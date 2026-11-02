@@ -47,7 +47,7 @@ broad free bot.
 | MEE6 | All-in-one | 8 rule checks, full ban ladder | Yes, includes automod | Engagement features |
 | Wick | Security | Heat system, anti-nuke | Yes | Raids, nukes, rogue admins |
 | Discord AutoMod | Built into Discord | 3 preset categories, 6 keyword rules | Free, native | Blocking words before they post |
-| Supervisor | AI moderation layer | 16 labels, reads meaning | No, 7 day trial | AI coverage without a scan cap |
+| Supervisor | AI moderation plus security suite | 16 labels, reads meaning | Security suite free; AI 7 day trial | AI coverage without a scan cap |
 
 There is a broader roundup of the [best Discord moderation bots](/blog/best-discord-moderation-bots-2026)
 if you want the whole category.
@@ -119,10 +119,12 @@ conversation context for ambiguous messages, and moderates images and video. It 
 or about £4.99 on the three year cycle, billed per account so one subscription covers every server
 you run.
 
-It is **not a Sapphire replacement**. Supervisor has three slash commands and none of Sapphire's
-breadth: no reaction roles, no join roles, no logging suite, no social notifications, no Join
-Guard. Its actions are Delete, Timeout and Warn, so unlike Sapphire it cannot ban, kick, mute or
-assign roles, and it cannot attach actions to Discord's native AutoMod the way Sapphire does.
+It is **not a Sapphire replacement**. It has none of Sapphire's breadth: no reaction roles, no
+join roles, no logging suite, no social notifications. It does now have a free
+[security suite](/blog/supervisor-security-suite) with a join gate, `/ban`, `/kick` and other
+moderation commands, but its automatic AI actions are Delete, Timeout and Warn, it cannot assign
+roles as a rule action, and it cannot attach actions to Discord's native AutoMod the way Sapphire
+does.
 
 **Best for:** running alongside Sapphire, keeping its breadth and adding AI coverage without the
 throughput ceiling.

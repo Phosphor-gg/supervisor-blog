@@ -1,49 +1,53 @@
 ---
-title: "Wick vs Discord AutoMod vs Supervisor: three layers, not three choices"
+title: "Wick vs Discord AutoMod vs Supervisor: three layers compared"
 date: 2026-08-29
-description: "These three protect against different things: the perimeter, the words, and the meaning. Here is what each one actually covers, and why the answer is usually all three rather than one."
+description: "The perimeter, the words, and the meaning. Here is what Wick, Discord AutoMod and Supervisor each cover now that Supervisor has its own security suite, and which combination makes sense."
 ---
 
-# Wick vs Discord AutoMod vs Supervisor: three layers, not three choices
+# Wick vs Discord AutoMod vs Supervisor: three layers compared
 
-**Bottom line:** these are three layers rather than three choices. AutoMod is free and is the
-only one that blocks a message before it posts, Wick defends the structure of the server against
-nukes and raids, and Supervisor reads what legitimate members are saying. A large public server
-should run all three.
+*Updated 2 November 2026: Supervisor now includes anti-nuke, anti-raid and the rest of a
+[security suite](/blog/supervisor-security-suite), so the Supervisor parts of this post have been
+rewritten.*
 
-Most comparison posts end with a recommendation. This one ends with three, because these tools do
-not overlap enough to compete. Wick protects the structure of your server, Discord AutoMod blocks
-words before they post, and Supervisor reads what messages mean.
+**Bottom line:** AutoMod is free and is the only one that blocks a message before it posts, so
+keep it on. Wick defends the structure of the server against nukes and raids. Supervisor now does
+most of that too, free, with panic mode, raid detection and backups in Premium, and it is the only
+one of the three that reads what legitimate members are saying. For most servers AutoMod plus
+Supervisor covers all three layers. Wick still adds an appeals site, member reports, a 35-event
+logger, an AutoMod panel and a rescue key.
 
-You can run all three at once, and for a large public server that is the correct answer rather
-than a hedge. What follows is what each one actually covers, so you can tell which layers you are
-missing.
+When this post was first written the three tools barely overlapped: Wick protected the structure,
+AutoMod blocked words, and Supervisor read meaning. Supervisor's security suite changed that. What
+follows is what each one covers now, so you can tell which layers you are missing.
 
 ## The short answer
 
 - **You already have AutoMod.** It is free, native, and the only one of the three that blocks a
   message before it is posted. Turn it on regardless of what else you run.
-- **Add Wick** if your risk is structural: raids, nukes, rogue or compromised admins, alt-account
-  floods.
-- **Add Supervisor** if your risk is what legitimate members are saying to each other.
+- **Add Supervisor** for structural risk (raids, nukes, rogue or compromised admins, alt-account
+  floods) and for what legitimate members are saying to each other.
+- **Add Wick** if you want its appeals site, member reports, event logging or rescue key, or a
+  security bot with a long track record.
 
 ## At a glance
 
 | | Discord AutoMod | Wick | Supervisor |
 | --- | --- | --- | --- |
-| Protects against | Listed words and spam | Structural attacks | Harmful meaning |
+| Protects against | Listed words and spam | Structural attacks and spam | Structural attacks, spam and harmful meaning |
 | Blocks before posting | **Yes** | No | No |
-| Anti-nuke | No | **Yes** | No |
-| Raid protection | Mention raid detection | **Yes, panic mode** | No |
-| Verification gate | No | **Yes** | No |
-| Server backup and restore | No | **Yes** | No |
+| Anti-nuke | No | **Yes** | Yes, free |
+| Raid protection | Mention raid detection | **Yes, panic mode** | Auto lockdown free; join raid detection and panic mode in Premium |
+| Verification gate | No | **Yes** | Yes, free |
+| Server backup and restore | No | **Yes** | Yes, Premium |
 | Reads what a message means | No | No | **Yes** |
 | Conversation context | No | No | **Yes** |
 | Images and video | Not documented | Attachment heat only | **Yes** |
 | Harm categories | 3 presets | None | **16 labels** |
 | Languages | Lists English only | Blacklists you write | **100+** |
-| Can ban or kick | Blocks interactions | **Yes** | No |
-| Cost | Free | $5 / month Premium | £13.99 / month |
+| Can ban or kick | Blocks interactions | **Yes** | Yes |
+| Appeals, member reports, event logger | No | **Yes** | No |
+| Cost | Free | Free, or $5 / month Premium | Security free; AI and Advanced Security £13.99 / month |
 
 ## Layer one: Discord AutoMod
 
@@ -106,11 +110,18 @@ is implied rather than stated, moderates images and video by reading content, an
 100 languages without a word list per language. £13.99 a month, or about £4.99 on the three year
 cycle, billed per account so one subscription covers every server.
 
-**Its limits against the other two are substantial.** It deletes after a message posts rather than
-blocking before, so it does not replace AutoMod. It has no anti-nuke, no anti-raid, no panic mode,
-no backups, no restore, no quarantine and no verification, so it does not replace Wick. Its
-actions are Delete, Timeout and Warn, so it cannot ban or kick, where AutoMod can block a member's
-interactions entirely and Wick can ban.
+Since 2 November 2026 it also has a security suite that uses no credits. Free for every server:
+anti-nuke with per-minute and per-hour limits, quarantine hold, vanity URL protection and
+dangerous permission monitoring; a join gate; Heat spam filtering; auto lockdown and `/lock`;
+quarantine; verification by web, captcha or button; and `/ban`, `/kick`, `/timeout`, `/warn` and
+other commands with numbered cases. Panic mode, join raid detection, backups and heat tuning are
+in Advanced Security, included in Premium.
+
+**Its limits against the other two.** It deletes after a message posts rather than blocking
+before, so it does not replace AutoMod. Against Wick, it has no appeals site, no member reports,
+no 35-event logger or message edit and delete logs, no AutoMod panel and no rescue key, its vanity
+URL protection cannot set the old URL back, and its security suite is new where Wick's has years
+behind it.
 
 ## Where the layers do not overlap
 
@@ -120,9 +131,11 @@ The useful way to see this is by asking what each one misses that another catche
 heat. Supervisor would catch it but only after posting. **AutoMod wins.**
 
 **A raid of fifty accounts created yesterday.** AutoMod has mention raid detection. Wick has panic
-mode, verification and account age filtering. Supervisor has nothing. **Wick wins.**
+mode, verification and account age filtering. Supervisor has a join gate with account age
+filtering and verification free, and join raid detection in Premium. **Wick and Supervisor both
+cover it.**
 
-**An admin deleting every channel.** Only Wick sees it at all.
+**An admin deleting every channel.** Wick and Supervisor's anti-nuke both see it. AutoMod does not.
 
 **A calmly written threat to one member, correctly spelled, no listed words.** AutoMod matches no
 keyword and has no threat category. Wick's heat barely moves. **Supervisor is the only one that
@@ -143,18 +156,18 @@ wrote. Supervisor works across over 100 languages. **Supervisor wins.**
 message appearing at all.
 
 **Large public servers, or any server where a moderator account being compromised would be a
-disaster:** add Wick. Nothing else in this comparison protects the structure of the server, and no
-amount of content moderation helps once someone starts deleting channels.
+disaster:** you need anti-nuke. Supervisor's is free; Wick's is too, with a longer track record
+and extras such as appeals and a rescue key. No amount of content moderation helps once someone
+starts deleting channels.
 
 **Servers where the members are legitimate and the problem is what they post:** add an AI layer.
-That is the gap neither of the other two is designed to fill, and it is the one that produces the
+That is the gap neither AutoMod nor Wick is designed to fill, and it is the one that produces the
 harassment reports your moderators are actually handling.
 
-**Budget order if you cannot do all three:** AutoMod first because it is free. Then whichever of
-your two remaining risks is real, which is a question about your server rather than about the
-tools. If you have never been raided but your mod team spends its time on harassment reports, the
-content layer matters more. If you run a large server with many staff roles, the security layer
-does.
+**Budget order:** AutoMod first because it is free. Supervisor's security suite is also free, so
+the base security layer costs nothing either way. The paid decision is whether you need AI
+content moderation (Supervisor Premium, which also unlocks Advanced Security) or Wick's advanced
+security tier.
 
 The detail on each pairing is in
 [Supervisor vs Discord AutoMod](/blog/supervisor-vs-discord-automod) and
@@ -182,9 +195,10 @@ per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
 
 **Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
 most complete tool in this series: 16 labels where nothing else classifies more than four, over
-100 languages, conversation context, and the only one that reads images and video. It is also the
-narrowest, with no bans, no raid protection and no utility features, which is why every post here
-recommends running it alongside another bot rather than instead of one.
+100 languages, conversation context, and the only one that reads images and video. It now also
+has a free security suite with anti-nuke, raid protection, bans and case tracking, but it has no
+utility features such as levels, tickets or reaction roles, which is why most posts here recommend
+running it alongside a general purpose bot rather than instead of one.
 
 We have no customer reviews, ratings or testimonials to show you, because we have not collected
 any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on

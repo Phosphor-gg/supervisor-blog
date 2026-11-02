@@ -108,7 +108,7 @@ For most servers the answer is a combination, not a single winner:
 
 - Turn on **Discord AutoMod** as your free baseline.
 - Add a utility bot like **Carl-bot**, **MEE6**, or **Dyno** for reaction roles, leveling, logging, and rule-based automod.
-- If raids or nukes are a real threat, add **Wick** for security.
+- If raids or nukes are a real threat, you need anti-nuke and raid protection: **Wick** is the long-established option, and Supervisor now includes a free [security suite](/blog/supervisor-security-suite) with anti-nuke, a join gate, lockdown, quarantine and verification.
 - When keyword automod keeps missing the harassment, scams, hate, threats, and harmful images that actually hurt your community, add **Supervisor** as the AI layer that reads intent.
 
 Rule-based bots and AI moderation solve different problems, and they run side by side. If you want to see where the line is, paste a message that gets past a keyword filter into the [Supervisor demo](https://supervisor.gg/demo) and watch it get caught, or [add Supervisor to your server](https://invite.supervisor.gg).

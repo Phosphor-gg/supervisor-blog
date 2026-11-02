@@ -9,7 +9,7 @@ description: "MEE6 is the most widely used all-in-one Discord bot, with eight au
 **Bottom line:** MEE6 is the better all-in-one and it moderates for free, so if your problems
 are countable, stay on MEE6. Add Supervisor when messages are getting through that trip none of
 MEE6's eight checks: it classifies 16 labels including harassment, threats and scams, weighs
-conversation context, and reads images and video. MEE6 can ban and kick, Supervisor cannot.
+conversation context, and reads images and video. MEE6 has a fuller enforcement ladder.
 
 MEE6 is probably the most recognised bot on Discord, and for a lot of servers it was the first
 bot they ever added. It does levels, social alerts, giveaways, economy, custom bot
@@ -27,8 +27,8 @@ that they are not really the same kind of tool.
 | Conversation context | No | **Yes** |
 | Images and video | Not documented | **Yes** |
 | Languages | Word lists you write | **Over 100** |
-| Ban or kick | **Yes** | No |
-| Audit log | **~2 dozen event types** | Alerts channel only |
+| Ban or kick | Yes | Yes, by command or warn threshold |
+| Audit log | **~2 dozen event types** | Security and moderation logs, numbered cases |
 | Utility features | **Levels, economy, social alerts** | None |
 | Billing unit | Per server | **Per account** |
 | Entry price | Free, or £11.99 a month | £13.99 a month |
@@ -114,11 +114,13 @@ lose.
 
 This matters more than winning the comparison, because you will find out either way.
 
-- **MEE6 can ban and kick.** Supervisor's actions are Delete, Timeout and Warn. There is no ban,
-  no kick, and no equivalent of MEE6's warning-count escalation ladder.
-- **MEE6 has a real audit log.** Supervisor sends alerts to a channel. It is not a logging suite.
+- **MEE6 has a multi-step escalation ladder.** Supervisor's automatic AI actions are Delete,
+  Timeout and Warn. Its free [security suite](/blog/supervisor-security-suite) adds `/ban`, `/kick` and a single warn
+  threshold, but not MEE6's ladder of steps.
+- **MEE6 has a real audit log.** Supervisor logs its own security and moderation actions as
+  numbered cases. It has no message edit or delete logs and is not a logging suite.
 - **MEE6 does everything else too.** Levels, economy, giveaways, birthdays, social alerts, bot
-  personalisation. Supervisor has three slash commands and no utility features at all.
+  personalisation. Supervisor has no utility features at all.
 - **MEE6 sells a lifetime plan.** Supervisor is subscription only.
 - **MEE6 refunds for 7 days.** Supervisor offers a seven day trial instead, which is a different
   arrangement.
@@ -153,9 +155,10 @@ per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
 
 **Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
 most complete tool in this series: 16 labels where nothing else classifies more than four, over
-100 languages, conversation context, and the only one that reads images and video. It is also the
-narrowest, with no bans, no raid protection and no utility features, which is why every post here
-recommends running it alongside another bot rather than instead of one.
+100 languages, conversation context, and the only one that reads images and video. It now also
+has a free security suite with anti-nuke, raid protection, bans and case tracking, but it has no
+utility features such as levels, tickets or reaction roles, which is why most posts here recommend
+running it alongside a general purpose bot rather than instead of one.
 
 We have no customer reviews, ratings or testimonials to show you, because we have not collected
 any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on

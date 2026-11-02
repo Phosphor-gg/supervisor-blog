@@ -1,37 +1,46 @@
 ---
-title: "Supervisor vs Wick: server security versus content moderation"
+title: "Supervisor vs Wick: server security and content moderation compared"
 date: 2026-08-29
-description: "Wick is a Discord security bot: anti-nuke, anti-raid, quarantine and verification. Supervisor moderates message content. An honest comparison of two tools that solve different halves of the same problem."
+description: "Wick is a Discord security bot: anti-nuke, anti-raid, quarantine and verification. Supervisor now has a free security suite covering most of that, plus AI content moderation. An honest comparison, including what Wick still does that Supervisor does not."
 ---
 
-# Supervisor vs Wick: server security versus content moderation
+# Supervisor vs Wick: server security and content moderation compared
 
-**Bottom line:** these two barely overlap, so this is not really a choice. Wick guards the
-structure of your server with anti-nuke, raid defence, verification and restore, none of which
-Supervisor has. Supervisor reads what legitimate members are saying, which Wick's Heat system
-measures rate rather than meaning and does not. A server with both problems needs both tools.
+*Updated 2 November 2026: Supervisor now includes anti-nuke, anti-raid, verification, backups and
+the rest of a [security suite](/blog/supervisor-security-suite). This comparison has been
+rewritten to match. When it was first published, Supervisor had none of these.*
 
-Of all the comparisons we could write, this is the one where the honest answer is least of a
-contest. Wick is a security bot. Supervisor is a content moderation bot. They protect against
-different things, and a server with a serious problem in one area is not helped by the other.
-This is an honest comparison, and the short version is that they are not really the same kind of
-tool, more than in any other pairing we have looked at.
+**Bottom line:** Wick is a security bot, and it remains a very good one. Supervisor now covers
+most of Wick's security features free (anti-nuke, join gate, Heat spam filtering, lockdown,
+quarantine, verification and moderation commands with numbered cases), with the advanced tier
+(panic mode, join raid detection, backups, heat tuning) included in Supervisor Premium. On top of
+that, Supervisor reads what messages mean, which Wick's Heat system does not. For most servers
+one bot now covers both halves. Wick still has things Supervisor does not: an appeals site, member
+reports, a 35-event logger, a Discord AutoMod panel and a rescue key, plus a long track record.
+
+When we first wrote this comparison the answer was "run both", because the two tools barely
+overlapped. Wick was a security bot and Supervisor was a content moderation bot. That changed on
+2 November 2026, when Supervisor added a security suite. The overlap is now large, so this is an
+honest look at where the two still differ.
 
 ## Quick comparison
 
 | | Wick | Supervisor |
 | --- | --- | --- |
-| Protects against | Structural attacks | Harmful meaning |
-| Anti-nuke | **Yes, its core feature** | No |
-| Raid protection and panic mode | **Yes** | No |
-| Verification and quarantine | **Yes** | No |
-| Backups and restore | **Yes** | No |
-| Automod mechanism | Heat, a decaying rate score | 16 AI labels |
-| Reads what a message means | No | **Yes** |
+| Protects against | Structural attacks and spam | Structural attacks, spam and harmful meaning |
+| Anti-nuke | **Yes, its core feature** | Yes, free |
+| Panic mode | Yes | Yes, Premium |
+| Join raid detection | Yes | Yes, Premium |
+| Join gate filters | Yes | Yes, free |
+| Verification and quarantine | Yes | Yes, free |
+| Backups and restore | Yes | Yes, Premium |
+| Spam filter | Heat, a decaying rate score | Heat, a decaying rate score, free |
+| Ban, kick and case tracking | Yes | Yes, free |
+| Reads what a message means | No | **Yes, 16 AI labels** |
 | Conversation context | No | **Yes** |
-| Images and video | Attachment heat only | **Yes** |
-| Ban or kick | **Yes** | No |
-| Entry price | Free, or $5 a month | £13.99 a month |
+| Images and video | Attachment heat only | **Yes, reads content** |
+| Appeals, member reports, 35-event logger | **Yes** | No |
+| Entry price | Free, or $5 a month for Premium | Security free; AI moderation and Advanced Security in Premium at £13.99 a month |
 
 ## What Wick actually is
 
@@ -67,7 +76,8 @@ IP-grabbers and keyloggers, and what Wick calls hidden factors.
 This is genuinely impressive engineering, and the heat model is a better answer to spam than a
 fixed counter. Wick's docs note it "rarely generates false positives, unlike conventional
 methods", and the reasoning behind that claim, that heat decays so ordinary chatter never
-accumulates enough, is sound.
+accumulates enough, is sound. It is a good enough idea that Supervisor's own spam filter now
+works the same way.
 
 ## Where a security model stops
 
@@ -92,9 +102,36 @@ another person.
 **Nothing weighs conversation context.** Heat accumulates per user, not per conversation, so a
 message that is only harmful given what came before it reads the same as any other.
 
-## What Supervisor does differently
+## What Supervisor does now
 
-Supervisor moderates with purpose-built AI models that read what a message means:
+Supervisor has two parts.
+
+**A security suite, free for every server, using no credits.** It never calls the AI models, so
+it keeps working if a server runs out of credits or switches AI moderation off:
+
+- **Anti-nuke** watching the audit log, with per-minute and per-hour limits on channel and role
+  creation and deletion, bans, kicks and webhook creation and deletion. The punishment is yours to
+  choose: log only, timeout, kick, ban or quarantine. It also holds quarantine in place, protects
+  the vanity URL (it punishes the change, but cannot change the URL back itself), reverts
+  dangerous permissions added to public roles or to @everyone in a channel, and filters bots added
+  by anyone other than the owner and trusted users. Anti-nuke is off until you switch it on.
+- **A join gate** for account age, missing profile pictures, unverified bots, invite links in
+  names, a username word filter, and harmful usernames flagged by Supervisor's username model.
+- **Heat**, a decaying spam score built from repeats, emojis, length, new lines, mentions,
+  attachments, invites and links on the Discord-AntiScam phishing and malware list.
+- **Auto lockdown** on mention raids, plus `/lock` and `/unlock`.
+- **Quarantine** and **verification** by web, captcha image or button.
+- **Moderation commands**: `/ban`, `/kick`, `/timeout`, `/warn`, `/purge`, `/slowmode`,
+  `/sanitize`, `/note` and more, with every action recorded as a numbered case, plus warn
+  thresholds that act automatically.
+
+**Advanced Security, included in Supervisor Premium.** Panic mode (deleting what the attacker
+created in the last hour, locking the server and restoring from the latest backup), strict mode,
+prune detection, join raid detection, heat tuning and heat panic mode, role and full lockdown,
+automatic backups with `/backup`, and captcha customisation. There is no separate security plan.
+
+**AI content moderation**, the paid, credit-using part, with purpose-built models that read what
+a message means:
 
 - It catches leetspeak, homoglyphs, invisible characters and creative spelling, because it reads
   intent rather than exact strings.
@@ -109,33 +146,29 @@ You do not write or maintain any of it.
 
 ## What Wick does that Supervisor does not
 
-This list is longer than in any other comparison we have written, and it should be.
+The list is much shorter than it was, but it is real.
 
-- **Anti-nuke.** Supervisor has nothing remotely like it. No monitoring of role or channel
-  deletion, no rogue admin detection, no vanity URL protection.
-- **Anti-raid and panic mode.** Supervisor has no raid protection at all.
-- **Server backups and restore.** Supervisor cannot restore anything.
-- **Quarantine, verification and lockdown.** None of these exist in Supervisor.
-- **Ban and kick.** Supervisor's actions are Delete, Timeout and Warn only.
-- **Case tracking and notes.** Supervisor sends alerts to a channel and does not keep a case file.
-- **Malicious and phishing link detection as a maintained feature.** Supervisor's link filter
-  covers Discord invites, media, Nitro gifts and your own domain allow and block lists.
+- **An appeals site.** Wick gives banned members a way to appeal. Supervisor does not.
+- **Member reports.** Supervisor has no way for members to report messages.
+- **A 35-event logger.** Supervisor logs its own security and moderation actions, but has no
+  general Discord event logger and no message edit or delete logs.
+- **A Discord AutoMod panel.** Supervisor does not manage AutoMod rules.
+- **A rescue key**, custom permit levels, Imaging, and the ID-pattern and string-flag join raid
+  algorithms.
+- **Vanity URL restore.** Both punish a vanity URL change. Supervisor cannot set the old URL back.
+- **A long track record.** Wick has protected servers for years. Supervisor's security suite is
+  new as of November 2026.
 
-If your server's problem is that someone with permissions might destroy it, or that a raid might
-overwhelm it, Supervisor is not the answer and we would rather say so.
+## Wick guards the door. Supervisor now does both.
 
-## Wick guards the door. Supervisor reads the room.
+Wick's job is the perimeter and the blast radius: who gets in, who holds power, what happens when
+someone turns hostile, and how you put the server back together afterwards. It is a focused,
+mature product for exactly that.
 
-This is the honest framing. Wick's job is the perimeter and the blast radius: who gets in, who
-holds power, what happens when someone turns hostile, and how you put the server back together
-afterwards. It does that better than anything else in this category.
-
-Supervisor's job starts after all of that has gone right. The members are legitimate, nobody is
-raiding, no admin has gone rogue, and the server is running normally. The question then is what
-people are actually saying to each other, which is a question about meaning rather than about
-permissions or rates.
-
-Almost nobody choosing between these two is really choosing. They are two halves.
+Supervisor now covers most of that perimeter too, and then carries on past it. Once the members
+are legitimate, nobody is raiding and no admin has gone rogue, the question becomes what people
+are actually saying to each other, which is a question about meaning rather than about
+permissions or rates. Wick does not try to answer that one.
 
 ## Why trust this comparison
 
@@ -158,9 +191,10 @@ per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
 
 **Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
 most complete tool in this series: 16 labels where nothing else classifies more than four, over
-100 languages, conversation context, and the only one that reads images and video. It is also the
-narrowest, with no bans, no raid protection and no utility features, which is why every post here
-recommends running it alongside another bot rather than instead of one.
+100 languages, conversation context, and the only one that reads images and video. Its security
+suite covers most of Wick's feature list, but not appeals, member reports, the event logger, the
+AutoMod panel or the rescue key, and it has no utility features such as levels, tickets or
+reaction roles.
 
 We have no customer reviews, ratings or testimonials to show you, because we have not collected
 any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on
@@ -175,17 +209,16 @@ the endpoints and the current rates.
 
 ## So which should you use?
 
-For most servers with either problem, the answer is both, and unusually here that is not a hedge.
-
-Use Wick if your risks are structural: raids, nukes, rogue admins, compromised accounts,
-alt-account floods, or a need to verify people at the door and restore the server if something
-goes wrong. That is its entire design and it is very good at it.
-
-Reach for Supervisor when the members are legitimate and the problem is what they are posting: the
+For most servers, Supervisor now covers both halves on its own: anti-nuke, join gate, Heat,
+lockdown, quarantine, verification and case-tracked moderation free, with panic mode, raid
+detection and backups in Premium, and AI moderation that reads what members actually post: the
 harassment spelled to dodge a blacklist, the scams, the implied threats, the harmful images and
-video, the abuse in languages your lists do not cover, and the single calm message that generates
-no heat at all. Supervisor is the AI moderation layer that reads meaning, and it sits alongside
-your existing setup rather than replacing your security bot.
+video, and the single calm message that generates no heat at all.
+
+Wick is still the better fit if you rely on its appeals site, member reports, 35-event logging,
+AutoMod panel or rescue key, or if you want a security bot with years of history behind it.
+Running Wick for those extras alongside Supervisor's AI moderation is still a perfectly good
+setup.
 
 Want to see the difference on your own content? Paste a message that gets past a keyword filter
 into the [live demo](https://supervisor.gg/demo) and watch it get caught, or

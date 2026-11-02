@@ -113,13 +113,14 @@ them for you, because a comparison that quietly converts is one you cannot check
 
 What is comparable is the shape:
 
-- **Sapphire is free and Supervisor is not.** If Sapphire covers your server, use Sapphire. We
+- **Sapphire is free and Supervisor's AI moderation is not.** If Sapphire covers your server, use Sapphire. We
   would rather say that than pretend otherwise.
 - **Sapphire meters throughput, Supervisor meters volume over a month.** Ten messages a minute is
   a hard ceiling regardless of how quiet the rest of your day was. A monthly allowance lets a busy
   hour borrow from a quiet one.
 - **Sapphire gives you far more surface**: reaction roles, logging, joins, social notifications,
-  bans and kicks. Supervisor has three slash commands and no utility features.
+  and more. Supervisor has no utility features, though its free security suite does include bans,
+  kicks and a join gate.
 - **Supervisor gives you more coverage on the moderation itself**: 16 labels against four
   categories, over 100 languages against two fully supported, images and video as well as text,
   and conversation context for ambiguous messages.

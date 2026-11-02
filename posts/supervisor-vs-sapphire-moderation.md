@@ -33,8 +33,8 @@ same kind of tool.
 | Conversation context | Not documented | **Yes** |
 | Images and video | Not documented | **Yes** |
 | Extends Discord AutoMod | **Yes** | No |
-| Join filtering | **Join Guard, 7 filters** | No |
-| Ban or kick | **Yes** | No |
+| Join filtering | Join Guard, 7 filters | Join gate, 6 filters, free |
+| Ban or kick | Yes | Yes, by command or warn threshold |
 | Price | **Free** | £13.99 a month |
 
 ## What Sapphire's moderation actually is
@@ -117,20 +117,23 @@ differences are specific:
 This list is long, and it matters.
 
 - **Sapphire is free.** All of the above, at no cost, with paid plans only for raising limits and
-  custom branding. Supervisor is £13.99 a month, or about £4.99 on the three year cycle.
-- **Sapphire can ban, kick and mute** through moderation cases. Supervisor's actions are Delete,
-  Timeout and Warn only.
+  custom branding. Supervisor's AI moderation is £13.99 a month, or about £4.99 on the three year
+  cycle; only its security suite is free.
+- **Sapphire can ban, kick and mute as automod actions** through moderation cases. Supervisor's
+  automatic AI actions are Delete, Timeout and Warn; bans and kicks are moderator commands and
+  warn thresholds in its free [security suite](/blog/supervisor-security-suite).
 - **Sapphire extends Discord's native AutoMod** rather than ignoring it. Supervisor runs alongside
   AutoMod but cannot attach actions to it.
-- **Join Guard.** Supervisor has no join filtering, no account age checks and no raid protection
-  of any kind.
+- **Join Guard's AND logic.** Supervisor now has a free join gate with account age, avatar, bot,
+  invite and username filters, each with its own action, and join raid detection in Premium, but
+  not Sapphire's combined AND filters or its guild tag and creation date checks.
 - **Full regular expressions**, plus word group import and export. Supervisor's word filter does
   whole-word matching with a `*` wildcard.
 - **Role actions.** Sapphire can add, remove or set roles as a moderation action. Supervisor
   cannot.
-- **80+ log types.** Supervisor has an alerts channel.
-- **Reaction roles, social notifications, welcome messages and the rest.** Supervisor has three
-  slash commands.
+- **80+ log types.** Supervisor logs its own security and moderation actions, but has no message
+  edit or delete logs.
+- **Reaction roles, social notifications, welcome messages and the rest.** Supervisor has none.
 
 ## Coverage is the difference, not intelligence
 
@@ -168,9 +171,10 @@ per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
 
 **Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
 most complete tool in this series: 16 labels where nothing else classifies more than four, over
-100 languages, conversation context, and the only one that reads images and video. It is also the
-narrowest, with no bans, no raid protection and no utility features, which is why every post here
-recommends running it alongside another bot rather than instead of one.
+100 languages, conversation context, and the only one that reads images and video. It now also
+has a free security suite with anti-nuke, raid protection, bans and case tracking, but it has no
+utility features such as levels, tickets or reaction roles, which is why most posts here recommend
+running it alongside a general purpose bot rather than instead of one.
 
 We have no customer reviews, ratings or testimonials to show you, because we have not collected
 any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on

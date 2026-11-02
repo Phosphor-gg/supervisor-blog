@@ -136,8 +136,8 @@ On price alone, at standard rates:
 On what you are buying:
 
 - **MEE6 gives you far more surface.** Levels, economy, giveaways, social alerts, bot
-  personalisation, an audit log suite, and bans and kicks. Supervisor has three slash commands
-  and no utility features at all.
+  personalisation and an audit log suite. Supervisor has no utility features, though it does now
+  have bans, kicks and a free [security suite](/blog/supervisor-security-suite).
 - **Supervisor gives you a different detection mechanism.** MEE6's eight automod checks are
   string matches and counters. Supervisor's models read what a message means, classify across 16
   labels including harassment, threats, scams and self-harm, weigh conversation context, and

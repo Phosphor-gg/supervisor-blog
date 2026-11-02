@@ -84,8 +84,11 @@ Worth separating, because "paid tier" rarely means "paid moderation".
   panic mode, the restore system and Heat without marking them premium-only. Smart Backups is the
   exception worth paying for if restore matters to you.
 - **Discord AutoMod**: free, with no paid tier of any kind.
-- **Supervisor**: one plan with everything in it. There is no free tier for new accounts, just a
-  seven day trial and £0.10 of moderation on signup with no card.
+- **Supervisor**: the [security suite](/blog/supervisor-security-suite) (anti-nuke, join gate,
+  Heat, lockdown, quarantine, verification and moderation commands) is free in its base form and
+  uses no credits. Everything else is one Premium plan, which includes the AI moderation and
+  Advanced Security. There is no free tier of AI moderation for new accounts, just a seven day
+  trial and £0.10 of moderation on signup with no card.
 
 ## Trial and refund terms
 

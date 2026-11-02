@@ -52,7 +52,7 @@ moderation from one dashboard. Some servers want a specialist for one of those i
 | Dyno | General purpose | 19 rule filters | Yes, includes automod | Precise, countable rules |
 | Wick | Security | Heat system, anti-nuke | Yes | Raids, nukes, rogue admins |
 | Discord AutoMod | Built into Discord | 3 preset categories, 6 keyword rules | Free, native | Blocking words before they post |
-| Supervisor | AI moderation layer | 16 labels, reads meaning | No, 7 day trial | Contextual harm a rule cannot catch |
+| Supervisor | AI moderation plus security suite | 16 labels, reads meaning | Security suite free; AI 7 day trial | Contextual harm a rule cannot catch |
 
 There is also a broader roundup of the [best Discord moderation bots](/blog/best-discord-moderation-bots-2026)
 if you want the category rather than the MEE6-shaped hole.
@@ -124,10 +124,11 @@ and self-harm, conversation context for ambiguous messages, image and video mode
 one subscription covers every server you run.
 
 It is also **not a MEE6 replacement**, and we would rather say so here than have you find out
-after installing. Supervisor has three slash commands. No levels, no economy, no reaction roles,
-no social alerts, no giveaways, no audit log suite. Its actions are Delete, Timeout and Warn, so
-it cannot ban or kick, and it has no raid protection. If you switch from MEE6 to Supervisor you
-will lose most of what MEE6 does.
+after installing. No levels, no economy, no reaction roles, no social alerts, no giveaways, no
+audit log suite. It does now have a free [security suite](/blog/supervisor-security-suite) with
+anti-nuke, raid protection, verification, and `/ban`, `/kick` and other moderation commands with
+numbered cases, but if you switch from MEE6 to Supervisor you will lose most of what MEE6 does
+outside moderation.
 
 **Best for:** running next to whichever bot above you pick, when contextual harm is the problem.
 

@@ -49,7 +49,7 @@ if you want to work that out before adding anything.
 | Carl-bot | Flexible punishments, honeypot, moderator voting | Yes, includes automod | Humans in the loop |
 | MEE6 | Warning escalation ladder, audit log, engagement features | Yes, includes automod | One bot for everything |
 | Wick | Anti-nuke, panic mode, backups, verification | Yes | Structural threats |
-| Supervisor | 16 labels, 100+ languages, images and video, context | No, 7 day trial | Contextual harm |
+| Supervisor | 16 labels, 100+ languages, images and video, context | Security suite free; AI 7 day trial | Contextual harm |
 
 There is a wider roundup of the [best Discord moderation bots](/blog/best-discord-moderation-bots-2026)
 if you want the category rather than AutoMod-shaped gaps.
@@ -124,8 +124,9 @@ video moderation, and over 100 languages rather than English-only lists. £13.99
 £4.99 on the three year cycle, billed per account so one subscription covers every server you run.
 
 Two honest caveats. **Supervisor deletes after a message posts**, where AutoMod blocks before, so
-it does not replace AutoMod even on text. And it has no utility features at all, three slash
-commands, no bans or kicks, and no raid protection.
+it does not replace AutoMod even on text. And it has no utility features such as levels or
+reaction roles. It does now have a free [security suite](/blog/supervisor-security-suite) with
+anti-nuke, raid protection, verification, and `/ban` and `/kick` with numbered cases.
 
 **Best for:** running underneath AutoMod, catching what the presets and keyword rules cannot
 express.

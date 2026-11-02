@@ -1,15 +1,20 @@
 ---
 title: "Dyno vs Wick vs Supervisor: rules, security, or AI moderation"
 date: 2026-08-29
-description: "Dyno and Wick get compared constantly and solve different problems. Here is the honest answer from both bots' own docs, and where an AI moderation layer fits alongside them."
+description: "Dyno and Wick get compared constantly and solve different problems. Here is the honest answer from both bots' own docs, and where Supervisor, now with its own security suite and AI moderation, fits."
 ---
 
 # Dyno vs Wick vs Supervisor: rules, security, or AI moderation
 
-**Bottom line:** Dyno and Wick solve different problems, so a server with both usually runs
-both. Dyno moderates members with 19 countable filters, Wick defends the server against nukes,
-raids and rogue admins. Add Supervisor for the harm neither reads, because a threshold and a heat
-score both measure rate rather than meaning.
+*Updated 2 November 2026: Supervisor now includes anti-nuke, anti-raid and the rest of a
+[security suite](/blog/supervisor-security-suite), so the Supervisor parts of this post have been
+rewritten.*
+
+**Bottom line:** Dyno and Wick solve different problems. Dyno moderates members with 19 countable
+filters, Wick defends the server against nukes, raids and rogue admins. Supervisor now covers most
+of Wick's security features free, with the advanced tier in Premium, and adds AI moderation for
+the harm neither Dyno nor Wick reads, because a threshold and a heat score both measure rate
+rather than meaning.
 
 Dyno and Wick get compared a lot, usually by servers that have just been raided and are working
 out what to install. They are less alike than the comparison suggests: Dyno is a general purpose
@@ -24,25 +29,25 @@ that neither is designed to provide.
   your threats come from ordinary members.
 - **Pick Wick** if your threat is structural: nukes, rogue admins, raid floods, or you need a
   verification gate and the ability to restore a wrecked server.
-- **Add Supervisor** if the harm is in what legitimate members are saying, which neither a
-  threshold nor a heat score reads.
+- **Pick Supervisor** if you want security and content moderation from one bot, or if the harm
+  is in what legitimate members are saying, which neither a threshold nor a heat score reads.
 
 ## At a glance
 
 | | Dyno | Wick | Supervisor |
 | --- | --- | --- | --- |
-| What it is | General purpose | Security | AI moderation layer |
-| Automod mechanism | 19 fixed filters | Heat, decaying score | 16 AI labels |
-| Anti-nuke | No | **Yes, its core** | No |
-| Panic mode and lockdown | No | **Yes** | No |
-| Backups and restore | No | **Yes** | No |
-| Verification and quarantine | No | **Yes** | No |
-| Phishing link detection | **Yes, maintained** | Malicious site heat | Own block lists only |
+| What it is | General purpose | Security | Security suite plus AI moderation |
+| Automod mechanism | 19 fixed filters | Heat, decaying score | Heat plus 16 AI labels |
+| Anti-nuke | No | **Yes, its core** | Yes, free |
+| Panic mode and lockdown | No | **Yes** | Lockdown free, panic mode in Premium |
+| Backups and restore | No | **Yes** | Yes, Premium |
+| Verification and quarantine | No | **Yes** | Yes, free |
+| Phishing link detection | **Yes, maintained** | Malicious site heat | Public phishing domain list in Heat |
 | Reads meaning | No | No | **Yes** |
 | Conversation context | No | No | **Yes** |
 | Images and video | Image spam counts | Attachment heat | **Yes, reads content** |
-| Can ban or kick | **Yes** | **Yes** | No |
-| Free tier includes automod | **Yes** | **Yes** | No, 7 day trial |
+| Can ban or kick | **Yes** | **Yes** | Yes |
+| Free tier | **Yes, includes automod** | **Yes** | Security suite only; AI moderation paid |
 | Entry price | $5.99 / month per server | $5 / month | £13.99 / month per account |
 
 ## Dyno vs Wick: the differences that actually matter
@@ -131,34 +136,40 @@ conversation context and implicit moderation for ambiguous messages, image and v
 and over 100 languages. Billed per account at £13.99 a month, or about £4.99 on the three year
 cycle, so one subscription covers every server.
 
-What it does not do, and against these two the list is long:
+Since 2 November 2026 it also has a security suite that uses no credits. Free for every server:
+anti-nuke, a join gate, Heat spam filtering (including a public phishing and malware domain list),
+auto lockdown, `/lock`, quarantine, verification, and moderation commands such as `/ban`, `/kick`,
+`/timeout`, `/warn` and `/purge` with numbered cases and warn thresholds. Panic mode, join raid
+detection, backups and restore, and heat tuning are in Advanced Security, included in Premium.
 
-- **No anti-nuke, no panic mode, no backups, no restore, no quarantine, no verification.** Wick's
-  entire category is absent.
-- **No counters, thresholds or heat.** Emoji spam, caps percentages, newlines, character limits
-  and message rates are not measured, so Dyno's whole filter list has no equivalent.
-- **No bans or kicks.** Delete, Timeout and Warn only, where both others can ban.
-- **No maintained phishing link detection.** Its link filter covers Discord invites, media, Nitro
-  gifts and your own domain lists, where Dyno ships Known Phishing Links and Wick scores malicious
-  sites.
-- **No modules.** Three slash commands.
-- **No free tier for new accounts**, where both others are free at the level most servers use.
+What it does not do:
+
+- **No per-rule counters.** Heat weighs repeats, emojis, length, new lines and mentions together,
+  but there are no separate filters for caps percentages, zalgo or spoilers, so Dyno's filter list
+  has no one-to-one equivalent.
+- **Things Wick has that Supervisor does not:** an appeals site, member reports, a 35-event
+  logger, a Discord AutoMod panel and a rescue key.
+- **No utility modules** such as levels, reaction roles or tickets.
+- **The AI moderation is paid.** The security suite is free; the AI layer has no free tier for
+  new accounts.
 
 The pairings in depth: [Supervisor vs Dyno](/blog/supervisor-vs-dyno-moderation) and
 [Supervisor vs Wick](/blog/supervisor-vs-wick-moderation).
 
 ## So which should you use?
 
-**Just been raided:** Wick, and turn on Discord AutoMod, which is free and blocks messages before
-they post.
+**Just been raided:** Wick or Supervisor's security suite, both free at the base level, and turn
+on Discord AutoMod, which is free and blocks messages before they post.
 
 **Members misbehaving, no structural threat:** Dyno, free, and spend the afternoon configuring it.
 
-**Both problems:** both bots. They overlap very little and neither replaces the other.
+**Both problems:** Dyno and Wick overlap very little and neither replaces the other. Supervisor
+covers most of Wick's ground plus the AI layer, so Dyno plus Supervisor is another way to cover
+both.
 
 **Moderators spending their time on harassment reports rather than spam:** that is the case where
 neither tool is reading the problem, and a layer that reads meaning is what closes it. Keep the
-rule engine for countable work and the security bot for the perimeter.
+rule engine for countable work and a security layer for the perimeter.
 
 **Running several servers:** Dyno is per server and Wick's Premium is per server too, with VIP
 advertising 12 premium servers. Supervisor is one subscription for the account.
@@ -188,9 +199,10 @@ per-label numbers are in the [2.1 release post](/blog/supervisor-2-1).
 
 **Where Supervisor leads, and where it does not.** On moderation coverage specifically it is the
 most complete tool in this series: 16 labels where nothing else classifies more than four, over
-100 languages, conversation context, and the only one that reads images and video. It is also the
-narrowest, with no bans, no raid protection and no utility features, which is why every post here
-recommends running it alongside another bot rather than instead of one.
+100 languages, conversation context, and the only one that reads images and video. It now also
+has a free security suite with anti-nuke, raid protection, bans and case tracking, but it has no
+utility features such as levels, tickets or reaction roles, which is why most posts here recommend
+running it alongside a general purpose bot rather than instead of one.
 
 We have no customer reviews, ratings or testimonials to show you, because we have not collected
 any. Judge it on your own content in the [live demo](https://supervisor.gg/demo) rather than on

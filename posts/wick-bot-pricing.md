@@ -8,8 +8,11 @@ description: "Wick Premium is $5 a month and VIP is $20 a month for 12 servers. 
 
 **Bottom line:** Wick Premium is $5 a month and VIP $20 a month for 12 servers, but the
 protection itself is free: every paid line is an Advanced or Increased version of something the
-base bot already does. Wick and Supervisor are not substitutes, so the question is not which to
-buy, it is whether your risk is people attacking the server or people posting in it.
+base bot already does. Supervisor now works the same way for security: its security suite is free,
+and the advanced tier is included in Supervisor Premium, alongside AI content moderation.
+
+*Updated 2 November 2026: Supervisor added a [security suite](/blog/supervisor-security-suite), so
+the Supervisor sections of this post have been rewritten.*
 
 Wick has two paid plans: **Premium at $5 a month** and **VIP at $20 a month**. There is no free
 tier section on the pricing page, because the bot itself is free to use. What the paid plans buy
@@ -90,9 +93,15 @@ that free baseline is a lot.
 
 ## How Supervisor prices moderation
 
-Supervisor solves a different problem, so this is a comparison of pricing models rather than of
-products. It is an AI moderation layer that reads what messages mean, and it has none of Wick's
-security features.
+Supervisor's security suite uses no credits and never calls the AI models. The base version of
+every security feature is free for every server: anti-nuke, the join gate, Heat, auto lockdown,
+`/lock`, quarantine, verification, and moderation commands with numbered cases and warn
+thresholds. Advanced Security (panic mode, strict mode, prune detection, join raid detection, heat
+tuning, role and full lockdown, automatic backups and captcha customisation) is included in
+Supervisor Premium. There is no separate security plan, and Premium settings can be configured on
+a free server ready for when you upgrade.
+
+Premium also pays for the AI moderation that reads what messages mean:
 
 | Billing cycle | Price | Works out at |
 | --- | --- | --- |
@@ -103,7 +112,7 @@ security features.
 Every cycle includes **£120 of moderation a month**, and one subscription covers any number of
 servers drawing on that allowance. There is a seven day free trial on monthly and annual, and
 every new account gets £0.10 of moderation free on signup with no card. There is no free tier for
-new accounts.
+new accounts, though the security suite is free.
 
 Moderation is billed by the size of what it reads and the model you pick. Stating the assumption
 out loud: at an average message of 100 bytes, £120 a month covers roughly 900,000 messages on
@@ -116,24 +125,24 @@ AI models so anything they block costs nothing.
 The currencies differ, Wick in dollars and Supervisor in pounds, and we are not going to convert
 them, because a comparison that quietly converts is one you cannot check.
 
-More importantly, **these two are not substitutes and the pricing comparison is close to
-meaningless on its own**. Wick protects the structure of your server: anti-nuke, raid defence,
-verification, quarantine, backups and restore. Supervisor reads what legitimate members are
-saying. Neither does the other's job at any price, and a server with both problems needs both
-tools.
+The products now overlap far more than they did. Both have free anti-nuke, quarantine,
+verification, lockdown and a Heat spam filter, and both put backups and the advanced versions
+behind a paid plan. Supervisor's paid plan also includes AI content moderation, which Wick does
+not do. Wick has things Supervisor does not at any price: an appeals site, member reports, a
+35-event logger, a Discord AutoMod panel and a rescue key.
 
 What is comparable is the shape:
 
-- **Wick's core protection is free**, and paying buys depth plus, at VIP, server count. Supervisor
-  has no free tier for new accounts.
+- **Both put core protection free**, and paying buys depth. At Wick's VIP tier it also buys server
+  count. Supervisor's paid plan is the AI moderation plus Advanced Security.
 - **Wick's server model is slot-based** at the VIP tier, twelve of them for $20. Supervisor is one
   account subscription covering any number of servers.
 - **Both get cheaper per server as you add servers**, which is unusual in this category. Most
   Discord bots multiply.
 
-If you are choosing between them because budget only allows one, the question is not which is
-better value. It is which risk is real in your server: being attacked, or being harmed by what
-members post. Answer that first.
+If budget only allows one, Supervisor Premium now covers both being attacked and being harmed by
+what members post. Wick Premium is cheaper if security is all you need, and it is the one to pick
+if you depend on its appeals, reports or logging.
 
 There is a [full comparison of the two approaches](/blog/supervisor-vs-wick-moderation) and a
 [Wick review](/blog/wick-bot-review) covering what it is like to run.
