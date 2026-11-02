@@ -124,13 +124,13 @@ have.
 **Security, free for every server and using no credits:** anti-nuke with configurable per-minute
 and per-hour limits and punishments, quarantine hold, vanity URL protection, public role and
 channel permission monitoring, a bot addition filter, a join gate, Heat spam filtering with a
-public phishing and malware domain list, auto lockdown, `/lock`, quarantine, verification by web,
-captcha or button, and moderation commands (`/ban`, `/kick`, `/timeout`, `/warn`, `/purge`,
+public phishing and malware domain list, auto lockdown, `/lock`, quarantine, Cloudflare
+verification, and moderation commands (`/ban`, `/kick`, `/timeout`, `/warn`, `/purge`,
 `/note` and more) with numbered cases and warn thresholds.
 
 **Advanced Security, included in Supervisor Premium:** panic mode, strict mode, prune detection,
-join raid detection, heat tuning and heat panic mode, role and full lockdown, automatic backups
-and captcha customisation. There is no separate security plan.
+join raid detection, heat tuning and heat panic mode, role and full lockdown and automatic
+backups. There is no separate security plan.
 
 **AI moderation, the paid part:** Wick's Heat system, and Supervisor's own, measure how much and
 how fast, so a single well-written threat or scam generates almost no heat. Supervisor's AI reads

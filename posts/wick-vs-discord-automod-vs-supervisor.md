@@ -113,7 +113,7 @@ cycle, billed per account so one subscription covers every server.
 Since 2 November 2026 it also has a security suite that uses no credits. Free for every server:
 anti-nuke with per-minute and per-hour limits, quarantine hold, vanity URL protection and
 dangerous permission monitoring; a join gate; Heat spam filtering; auto lockdown and `/lock`;
-quarantine; verification by web, captcha or button; and `/ban`, `/kick`, `/timeout`, `/warn` and
+quarantine; Cloudflare verification; and `/ban`, `/kick`, `/timeout`, `/warn` and
 other commands with numbered cases. Panic mode, join raid detection, backups and heat tuning are
 in Advanced Security, included in Premium.
 

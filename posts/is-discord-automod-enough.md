@@ -136,8 +136,8 @@ installing anything:
 - **It deletes after the message posts.** It cannot block beforehand. AutoMod wins here and
   always will.
 - **It does not scan member profiles**, which AutoMod does.
-- **Its AI actions are Delete, Timeout and Warn.** Bans, kicks, anti-nuke, raid protection, a
-  verification gate and captcha are in its separate, free
+- **Its AI actions are Delete, Timeout and Warn.** Bans, kicks, anti-nuke, raid protection, and a
+  Cloudflare verification gate are in its separate, free
   [security suite](/blog/supervisor-security-suite) rather than the AI layer.
 - **It has no utility features** such as levels or reaction roles.
 - **Its AI moderation costs money**: £13.99 a month, or about £4.99 a month on the three year cycle, with a

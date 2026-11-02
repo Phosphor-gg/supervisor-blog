@@ -142,7 +142,7 @@ either way.
   its join gate checking usernames and display names, it does not scan profiles.
 - **Raids and nukes.** AutoMod has mention raid detection. Supervisor now has its own free
   [security suite](/blog/supervisor-security-suite) with anti-nuke, auto lockdown on mention raids, a join gate,
-  verification and captcha, with join raid detection in Premium. AutoMod's mention spam rule
+  and Cloudflare verification, with join raid detection in Premium. AutoMod's mention spam rule
   still blocks before posting, which no bot can do.
 - **AutoMod supports full regular expressions.** Supervisor's word filter does
   case-insensitive whole-word matching with a `*` wildcard for partial matches, which is

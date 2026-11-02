@@ -120,7 +120,7 @@ it keeps working if a server runs out of credits or switches AI moderation off:
 - **Heat**, a decaying spam score built from repeats, emojis, length, new lines, mentions,
   attachments, invites and links on the Discord-AntiScam phishing and malware list.
 - **Auto lockdown** on mention raids, plus `/lock` and `/unlock`.
-- **Quarantine** and **verification** by web, captcha image or button.
+- **Quarantine** and Cloudflare **verification**.
 - **Moderation commands**: `/ban`, `/kick`, `/timeout`, `/warn`, `/purge`, `/slowmode`,
   `/sanitize`, `/note` and more, with every action recorded as a numbered case, plus warn
   thresholds that act automatically.
@@ -128,7 +128,7 @@ it keeps working if a server runs out of credits or switches AI moderation off:
 **Advanced Security, included in Supervisor Premium.** Panic mode (deleting what the attacker
 created in the last hour, locking the server and restoring from the latest backup), strict mode,
 prune detection, join raid detection, heat tuning and heat panic mode, role and full lockdown,
-automatic backups with `/backup`, and captcha customisation. There is no separate security plan.
+and automatic backups with `/backup`. There is no separate security plan.
 
 **AI content moderation**, the paid, credit-using part, with purpose-built models that read what
 a message means:

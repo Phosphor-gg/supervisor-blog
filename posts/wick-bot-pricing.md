@@ -97,7 +97,7 @@ Supervisor's security suite uses no credits and never calls the AI models. The b
 every security feature is free for every server: anti-nuke, the join gate, Heat, auto lockdown,
 `/lock`, quarantine, verification, and moderation commands with numbered cases and warn
 thresholds. Advanced Security (panic mode, strict mode, prune detection, join raid detection, heat
-tuning, role and full lockdown, automatic backups and captcha customisation) is included in
+tuning, role and full lockdown and automatic backups) is included in
 Supervisor Premium. There is no separate security plan, and Premium settings can be configured on
 a free server ready for when you upgrade.
 

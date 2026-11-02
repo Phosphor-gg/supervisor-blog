@@ -1,7 +1,7 @@
 ---
 title: "Supervisor now protects your server, not just your chat"
 date: 2026-11-02
-description: "Anti-nuke, join gate, raid detection, heat spam filtering, lockdown, quarantine, captcha verification, backups and a full set of moderation commands. Free for every server, with an advanced tier included in Premium."
+description: "Anti-nuke, join gate, raid detection, heat spam filtering, lockdown, quarantine, verification, backups and a full set of moderation commands. Free for every server, with an advanced tier included in Premium."
 ---
 
 # Supervisor now protects your server, not just your chat
@@ -39,7 +39,7 @@ working if your server runs out of credits or if you switch AI moderation off.
 | Lock channels, the server or new joins | Yes | Yes |
 | Lock role permissions, full lockdown | | Yes |
 | Quarantine | Yes | Yes |
-| Web, captcha and button verification | Yes | Yes, plus captcha styling and expiry |
+| Cloudflare verification | Yes | Yes |
 | Backups, automatic and manual | | Yes |
 | Moderation commands, cases, notes, warn thresholds | Yes | Yes |
 
@@ -125,11 +125,9 @@ from it.
 
 ## Verification
 
-Verification now has three methods: the web check on supervisor.gg behind a Cloudflare
-challenge, a captcha image solved inside Discord, or a single button. You can verify only
-suspicious accounts (new or without an avatar) and let everyone else straight in, and set a
-time limit after which unverified members are removed. Captcha colours, noise and how fast a
-code expires are Advanced Security options.
+Verification is the web check on supervisor.gg behind a Cloudflare challenge. You can now
+verify only suspicious accounts (new or without an avatar) and let everyone else straight in,
+and set a time limit after which unverified members are removed.
 
 ## Moderation commands and cases
 

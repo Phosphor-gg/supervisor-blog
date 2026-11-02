@@ -116,7 +116,7 @@ and using no credits:
   actions, quarantine hold, vanity URL protection, public role and channel permission monitoring,
   and a bot addition filter.
 - **A join gate**, **Heat** spam filtering (including a public phishing and malware domain list),
-  **auto lockdown**, `/lock`, **quarantine** and **verification** by web, captcha or button.
+  **auto lockdown**, `/lock`, **quarantine** and Cloudflare **verification**.
 - **Moderation commands** including `/ban`, `/kick`, `/timeout`, `/warn`, `/purge` and `/note`,
   with numbered cases and warn thresholds.
 
