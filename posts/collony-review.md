@@ -96,3 +96,21 @@ are self-hosted and message text is not stored. The full comparison is in
 
 Try it on your own messages in the [live demo](https://supervisor.gg/demo), or
 [add Supervisor to your server](https://invite.supervisor.gg).
+
+## Frequently asked questions
+
+### Is collony.ai any good?
+
+It is a well designed product, strongest for Telegram and crypto communities that want scams removed and questions answered. Its plain-language rules and impersonation checks are genuine strengths.
+
+### What are collony.ai's main limitations?
+
+A small per-message allowance on Protect, AI run through outside providers such as OpenAI, stored chat history, and no anti-nuke, join gate or verification for Discord.
+
+### Does collony.ai have an API?
+
+Its documentation describes no public moderation API. You can manage it from AI apps through MCP on the Grow plan and above.
+
+### What is a good collony.ai alternative for Discord?
+
+Supervisor, which adds 16 AI labels, over 100 languages, image and video moderation and a free security suite, at £13.99 a month for Premium.

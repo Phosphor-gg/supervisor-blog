@@ -114,3 +114,21 @@ that includes it.
 
 See what Supervisor catches on your own content in the [live demo](https://supervisor.gg/demo),
 or [add it to your server](https://invite.supervisor.gg).
+
+## Frequently asked questions
+
+### How much does collony.ai cost?
+
+collony.ai has a free plan without AI, Protect at $29 a month ($24.17 a month billed yearly), Grow at $99 a month ($82.50 billed yearly), and custom Scale pricing.
+
+### What is a collony.ai credit?
+
+Its billing documentation says one security credit is one message checked, and one chat credit is one AI reply the bot sends. Credits reset daily at 00:00 UTC.
+
+### Does collony.ai have a free trial?
+
+Yes. Protect and Grow come with a seven day free trial with no card required.
+
+### Is Supervisor cheaper than collony.ai?
+
+For Discord moderation volume, yes. Supervisor Premium is £13.99 a month and includes £120 of moderation, about 900,000 messages at 100 bytes on the Observer model, compared with 500 messages a day on collony.ai Protect at $29.

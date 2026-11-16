@@ -78,3 +78,17 @@ Supervisor for everything they cannot see.
 
 See what Supervisor catches that a filter misses in the [live demo](https://supervisor.gg/demo),
 or [add Supervisor to your server](https://invite.supervisor.gg).
+
+## Frequently asked questions
+
+### Is Dyno or collony.ai better?
+
+Dyno is the better free rules bot with nineteen filters. collony.ai reads meaning with an AI and supports Telegram, but starts at $29 a month for 500 messages a day.
+
+### Does Dyno have anti-nuke?
+
+No. Dyno is a general purpose bot with automod and moderation commands. Supervisor includes anti-nuke free.
+
+### Can I use Dyno and Supervisor together?
+
+Yes. Dyno's filters handle countable rules, and Supervisor catches what those filters cannot see and protects the server from nukes and raids.

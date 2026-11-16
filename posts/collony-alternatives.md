@@ -96,3 +96,17 @@ comparison is in [Supervisor vs collony.ai](/blog/supervisor-vs-collony).
 
 Try it on your own content in the [live demo](https://supervisor.gg/demo), or
 [add Supervisor to your server](https://invite.supervisor.gg).
+
+## Frequently asked questions
+
+### What is the best collony.ai alternative?
+
+On Discord, Supervisor is the closest replacement for collony.ai's moderation and adds a free security suite. Nothing on the list replaces its AI answers or Telegram support.
+
+### Is there a free alternative to collony.ai?
+
+Dyno, MEE6 and Discord AutoMod all moderate for free with rules and filters, but none of them reads what a message means.
+
+### Does any alternative answer member questions like collony.ai?
+
+None of the alternatives covered here does. If that is the reason you use collony.ai, keep it for that and add a moderation bot alongside.

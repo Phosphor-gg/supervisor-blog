@@ -144,3 +144,25 @@ your community, collony.ai is built for that and does it well.
 
 Paste a message that gets past a keyword filter into the [live demo](https://supervisor.gg/demo)
 and see what Supervisor makes of it, or [add Supervisor to your server](https://invite.supervisor.gg).
+
+## Frequently asked questions
+
+### Is Supervisor or collony.ai better for Discord moderation?
+
+For moderating a Discord server, Supervisor covers more: 16 AI labels in over 100 languages, image and video moderation, a free security suite with anti-nuke and a join gate, and about 900,000 messages a month for £13.99. collony.ai is the better fit for Telegram or if you want a bot that answers member questions.
+
+### Does collony.ai use OpenAI?
+
+collony.ai's privacy policy lists "AI service providers (e.g. OpenAI)" as sub-processors for moderation and response generation. Supervisor runs its own models on its own hardware.
+
+### How many messages does collony.ai's Protect plan check?
+
+Protect includes 500 security credits a day, and collony.ai's billing documentation defines one credit as one message checked. That is about 15,000 messages a month on one platform.
+
+### Does Supervisor support Telegram?
+
+No. Supervisor is a Discord bot with a REST API for other platforms. If your community is on Telegram, collony.ai supports it.
+
+### Can I run Supervisor and collony.ai together?
+
+Yes. Some communities use collony.ai on Telegram for answers and moderation, and Supervisor on Discord for moderation and server security.

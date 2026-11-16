@@ -82,3 +82,17 @@ Supervisor for moderation and security.
 
 Paste something that gets past your current bot into the [live demo](https://supervisor.gg/demo),
 or [add Supervisor to your server](https://invite.supervisor.gg).
+
+## Frequently asked questions
+
+### Which is best for Discord moderation: collony.ai, MEE6 or Supervisor?
+
+Supervisor, for moderation and security. MEE6 is best for engagement features and free automod, and collony.ai for Telegram or answering member questions.
+
+### Does MEE6 use AI moderation?
+
+MEE6's documented automod is eight rule checks with a warning ladder. It does not read what a message means.
+
+### Can I use MEE6 and Supervisor together?
+
+Yes. They do different jobs, MEE6 for levels and engagement and Supervisor for moderation and security.
